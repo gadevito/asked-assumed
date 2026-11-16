@@ -1,0 +1,502 @@
+[
+ {
+  "pid": "P01",
+  "id": "speckit:osapdinjayvee/pos-vue:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "osapdinjayvee/pos-vue",
+  "file": "specs/005-multi-branch-sync/spec.md",
+  "shown": "Each terminal has a unique identifier for sync tracking"
+ },
+ {
+  "pid": "P02",
+  "id": "bmad:zacbraddy/ZacCVWebsite:11",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "zacbraddy/ZacCVWebsite",
+  "file": "_bmad-output/archive/project-ariadne/prds/prd-project-ariadne-2026-06-23/prd.md",
+  "shown": "§4.4 (FR-11) — The on-load `console` emit is retained by target browsers and shown when dev tools are opened later (to be verified during the story; dev-tools-detection re-emit is the fallback)."
+ },
+ {
+  "pid": "P03",
+  "id": "speckit:fabrice-guiot/shuttersense:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "fabrice-guiot/shuttersense",
+  "file": "specs/016-mobile-calendar-view/spec.md",
+  "shown": "The standard Tailwind CSS breakpoint of 640px (`sm:`) is appropriate for distinguishing mobile from tablet/desktop."
+ },
+ {
+  "pid": "P04",
+  "id": "gsd:puppetlabs/stagehand-docs:6",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "puppetlabs/stagehand-docs",
+  "file": ".planning/phases/02-first-real-publication/02-CONTEXT.md",
+  "shown": "Sequencing of the plan-vs-apply Environment wiring, the GATE-02 hard-failure fix in `deploy.yml`, and the post-deploy commit-verification mechanism are left to the planner/executor, informed by 02-RESEARCH.md's findings (these are already correctly implemented in `.github/workflows/deploy.yml` and `infrastructure.yml` per research — this phase is overwhelmingly an operations phase, not a code phase)."
+ },
+ {
+  "pid": "P05",
+  "id": "gsd:teovillanueva/code-runner:20",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "teovillanueva/code-runner",
+  "file": ".planning/phases/08-distributed-observability/08-RESEARCH.md",
+  "shown": "`@hono/otel` v1.1.2 export is `httpInstrumentationMiddleware`"
+ },
+ {
+  "pid": "P06",
+  "id": "bmad:davinderpalrehal/pothi-parivaar:2",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "davinderpalrehal/pothi-parivaar",
+  "file": "_bmad-output/planning-artifacts/prds/prd-pothi-parivaar-2026-08-20/prd.md",
+  "shown": "`[ASSUMPTION: Hermes-Network]` Hermes and Pothi Parivaar communicate over `http://localhost:<PORT>` on the same VPS instance without requiring complex token-based OAuth."
+ },
+ {
+  "pid": "P07",
+  "id": "gsd:vahagn-madatyan/PolicyFoundry:9",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Domain Model Scope",
+  "repo": "vahagn-madatyan/PolicyFoundry",
+  "file": ".planning/phases/01-project-foundation/01-CONTEXT.md",
+  "shown": "PipelineState: TypedDict (not Pydantic) with run metadata — run_id, started_at, current_stage, plus data references (flow_log_path, sg_ids, analysis, assessment, proposals, decisions). Stores flow log references as strings, not raw data"
+ },
+ {
+  "pid": "P08",
+  "id": "gsd:HuanfuLi/LapSight:59",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "HuanfuLi/LapSight",
+  "file": ".planning/phases/03-local-sessions-review-and-export/03-RESEARCH.md",
+  "shown": "A constrained GPX writer with XML escaping tests is sufficient; a full XML library is not required for Phase 3 export."
+ },
+ {
+  "pid": "P09",
+  "id": "bmad:testbeds/hiring-ascent:15",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "testbeds/hiring-ascent",
+  "file": "_bmad-output/planning-artifacts/prds/prd-hiring-ascent-2026-07-25/prd.md",
+  "shown": "§5.7 FR-18 — In-flight Candidates on a filled close move to `Rejected (role filled)`; default behavior, not stakeholder-confirmed."
+ },
+ {
+  "pid": "P10",
+  "id": "gsd:Maxtremee/spotdl-manager:41",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Maxtremee/spotdl-manager",
+  "file": ".planning/phases/02-spotify-metadata-spotifyscraper/02-RESEARCH.md",
+  "shown": "Existing `PlaylistScheduler.triggerManualSync` is still compatible with the new runner — just replacing the stub body"
+ },
+ {
+  "pid": "P11",
+  "id": "speckit:FabianUB/minibarcelona3d:9",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "FabianUB/minibarcelona3d",
+  "file": "specs/002-realtime-train-tracking/spec.md",
+  "shown": "The existing legend/line selection functionality from 001 can be extended to filter trains"
+ },
+ {
+  "pid": "P12",
+  "id": "gsd:wight554/FLARE:3",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Relief snap (SC#1) — bounded, slew-limited refill in the TENSION soft wall",
+  "repo": "wight554/FLARE",
+  "file": ".planning/phases/13-type-p-sync-relief-fault-trip/13-CONTEXT.md",
+  "shown": "D-04: The `SYNC_TENSION_RAMP_DELAY_MS` ramp-to-`max_sps` path in `sync_check_tension_dwell_and_ramp` is capped by the same relief bound. Invariant: in type-P mode no path may command raw `max_sps` while pegged at tension — sim asserts this unconditionally."
+ },
+ {
+  "pid": "P13",
+  "id": "gsd:alexsolum/runsmart:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Plan navigation",
+  "repo": "alexsolum/runsmart",
+  "file": ".planning/phases/19-plan-viewer-ui/19-CONTEXT.md",
+  "shown": "The initial landing point should bias toward the first current-or-upcoming week rather than week 1 or race week."
+ },
+ {
+  "pid": "P14",
+  "id": "bmad:mmornati/ai-brief:4",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "mmornati/ai-brief",
+  "file": "_bmad-output/planning-artifacts/prds/prd-ai-brief-2026-06-08/prd.md",
+  "shown": "Frontmatter fields TBD — start with title + date + tags, expand per feedback"
+ },
+ {
+  "pid": "P15",
+  "id": "speckit:tbaiocco/dumpster-spec:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "tbaiocco/dumpster-spec",
+  "file": "specs/002-user-frontend-interface/spec.md",
+  "shown": "Q: How should overdue items (past dates) be displayed in the dashboard?\nA: Place overdue items at the top of \"Today\" section with visual distinction (e.g., red accent, badge)"
+ },
+ {
+  "pid": "P16",
+  "id": "speckit:leanjunio/ledger:22",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "leanjunio/ledger",
+  "file": "specs/001-developer-ledger/spec.md",
+  "shown": "Open product decisions can be recorded in a regular note; no dedicated spec section required for MVP."
+ },
+ {
+  "pid": "P17",
+  "id": "gsd:vansh-fyi/sepcare:29",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "vansh-fyi/sepcare",
+  "file": ".planning/phases/06-design-system-tailwind-v4-tokens/06-CONTEXT.md",
+  "shown": "Exact new-component file naming/placement under `src/components/ui/`."
+ },
+ {
+  "pid": "P18",
+  "id": "speckit:rolandzwaga/eligius:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "rolandzwaga/eligius",
+  "file": "specs/002-mutation-observer-controller/spec.md",
+  "shown": "The Eligius eventbus is initialized and available when mutations occur"
+ },
+ {
+  "pid": "P19",
+  "id": "speckit:dan1510123/CopilotOffice:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "dan1510123/CopilotOffice",
+  "file": "specs/017-orchestrator-improvements/spec.md",
+  "shown": "Q: How should the persistent orchestrator TUI look/behave for rendering and input?\nA: Mirror the agent TUI structure, bound to the orchestrator's session id, scrollable via Page Up / Page Down; the only difference is input is accepted solely through the textbox — the TUI itself is view-only (visual, not directly typeable like agent terminals), making it mostly-visual/partially-functional."
+ },
+ {
+  "pid": "P20",
+  "id": "speckit:alexisbeaulieu97/Streamy:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "alexisbeaulieu97/Streamy",
+  "file": "specs/004-extend-plugin-contract/spec.md",
+  "shown": "Q: When the command plugin has no verification command specified, what should the default verification behavior be?\nA: A new fifth status \"unknown\" alongside satisfied/missing/drifted/blocked, with re-apply as default behavior"
+ },
+ {
+  "pid": "P21",
+  "id": "speckit:joshrendek/manyforge:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "joshrendek/manyforge",
+  "file": "specs/001-tenant-foundation/spec.md",
+  "shown": "Q: How AI agents acquire permissions\nA: Agents are first-class principals — an agent is a non-human principal scoped to one business and assigned a role (preset or custom), exactly like a member; its effective permissions are its role's permissions, and it appears in access lists and the audit log. The foundation's membership/role model admits non-human principals; agent lifecycle/management is delivered by the separate agents feature."
+ },
+ {
+  "pid": "P22",
+  "id": "speckit:unbound-force/unbound-force:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "unbound-force/unbound-force",
+  "file": "specs/009-shared-data-model/spec.md",
+  "shown": "Q: Which direction should the generation flow?\nA: Go → Schema. Go structs are the source of truth. Generate JSON Schemas from Go struct tags (using `invopop/jsonschema` or similar). Existing Go code is unchanged — schemas are derived from the existing battle-tested structs."
+ },
+ {
+  "pid": "P23",
+  "id": "gsd:omernesh/stikfix:15",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "omernesh/stikfix",
+  "file": ".planning/phases/04-free-note-mode-capture-utilities/04-RESEARCH.md",
+  "shown": "Two rAFs guarantee the browser paints the hidden shadow-root state before `captureVisibleTab` fires"
+ },
+ {
+  "pid": "P24",
+  "id": "gsd:jpgu07/amarias:17",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "jpgu07/amarias",
+  "file": ".planning/phases/03-catalog-order-wizard/03-CONTEXT.md",
+  "shown": "Image gallery component implementation (thumbnail navigation pattern)"
+ },
+ {
+  "pid": "P25",
+  "id": "gsd:Joinsider/dhbw:38",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Joinsider/dhbw",
+  "file": ".planning/phases/08-critical-stability/08-CONTEXT.md",
+  "shown": "ViewModel scope isolation (D-07): Single shared scope per ViewModel (simpler, safe with proper cleanup)"
+ },
+ {
+  "pid": "P26",
+  "id": "gsd:LikeSundayLikeRain/obsidian-leetcode:52",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "LikeSundayLikeRain/obsidian-leetcode",
+  "file": ".planning/phases/20-reconciliation-ux-action-row-section-protection/20-RESEARCH.md",
+  "shown": "Multi-pane focus tracking via `workspace.on('active-leaf-change')` is sufficient to detect when pane B opens the same file as pane A. [ASSUMED — event fires on every leaf focus; widget registry walking should find peer widgets.]"
+ },
+ {
+  "pid": "P27",
+  "id": "speckit:dominikhollmann/RedmineCalendar:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "dominikhollmann/RedmineCalendar",
+  "file": "specs/034-sbom-and-attributions/spec.md",
+  "shown": "SBoM format: CycloneDX 1.6 JSON. Chosen because it is the OWASP-maintained industry standard with first-class npm tooling, GitHub renders/recognises the format natively, and CycloneDX is the format named by the EU CRA's reference profile. SPDX is a credible alternative but adds friction (less convenient JS tooling, more verbose). If a downstream consumer requires SPDX, generating both from the same dataset is a small follow-up."
+ },
+ {
+  "pid": "P28",
+  "id": "bmad:delorenj/sidepiece:11",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "13. Assumptions Index",
+  "repo": "delorenj/sidepiece",
+  "file": "_bmad-output/planning-artifacts/prds/prd-sidepiece-2026-09-17/prd.md",
+  "shown": "§4.1 FR-5 — v1 states the provisioning command; it does not run it."
+ },
+ {
+  "pid": "P29",
+  "id": "gsd:Mrjoel97/PIKAR-AI:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Error Capture (Sentry)",
+  "repo": "Mrjoel97/PIKAR-AI",
+  "file": ".planning/phases/51-observability-monitoring/51-CONTEXT.md",
+  "shown": "Sampling: `traces_sample_rate=0.0` and `profiles_sample_rate=0.0`. Errors are captured at 100% (no error sampling). No performance transactions, no profiling — zero runtime overhead beyond error capture. Reassess post-beta."
+ },
+ {
+  "pid": "P30",
+  "id": "gsd:DamianFlynn/selfhost-stacks:62",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "DamianFlynn/selfhost-stacks",
+  "file": ".planning/phases/04-collapse-to-one-tagger/04-RESEARCH.md",
+  "shown": "`renovate` npm package legitimacy (slopcheck unavailable in check-only mode)"
+ },
+ {
+  "pid": "P31",
+  "id": "speckit:SmolSoftBoi/eslint-config:6",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "SmolSoftBoi/eslint-config",
+  "file": "specs/001-pre-release-preflight/spec.md",
+  "shown": "Q: Which Node versions should the smoke test validate?\nA: Validate both the current Node LTS release and the latest stable Node version."
+ },
+ {
+  "pid": "P32",
+  "id": "gsd:GeniusVentures/SuperGenius:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Genesis authority and ceremony",
+  "repo": "GeniusVentures/SuperGenius",
+  "file": ".planning/phases/13-close-v1-1-trusted-peer-genesis-quorum-policy-and-production/13-CONTEXT.md",
+  "shown": "D-03 — One-shot bootstrap command: Genesis is created by a dedicated one-shot command/tool. It accepts the reviewed genesis input and ephemeral bootstrapper private key, signs and submits the TPR genesis record through the normal SecureCrdt flow, verifies confirmation, and removes the ephemeral key material. Normal node startup never receives or stores that private key."
+ },
+ {
+  "pid": "P33",
+  "id": "bmad:renanrteixeira/rapoo_vt7_gen2:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "renanrteixeira/rapoo_vt7_gen2",
+  "file": "_bmad-output/specs/spec-rapoo-vt7/SPEC.md",
+  "shown": "The VT7 has no RGB/OLED (product config 17939 lacks lightModes/hasScreen)."
+ },
+ {
+  "pid": "P34",
+  "id": "gsd:martinzlatanov/local-services-marketplace:10",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "TypeScript Configuration",
+  "repo": "martinzlatanov/local-services-marketplace",
+  "file": ".planning/phases/01-monorepo-foundation-and-shared-types/01-CONTEXT.md",
+  "shown": "D-11: Shared `tsconfig.base.json` at root; each app extends it."
+ },
+ {
+  "pid": "P35",
+  "id": "gsd:samt41/techjam_track4:37",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "samt41/techjam_track4",
+  "file": ".planning/phases/01-measurement-rig-core/01-RESEARCH.md",
+  "shown": "The competition's TechnicalScore weights (0.50/0.30/0.20) and Efficiency formula are as transcribed"
+ },
+ {
+  "pid": "P36",
+  "id": "speckit:JomarJunior/miraveja-ecosystem:7",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "JomarJunior/miraveja-ecosystem",
+  "file": "specs/004-sonavida-persona-life/spec.md",
+  "shown": "Language: persona text is written in English, like every written artifact, unless the persona's voice tends otherwise (spec 003 assumption). Whether the museum shows other languages is a Museum side question."
+ },
+ {
+  "pid": "P37",
+  "id": "gsd:kumarahul98/bizzle:9",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion (resolve in planning)",
+  "repo": "kumarahul98/bizzle",
+  "file": ".planning/phases/20-first-run-login-skip/20-CONTEXT.md",
+  "shown": "Whether the LoginScreen is a new screen or a parameterized `OnboardingScreen` with a `showSkip`/onSkip — prefer reusing/parameterizing to avoid duplication."
+ },
+ {
+  "pid": "P38",
+  "id": "gsd:lovettbarron/wallflower:19",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "lovettbarron/wallflower",
+  "file": ".planning/phases/02-playback-metadata-design-system-notifications/02-CONTEXT.md",
+  "shown": "Exact spacing/sizing tokens for the design system"
+ },
+ {
+  "pid": "P39",
+  "id": "gsd:focal55/arlowe-firmware:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Capture selection & fallback",
+  "repo": "focal55/arlowe-firmware",
+  "file": ".planning/phases/05-audio-device-auto-detection/05-CONTEXT.md",
+  "shown": "Tie-break when multiple compatible mics are present → Claude's discretion. Recommended: lowest ALSA card index for determinism, with the duplicate-device case made explicit in the dashboard picker."
+ },
+ {
+  "pid": "P40",
+  "id": "gsd:melcshum/Exploration2Engineering:19",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "melcshum/Exploration2Engineering",
+  "file": ".planning/phases/01-foundation/01-RESEARCH.md",
+  "shown": "The edit URL format `https://github.com/{org}/{repo}/edit/main/book/docs/{path}` is correct for MkDocs Material"
+ },
+ {
+  "pid": "P41",
+  "id": "gsd:424778940z/ShopPyBot:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Security & Disclosure (SECURITY.md — DOCS-02)",
+  "repo": "424778940z/ShopPyBot",
+  "file": ".planning/phases/03-community-documentation/03-CONTEXT.md",
+  "shown": "Coordinated disclosure: acknowledge within 7 days, target 90-day coordinated disclosure window."
+ },
+ {
+  "pid": "P42",
+  "id": "gsd:JoaoRicardoBrito/Limpa_fossa:32",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "JoaoRicardoBrito/Limpa_fossa",
+  "file": ".planning/phases/01-foundation/01-CONTEXT.md",
+  "shown": "Exact green/blue hex values (pick from Tailwind palette that looks premium)"
+ },
+ {
+  "pid": "P43",
+  "id": "speckit:ohaukeboe/dot-emacs:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ohaukeboe/dot-emacs",
+  "file": "specs/001-agent-process-cap/spec.md",
+  "shown": "Q: At the allowance, must a command get a chance to shut down cleanly before being killed outright?\nA: Graceful termination request first, then a hard kill after a short grace period."
+ },
+ {
+  "pid": "P44",
+  "id": "speckit:loydmilligan/uncle_mad_libs:14",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "loydmilligan/uncle_mad_libs",
+  "file": "specs/001-uncle-mad-libs/spec.md",
+  "shown": "Educational mini-games can be simple and quick (1-2 minutes each)"
+ },
+ {
+  "pid": "P45",
+  "id": "speckit:CyrilBaah/ballast:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "CyrilBaah/ballast",
+  "file": "specs/002-resumable-upload-engine/spec.md",
+  "shown": "Q: When a paused upload can't just resume as-is — the Drive session expired, or the local source file changed — should the app restart the transfer from byte 0 automatically, or wait for the user to confirm first?\nA: Ask first. The app shows why it can't resume and waits for confirmation before re-sending data; a surprise re-upload of a large file has a real time/bandwidth cost the user should approve."
+ },
+ {
+  "pid": "P46",
+  "id": "bmad:Olga-Levchenko/PeopleManagementSystem:15",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Olga-Levchenko/PeopleManagementSystem",
+  "file": "_bmad-output/planning-artifacts/prds/prd-PeopleManagementSystem-2026-08-25/prd.md",
+  "shown": "§4.1 FR-3 — default permission grants for the v1.5-expanded permission list are drafted pending PO confirmation, logged as Open Question 8. `[v1.5, new]`"
+ },
+ {
+  "pid": "P47",
+  "id": "bmad:cjjutba/soloist:21",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "15. Assumptions Index",
+  "repo": "cjjutba/soloist",
+  "file": "_bmad-output/planning-artifacts/prds/prd-soloist-2026-06-05/prd.md",
+  "shown": "§7 — Visual system is a UX deliverable; shadcn/ui + Tailwind is the substrate."
+ },
+ {
+  "pid": "P48",
+  "id": "speckit:jartieda/MLXTraining:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "jartieda/MLXTraining",
+  "file": "specs/001-xai-lab/spec.md",
+  "shown": "Audience: Participants aged 12–18 in the Technovation program, working in a facilitated session or independently, with no prior machine-learning background. Educators are program mentors or classroom teachers, not specialists."
+ },
+ {
+  "pid": "P49",
+  "id": "bmad:nobleboyh/8bit-ai:8",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "nobleboyh/8bit-ai",
+  "file": "_bmad-output/planning-artifacts/prds/prd-8bit-ai-2026-05-18-feat002/prd.md",
+  "shown": "The `prefix` (avatar type) and `username` values are available as JS variables at export time, matching the FEAT-001 implementation."
+ },
+ {
+  "pid": "P50",
+  "id": "gsd:pasttrunks/lecturepack:10",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "pasttrunks/lecturepack",
+  "file": ".planning/phases/02-real-lecture-import-processing/02-CONTEXT.md",
+  "shown": "The specific mechanism for auto-populating bundled paths (boot-time write to config vs shared resolver function vs other approach) — pick the simplest given existing code"
+ }
+]

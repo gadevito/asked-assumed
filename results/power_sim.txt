@@ -1,0 +1,11 @@
+H1 sign test, 150 specs, tie rate 0.21 (pilot 31/148): power {0.6: np.float64(0.443), 0.65: np.float64(0.838), 0.7: np.float64(0.984), 0.85: np.float64(1.0)}
+pilot: 84 H4 questions in 50 repos; 28275 comparators in 1304 repos; target 60 H4 questions; 2000 simulations per scenario; B = 10000
+H4 type-I error       ICC=0.0 : 0.008 (MC s.e. 0.002)
+H4 type-I error       ICC=0.2 : 0.005 (MC s.e. 0.002)
+H4 type-I error       ICC=0.56: 0.003 (MC s.e. 0.001)
+H4 power at p1=0.25   ICC=0.2 : 0.544 (MC s.e. 0.011)
+H4 power at p1=0.3    ICC=0.2 : 0.807 (MC s.e. 0.009)
+H4 power at p1=0.4    ICC=0.2 : 0.985 (MC s.e. 0.003)
+H4 power at p1=0.25   ICC=0.56: 0.406 (MC s.e. 0.011)
+H4 power at p1=0.3    ICC=0.56: 0.652 (MC s.e. 0.011)
+H4 power at p1=0.4    ICC=0.56: 0.920 (MC s.e. 0.006)

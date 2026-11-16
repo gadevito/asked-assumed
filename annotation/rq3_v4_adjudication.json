@@ -1,0 +1,2 @@
+{"Q19": {"reading": "free answer / no option ticked", "script_correct": true, "basis": "agreed by A and B after independent coding (A had EXCLUDE: multi-select, B had YES)"},
+ "Q46": {"reading": "no option marked as recommended", "script_correct": true, "basis": "agreed by A and B: '(Recommended)' appears only in the User's choice, not in the option table (guide rule)"}}

@@ -1,0 +1,502 @@
+[
+ {
+  "pid": "P01",
+  "id": "speckit:luanmle/revizza:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "luanmle/revizza",
+  "file": "specs/011-addon-media-sync/spec.md",
+  "shown": "The add-on continues to run all media handling through the existing single-run backup (`main/backup.py`) — this feature does not change the collection-file backup mechanism itself, only ensures the media write path can never leave the *media folder* corrupted regardless of whether the `.anki2` backup covers it."
+ },
+ {
+  "pid": "P02",
+  "id": "gsd:CamposBruno/Twelvify:17",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Icon design",
+  "repo": "CamposBruno/Twelvify",
+  "file": ".planning/phases/10-chrome-web-store-submission/10-CONTEXT.md",
+  "shown": "Flat/minimal style — no gradients or shadows"
+ },
+ {
+  "pid": "P03",
+  "id": "bmad:HemantKumar822/sway:16",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "HemantKumar822/sway",
+  "file": "_bmad-output/planning-artifacts/prd.md",
+  "shown": "[ASSUMPTION A-10] Notification dismissal behavior follows platform media-session defaults (dismiss-while-playing stops playback)."
+ },
+ {
+  "pid": "P04",
+  "id": "gsd:sandwichfarm/CAHMLS:28",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "sandwichfarm/CAHMLS",
+  "file": ".planning/phases/18-unified-presence-notifications-controls/18-RESEARCH.md",
+  "shown": "Selected planning default: retain resolved invitation IDs for seven days."
+ },
+ {
+  "pid": "P05",
+  "id": "gsd:omiiii21/tracer-ai:58",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "omiiii21/tracer-ai",
+  "file": ".planning/phases/02-skeleton-infrastructure/02-RESEARCH.md",
+  "shown": "Compose v2.20.0+ is universally available on operator machines (Docker Desktop ships it)"
+ },
+ {
+  "pid": "P06",
+  "id": "bmad:panitw/folio8:4",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "panitw/folio8",
+  "file": "_bmad-output/specs/spec-folio/SPEC.md",
+  "shown": "Success is acceptance-based rather than adoption-based, given the current build-for-self distribution intent."
+ },
+ {
+  "pid": "P07",
+  "id": "speckit:hopheartsceo/Laravel-Release-Guard:6",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "hopheartsceo/Laravel-Release-Guard",
+  "file": "specs/001-eloquent-fresh-save/spec.md",
+  "shown": "No repository evidence reviewed contradicts the supplied assumptions. Current repository behavior already treats Eloquent `create()` as `WARNING` / `UNKNOWN`, preserves only `BLOCKER` / `DEFINITE` as CI-failing, and anchors v0.1.0 at commit `80bd17da2ef34b511689c287a13944b8da6ea1a7`."
+ },
+ {
+  "pid": "P08",
+  "id": "gsd:egeek-tech/go-openholidays:43",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "egeek-tech/go-openholidays",
+  "file": ".planning/phases/02-transport/02-RESEARCH.md",
+  "shown": "`time.AfterFunc(50*time.Millisecond, cancel)` reliably triggers cancellation within the 200 ms total budget on shared CI"
+ },
+ {
+  "pid": "P09",
+  "id": "gsd:formax68/memoChron:39",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "formax68/memoChron",
+  "file": ".planning/phases/05-guardrails-trivial-fixes/05-RESEARCH.md",
+  "shown": "The `--draft` release attestation reads correctly with `--repo formax68/memoChron`"
+ },
+ {
+  "pid": "P10",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce",
+  "file": "specs/005-storefront-customization/spec.md",
+  "shown": "Q: What is the scope of the admin hero background (\"take all site\")?\nA: Full-bleed background spanning the full width of the home page hero section, with components layered over it."
+ },
+ {
+  "pid": "P11",
+  "id": "speckit:Varun-Patkar/LMStudioClaw:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Varun-Patkar/LMStudioClaw",
+  "file": "specs/002-ui-tools-concurrency/spec.md",
+  "shown": "Q: The user wrote \"if present don't change but if not present please add.\" How should existing behavior be treated?\nA: Treat each item as a desired end-state. Preserve any already-correct behavior (e.g., the single-active FIFO queue already exists in the runtime) and only add or fix what is missing (UI surfacing of that queue, live status, the expanded toolset, per-run config overrides)."
+ },
+ {
+  "pid": "P12",
+  "id": "speckit:Thedougler/agentic-co-dm:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Thedougler/agentic-co-dm",
+  "file": "specs/029-agent-loop-closure/spec.md",
+  "shown": "A fresh observation may reuse an existing compact surface when its underlying state is known to be current; it does not require a new command."
+ },
+ {
+  "pid": "P13",
+  "id": "bmad:millsks/homelab:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "millsks/homelab",
+  "file": "_bmad-output/planning-artifacts/prds/prd-homelab-2026-08-28/prd.md",
+  "shown": "§4.4 / FR-17 — Nidavellir's storage is sufficient for both Home Directories and all Persistent Volumes for the foreseeable term; no tiering is needed in v1."
+ },
+ {
+  "pid": "P14",
+  "id": "bmad:WreckedMech117/MMLDX-Music_Video_Producer:5",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "WreckedMech117/MMLDX-Music_Video_Producer",
+  "file": "_bmad-output/planning-artifacts/prds/prd-MusicVideoProducer-treatment-2026-08-22/prd.md",
+  "shown": "`[ASSUMPTION]` (TP-14) Where a Song is marked for multiple voices, the Director wants to plan every one of them rather than only the lead."
+ },
+ {
+  "pid": "P15",
+  "id": "speckit:Maximus-Technologies-Uganda/training-prince-mirror:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Maximus-Technologies-Uganda/training-prince-mirror",
+  "file": "specs/025-week-5-day/spec.md",
+  "shown": "Q: Failure recovery & rollback strategy?\nA: No formal rollback plan; D0 is one-time setup. Document manual cleanup steps for partial failures (e.g., how to delete GitHub Project, remove branch protection, revert template changes)"
+ },
+ {
+  "pid": "P16",
+  "id": "speckit:04Adam/Syncro:9",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "04Adam/Syncro",
+  "file": "specs/001-core-game-spec/spec.md",
+  "shown": "Q: Can the player control simulation speed (pause, fast-forward)?\nA: Pause available at"
+ },
+ {
+  "pid": "P17",
+  "id": "bmad:rxm7706/local-recipes:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "rxm7706/local-recipes",
+  "file": "_bmad-output/projects/pyforge-warden/planning-artifacts/specs/spec-pyforge-warden/SPEC.md",
+  "shown": "The competitive wedge — pre-build source-manifest scanning plus conda dependency hygiene, where every incumbent requires an installed environment — is time-bound, grounded by a dated spike to be re-run before any external release. If parity arrives, the hygiene-plus-security unification and the honest-coverage contract survive it, and conda dependency hygiene still has zero incumbents."
+ },
+ {
+  "pid": "P18",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker:9",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker",
+  "file": "specs/015-admin-ui-details/spec.md",
+  "shown": "Q: Should the AI-generated analysis narrative be generated in the admin's active UI locale?\nA: Yes — the AI MUST generate its narrative in the admin's current UI language. When locale is Arabic, the analysis is written in Arabic; when English, in English. The Gemini prompt MUST include an explicit language instruction matching the active locale."
+ },
+ {
+  "pid": "P19",
+  "id": "speckit:hannovdm/hass-ontology:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "hannovdm/hass-ontology",
+  "file": "specs/003-assist-mcp-v3/spec.md",
+  "shown": "Q: Beyond local-only binding, does the MCP endpoint require an additional auth mechanism?\nA: Yes — a generated local access token is required before any tool call is accepted."
+ },
+ {
+  "pid": "P20",
+  "id": "gsd:bwaeden/braeden-site:22",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion (during execution)",
+  "repo": "bwaeden/braeden-site",
+  "file": ".planning/phases/03-about-page/03-CONTEXT.md",
+  "shown": "Stagger indices for the new content blocks (continue the home pattern: photo NOT animated per D-24; bio paragraphs stagger 1/2/3; CTA stagger 4)"
+ },
+ {
+  "pid": "P21",
+  "id": "speckit:nvcnvn/tech-office:22",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "nvcnvn/tech-office",
+  "file": "specs/007-notification-hub-backend/spec.md",
+  "shown": "Q: What if user's department changes while connected?\nA: Department changes are rare; acceptable to deliver to old departments until next reconnect (max 24h session); for critical changes, force SSE reconnection via admin action"
+ },
+ {
+  "pid": "P22",
+  "id": "gsd:tazzledazzle/ff-promo:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Pages & UX",
+  "repo": "tazzledazzle/ff-promo",
+  "file": ".planning/phases/06-operator-dashboard/06-CONTEXT.md",
+  "shown": "D-12: `/runs/new` — create pending run (pipeline picker + flag key) then navigate to detail to start"
+ },
+ {
+  "pid": "P23",
+  "id": "gsd:MohammedGhazal09/Chatify:18",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Realtime, Search, And Navigation Verification",
+  "repo": "MohammedGhazal09/Chatify",
+  "file": ".planning/phases/07-messenger-functional-parity-restoration/07-CONTEXT.md",
+  "shown": "D-19: Expand `useChatSocket` and related component tests to prove message, status, typing, presence, unread, edit/delete/reaction, or reconnect updates mutate visible UI/cache after initial render."
+ },
+ {
+  "pid": "P24",
+  "id": "gsd:ubwzwd/wallet_app:29",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "ubwzwd/wallet_app",
+  "file": ".planning/phases/05-pwa-ify-frontend-mobile-polish/05-RESEARCH.md",
+  "shown": "`@pwabuilder/manifest-validation` is the right replacement for Lighthouse's removed PWA category."
+ },
+ {
+  "pid": "P25",
+  "id": "bmad:raeltec-systems/intellifin-audit:10",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "raeltec-systems/intellifin-audit",
+  "file": "_bmad-output/specs/spec-IntelliFin Audit/SPEC.md",
+  "shown": "Extractors: web accessibility-tree snapshot through the browser SDK, the LedgerDesk snapshot endpoint, a CSV and XLSX parser, and JSON path for APIs; model-read is allowed only for values that exist only as pixels, and the hero declares none."
+ },
+ {
+  "pid": "P26",
+  "id": "speckit:Mahad-Usman-15/Career-Navigator:8",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Mahad-Usman-15/Career-Navigator",
+  "file": "specs/1-assessment-skillgap-auth/spec.md",
+  "shown": "The platform is pre-launch with no existing student data. Supabase starts empty — no MongoDB-to-Supabase data migration is required."
+ },
+ {
+  "pid": "P27",
+  "id": "gsd:patruff/moltapp:14",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "patruff/moltapp",
+  "file": ".planning/phases/04-aws-deployment/04-CONTEXT.md",
+  "shown": "Lambda memory size and timeout configuration"
+ },
+ {
+  "pid": "P28",
+  "id": "gsd:sagerstack/primus-ccop-fine-tuning:29",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "sagerstack/primus-ccop-fine-tuning",
+  "file": ".planning/phases/11-align-graphrag-to-graphcompliance-architecture-scenario-anch/11-CONTEXT.md",
+  "shown": "Embedding/cross-encoder models for anchor→CU retrieval (reuse bge-large + bge-reranker unless a reason to change); K1, K, M, N, β values (paper defaults β=0.3, N=5 as starting points)."
+ },
+ {
+  "pid": "P29",
+  "id": "gsd:NattakritJ/solar-grafana:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "SQL Query Pattern",
+  "repo": "NattakritJ/solar-grafana",
+  "file": ".planning/phases/09-update-panels-to-use-new-ct-meter-data-for-grid-energy-import-current-voltage-real-power-instead-of-smart-meter/09-CONTEXT.md",
+  "shown": "D-08: Time-series queries for Panel 20 and Panel 21: `SELECT DATE_BIN(INTERVAL '5 minutes', time) AS time, AVG(voltage) AS \"Voltage\" FROM \"grid\" WHERE time >= $__timeFrom AND time <= $__timeTo GROUP BY 1 ORDER BY 1` (Same DATE_BIN pattern as existing series)"
+ },
+ {
+  "pid": "P30",
+  "id": "gsd:DevDesai444/deficiency-chatbot:27",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "DevDesai444/deficiency-chatbot",
+  "file": ".planning/phases/02-retrieval-navigation-tools-rulebook/02-RESEARCH.md",
+  "shown": "ich.org's site-wide `/page/legal-mentions` terms impose no ADDITIONAL restriction on the pre-2015 tripartite-era guidelines (Q3A(R2)/Q3B(R2)/Q6A/Q1A(R2)) beyond the standard ICH copyright-acknowledgment grant read verbatim from newer documents"
+ },
+ {
+  "pid": "P31",
+  "id": "gsd:Michal-Pi/complete-design:25",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Reference corpus (D-24 to D-26)",
+  "repo": "Michal-Pi/complete-design",
+  "file": ".planning/phases/01-v1-5-infrastructure-determinism-foundation/01-CONTEXT.md",
+  "shown": "D-26: `references/gates/` checklist format. Each gate checklist is a Markdown table with columns `Check`, `Required for PASS`, `Required for VALIDATED grade`, `Citation`. Gate-runner reads the relevant table at runtime."
+ },
+ {
+  "pid": "P32",
+  "id": "bmad:JakeSelby/ruleprobe:37",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "JakeSelby/ruleprobe",
+  "file": "_bmad-output/planning-artifacts/prds/prd-ruleprobe-2026-09-23/.memlog.md",
+  "shown": "Section rule ids derive from heading text; non-rule prose sections are not counted as unmeasured"
+ },
+ {
+  "pid": "P33",
+  "id": "gsd:The-Artificer-of-Ciphers-LLC/darkpipe:3",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Image architecture",
+  "repo": "The-Artificer-of-Ciphers-LLC/darkpipe",
+  "file": ".planning/phases/07-build-system-deployment/07-CONTEXT.md",
+  "shown": "Aggressively optimize image size — Alpine base, multi-stage builds, strip binaries, target <100MB per image"
+ },
+ {
+  "pid": "P34",
+  "id": "gsd:alikendir0/n11-bootcamp-final-case:36",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "alikendir0/n11-bootcamp-final-case",
+  "file": ".planning/phases/08-ai-port-adapter-agent-toolset/08-RESEARCH.md",
+  "shown": "`gemini-3-flash-preview` will remain available through demo week (May 2026)"
+ },
+ {
+  "pid": "P35",
+  "id": "speckit:irvinm/TST-Tree-Sorter:57",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "irvinm/TST-Tree-Sorter",
+  "file": "specs/archived/001-tree-tab-sorter/spec.md",
+  "shown": "Q: How should TST version incompatibility be handled?\nA: Show a \"please update Tree Style Tab\" error toast."
+ },
+ {
+  "pid": "P36",
+  "id": "gsd:bradenflynn/free-food:4",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Real-time",
+  "repo": "bradenflynn/free-food",
+  "file": ".planning/phases/02-live-dashboard/02-CONTEXT.md",
+  "shown": "Mechanism: Supabase Realtime (WebSockets) to listen for `INSERT` and `UPDATE` events on the `food_events` table."
+ },
+ {
+  "pid": "P37",
+  "id": "gsd:The-Artificer-of-Ciphers-LLC/sentinel-of-mnemosyne:40",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "The-Artificer-of-Ciphers-LLC/sentinel-of-mnemosyne",
+  "file": ".planning/phases/40-semantic-recall/40-RESEARCH.md",
+  "shown": "`content_hash` of the frontmatter-stripped `rest` variable (used by the embedder) is the right thing to hash for incremental rebuild"
+ },
+ {
+  "pid": "P38",
+  "id": "gsd:KofTwentyTwo/Jarvis:1",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Memory Extraction (Area 1)",
+  "repo": "KofTwentyTwo/Jarvis",
+  "file": ".planning/phases/07-memory-vision/07-CONTEXT.md",
+  "shown": "D-02: Forgetting is via an explicit `forget_fact` MCP tool. Closes `valid_to` and sets a `forgotten_at` flag that excludes the row from active queries; preserves history per MEM-05's never-delete invariant."
+ },
+ {
+  "pid": "P39",
+  "id": "gsd:StuntmanDaver/UNIT:18",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "StuntmanDaver/UNIT",
+  "file": ".planning/phases/02-financial-operations-workflows/02-CONTEXT.md",
+  "shown": "Invoice status transition enforcement approach (database trigger vs. service-layer validation vs. Edge Function)"
+ },
+ {
+  "pid": "P40",
+  "id": "gsd:SIRXIII/FitConnect:21",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "SIRXIII/FitConnect",
+  "file": ".planning/phases/24-session-logging/24-CONTEXT.md",
+  "shown": "Toast notification timing and dismissal"
+ },
+ {
+  "pid": "P41",
+  "id": "speckit:trionell/PatchPlanner:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "trionell/PatchPlanner",
+  "file": "specs/028-event-tabs/spec.md",
+  "shown": "`quantity_audio` includes the manual part. Confirmed against `EventRental`: the derived total is `quantity_audio - manual_quantity_audio`."
+ },
+ {
+  "pid": "P42",
+  "id": "speckit:lifekit-hq/devclaw:12",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "lifekit-hq/devclaw",
+  "file": "specs/047-console-read-side/spec.md",
+  "shown": "No confirmation dialog on an option click: a decision is a comment and a wrong one is corrected by another decision; cancel keeps its confirmation."
+ },
+ {
+  "pid": "P43",
+  "id": "speckit:b0x42/Super-Productivity-MCP:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "b0x42/Super-Productivity-MCP",
+  "file": "specs/005-task-ergonomics/spec.md",
+  "shown": "SP's `addTask` returns the created task ID, which the plugin uses to set `parentId` on subtasks"
+ },
+ {
+  "pid": "P44",
+  "id": "bmad:kekal/Lucid-Cartographer:18",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "kekal/Lucid-Cartographer",
+  "file": "_bmad-output/archive/trip-planning/planning-artifacts/prds/prd-maps_editor-2026-06-11/prd.md",
+  "shown": "§4.6 / FR-16 — Trip MCP tools extend the existing authenticated `/mcp` set; names TBD."
+ },
+ {
+  "pid": "P45",
+  "id": "gsd:Shion-main/fluxtrack-main:23",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Shion-main/fluxtrack-main",
+  "file": ".planning/phases/07-remaining-operational-surfaces/07-CONTEXT.md",
+  "shown": "Exact template/URL layout of the new surfaces — reuse the navy app-shell and existing polled-monitor pattern (`ifo.live`/`live_rows`)."
+ },
+ {
+  "pid": "P46",
+  "id": "bmad:Phamvu23082004/Web_Luyen_Thi_12:7",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Phamvu23082004/Web_Luyen_Thi_12",
+  "file": "_bmad-output/planning-artifacts/prds/prd-Web_OnThi12-2026-07-15/prd.md",
+  "shown": "§7 SM-5 — Caching/pre-aggregation counts as \"path demonstrated,\" not load-tested, per post-MVP §9.1."
+ },
+ {
+  "pid": "P47",
+  "id": "gsd:molmdl/quickice:17",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "OpenCode's Discretion",
+  "repo": "molmdl/quickice",
+  "file": ".planning/phases/14-gromacs-export/14-CONTEXT.md",
+  "shown": ".itp file inclusion method (copy vs generate)"
+ },
+ {
+  "pid": "P48",
+  "id": "speckit:Hossam-Bakr/Cleanora-api:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Hossam-Bakr/Cleanora-api",
+  "file": "specs/R1-P08-catalog-localization-service-requirements/spec.md",
+  "shown": "The approved seed uses the localized names `Home Cleaning` / `تنظيف المنازل`, `Standard Home Cleaning` / `تنظيف منزلي قياسي`, `Per visit` / `لكل زيارة`, and `Per hour` / `لكل ساعة`. Supporting descriptions and field labels remain concise, neutral, bilingual, and must not decide OQ-002."
+ },
+ {
+  "pid": "P49",
+  "id": "gsd:Zephyrxx0/Nichijou:20",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "Zephyrxx0/Nichijou",
+  "file": ".planning/phases/04-ask-dailycity/04-CONTEXT.md",
+  "shown": "Placeholder suggestion text content and count"
+ },
+ {
+  "pid": "P50",
+  "id": "speckit:ScholarX-Labs/web:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ScholarX-Labs/web",
+  "file": "specs/016-course-leaderboard/spec.md",
+  "shown": "The infrastructure supports a Redis-compatible cache layer, which is required to meet NFR-001."
+ }
+]

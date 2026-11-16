@@ -1,0 +1,3972 @@
+[
+ {
+  "vid": "V001",
+  "id": "gsd:Codesushi-com/gsd-console:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Tab styling",
+  "repo": "Codesushi-com/gsd-console",
+  "file": ".planning/phases/03.1-ui-polish/03.1-CONTEXT.md",
+  "shown": "Organization: Fixed order (not reorderable)"
+ },
+ {
+  "vid": "V002",
+  "id": "gsd:lovettbarron/wallflower:18",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "lovettbarron/wallflower",
+  "file": ".planning/phases/02-playback-metadata-design-system-notifications/02-CONTEXT.md",
+  "shown": "Waveform color scheme and visual treatment within the design system"
+ },
+ {
+  "vid": "V003",
+  "id": "speckit:joshrendek/manyforge:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "joshrendek/manyforge",
+  "file": "specs/001-tenant-foundation/spec.md",
+  "shown": "Q: How custom roles define permissions\nA: Capability-catalog RBAC — the platform defines a catalog of fine-grained, per-capability permissions; a custom role is a named, admin-defined set of those permissions; every action (human member or AI agent) is authorized against the actor's effective permission set. Built-in presets (Owner/Admin/Member/Viewer) ship as starting points, with Owner locked at full access."
+ },
+ {
+  "vid": "V004",
+  "id": "bmad:danielfoord/aictl:10",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "danielfoord/aictl",
+  "file": "_bmad-output/planning-artifacts/prds/prd-aictl-2026-06-15/prd.md",
+  "shown": "§Constraints/Privacy — v1 secret handling = git-tracked-only diffs + configurable denylist (defaults TBD); deeper content scanning deferred."
+ },
+ {
+  "vid": "V005",
+  "id": "bmad:Electromayonaise/Pok-mon-TCG-Marketplace-and-Collection-Management:8",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Electromayonaise/Pok-mon-TCG-Marketplace-and-Collection-Management",
+  "file": "_bmad-output/specs/spec-pokemon-tcg-marketplace/SPEC.md",
+  "shown": "Safe: each user can own multiple independent collections (not capped at one)."
+ },
+ {
+  "vid": "V006",
+  "id": "gsd:CamposBruno/Twelvify:23",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "CamposBruno/Twelvify",
+  "file": ".planning/phases/10-chrome-web-store-submission/10-CONTEXT.md",
+  "shown": "Privacy policy section structure and specific legal phrasing"
+ },
+ {
+  "vid": "V007",
+  "id": "speckit:SmolSoftBoi/eslint-config:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "SmolSoftBoi/eslint-config",
+  "file": "specs/001-pre-release-preflight/spec.md",
+  "shown": "Q: Should formatting/linting checks be check-only or allow autofix?\nA: Allow autofix formatting/linting."
+ },
+ {
+  "vid": "V008",
+  "id": "gsd:Herodot0s/NailssentialsQC:10",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "Herodot0s/NailssentialsQC",
+  "file": ".planning/phases/10-manager-payroll-ui-excel-export/10-CONTEXT.md",
+  "shown": "The agent will decide the specific visual styling of the \"Draft\" watermark on the Excel export."
+ },
+ {
+  "vid": "V009",
+  "id": "speckit:byte5ai/omadia:10",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "byte5ai/omadia",
+  "file": "specs/001-privacy-shield-v4/spec.md",
+  "shown": "The HR agent and its \"Wer hat dieses Jahr den meisten Urlaub?\" case are the acceptance vehicle; other agents are cut over afterwards."
+ },
+ {
+  "vid": "V010",
+  "id": "gsd:Zephyrxx0/Nichijou:33",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Zephyrxx0/Nichijou",
+  "file": ".planning/phases/04-ask-dailycity/04-RESEARCH.md",
+  "shown": "The `responseMessages` from `generateText()` contain the full assistant + tool messages needed for conversation history. Pushing them directly into `messages[]` without filtering is correct."
+ },
+ {
+  "vid": "V011",
+  "id": "gsd:pablovilas/pacecraft:2",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "pablovilas/pacecraft",
+  "file": ".planning/phases/14-auto-sync/14-CONTEXT.md",
+  "shown": "Degradation behavior: Warning format, retry logic, cache age warnings"
+ },
+ {
+  "vid": "V012",
+  "id": "gsd:DamianFlynn/selfhost-stacks:36",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Operator rulings after research (2026-09-11)",
+  "repo": "DamianFlynn/selfhost-stacks",
+  "file": ".planning/phases/04-collapse-to-one-tagger/04-CONTEXT.md",
+  "shown": "D-16's probe hard-requires the Discogs token (F14). Add an MB-only mode that drops the token and the identity probe, so the dismissed credential (D-24) is never dragged into the survivor."
+ },
+ {
+  "vid": "V013",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker:12",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker",
+  "file": "specs/015-admin-ui-details/spec.md",
+  "shown": "The submissions table already exists; this spec adds the index column and export buttons as enhancements to the existing view."
+ },
+ {
+  "vid": "V014",
+  "id": "gsd:pRizz/open-links-sites:16",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "pRizz/open-links-sites",
+  "file": ".planning/phases/02-guided-operator-crud/02-CONTEXT.md",
+  "shown": "The exact wizard wording and conversational prompt structure."
+ },
+ {
+  "vid": "V015",
+  "id": "gsd:DevDesai444/deficiency-chatbot:16",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion (within the locked contracts)",
+  "repo": "DevDesai444/deficiency-chatbot",
+  "file": ".planning/phases/02-retrieval-navigation-tools-rulebook/02-CONTEXT.md",
+  "shown": "Corpus-index and edge-table on-disk formats — follow existing Delta/SQLite conventions where sensible (parallels Phase 1 D-15)."
+ },
+ {
+  "vid": "V016",
+  "id": "gsd:bbuchsbaum/xnatR:29",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "bbuchsbaum/xnatR",
+  "file": ".planning/phases/01-auth-http-infrastructure/01-CONTEXT.md",
+  "shown": "Exact exponential backoff implementation details"
+ },
+ {
+  "vid": "V017",
+  "id": "gsd:samt41/techjam_track4:33",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "samt41/techjam_track4",
+  "file": ".planning/phases/01-measurement-rig-core/01-RESEARCH.md",
+  "shown": "The extraction/matching fixes between `e76b3ab` and `eb4e836` benefit the TF-IDF fallback path as much as the FTS path, so run B at current HEAD will score far above `0.599` and ΔTS(A,B) will be small"
+ },
+ {
+  "vid": "V018",
+  "id": "gsd:TungDao1102/Crypto-News-Pipeline:7",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "TungDao1102/Crypto-News-Pipeline",
+  "file": ".planning/phases/04-publisher/04-CONTEXT.md",
+  "shown": "Binance Square error code mapping (which codes are retriable vs permanent)"
+ },
+ {
+  "vid": "V019",
+  "id": "gsd:The-Artificer-of-Ciphers-LLC/sentinel-of-mnemosyne:38",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "The-Artificer-of-Ciphers-LLC/sentinel-of-mnemosyne",
+  "file": ".planning/phases/40-semantic-recall/40-RESEARCH.md",
+  "shown": "Default cosine floor of 0.50 is appropriate for nomic-embed-text-v1.5"
+ },
+ {
+  "vid": "V020",
+  "id": "gsd:Maxtremee/spotdl-manager:35",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Maxtremee/spotdl-manager",
+  "file": ".planning/phases/02-spotify-metadata-spotifyscraper/02-RESEARCH.md",
+  "shown": "Spotify `/embed/playlist/` 100-cap uses strict `==` not `>=` (spike 002 saw exactly 100) but `>=` is safer defensively"
+ },
+ {
+  "vid": "V021",
+  "id": "gsd:nexttylabs/kubebar:45",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Verification",
+  "repo": "nexttylabs/kubebar",
+  "file": ".planning/phases/09-codexbar-inspired-tabbed-menu-redesign/09-CONTEXT.md",
+  "shown": "D-39: Add or update model/view-model tests for new tab display data, settings-opening behavior, and quit-action wiring where practical."
+ },
+ {
+  "vid": "V022",
+  "id": "speckit:jartieda/MLXTraining:4",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "jartieda/MLXTraining",
+  "file": "specs/001-xai-lab/spec.md",
+  "shown": "Q: In what format does an educator export her classroom's progress summary?\nA: A single CSV file, one row per learner and module, including a column holding that module's reflection answer."
+ },
+ {
+  "vid": "V023",
+  "id": "gsd:robindarlington/darlng.com:17",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "robindarlington/darlng.com",
+  "file": ".planning/phases/04-newsletter-fan-capture/04-RESEARCH.md",
+  "shown": "ALTCHA's deprecation of hCaptcha, and the exact admin complexity setting range (`1000-1000000`)"
+ },
+ {
+  "vid": "V024",
+  "id": "gsd:acolomba/homebridge-basement-guardian:21",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "acolomba/homebridge-basement-guardian",
+  "file": ".planning/phases/03-safety-monitoring-in-homekit/03-CONTEXT.md",
+  "shown": "The shape of the custom Pump service so that Phase 4 can add its record characteristics without changing the subtype."
+ },
+ {
+  "vid": "V025",
+  "id": "gsd:LuisFaxas/glitch-studios:27",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "LuisFaxas/glitch-studios",
+  "file": ".planning/phases/26-brand-aware-auth-ui-redesign/26-CONTEXT.md",
+  "shown": "Whether the Approve action shows a confirmation modal or fires directly. (Recommendation: direct-fire with a 5-second toast undo, but planner can choose either.)"
+ },
+ {
+  "vid": "V026",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce",
+  "file": "specs/005-storefront-customization/spec.md",
+  "shown": "This feature builds on the existing e-commerce platform (catalog, cart, checkout, admin dashboard, roles) and reuses existing shared components and design tokens."
+ },
+ {
+  "vid": "V027",
+  "id": "gsd:wight554/FLARE:41",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "wight554/FLARE",
+  "file": ".planning/phases/13-type-p-sync-relief-fault-trip/13-RESEARCH.md",
+  "shown": "`SOFT_WALL_MARGIN_NORM`'s exact value is Claude's discretion per CONTEXT.md, within 0.10-0.20 — this research did not narrow that range further than what CONTEXT.md already states. `[ASSUMED]`"
+ },
+ {
+  "vid": "V028",
+  "id": "bmad:Tyler-Hughes312/mycelium:6",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Tyler-Hughes312/mycelium",
+  "file": "_bmad-output/planning-artifacts/prds/prd-mycelium-2026-07-25/prd.md",
+  "shown": "Incremental update ≤30s for single-file change — FR-4"
+ },
+ {
+  "vid": "V029",
+  "id": "speckit:Mkhira/buidSass:6",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Mkhira/buidSass",
+  "file": "specs/phase-1E/027-payments-integration/spec.md",
+  "shown": "Each provider settles in market currency; FX deferred to 1.5."
+ },
+ {
+  "vid": "V030",
+  "id": "bmad:NicoIodice/fishtank:13",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "NicoIodice/fishtank",
+  "file": "_bmad-output/planning-artifacts/prds/prd-Fishtank-2026-06-19/prd.md",
+  "shown": "A-6 (§5.8 FR-42): The example Service set and mock data for the demo image are finalized during implementation (see OQ-5)."
+ },
+ {
+  "vid": "V031",
+  "id": "bmad:francescoberardi/string_theory:5",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "francescoberardi/string_theory",
+  "file": "_bmad-output/planning-artifacts/prds/prd-string_theory-2026-10-02/prd.md",
+  "shown": "[ASSUMPTION: §4.6 / FR-18] Hackathon judges will test on web and desktop environments where real Apple Watch hardware is absent, making a simulated workout generator mandatory for a successful submission."
+ },
+ {
+  "vid": "V032",
+  "id": "speckit:leanjunio/ledger:15",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "leanjunio/ledger",
+  "file": "specs/001-developer-ledger/spec.md",
+  "shown": "Q: Implementation and plan documentation — How should plans and research be written for the executor?\nA: Assume the executor has no software development or markdown knowledge and limited context. Every plan (or phase) must have Purpose, Goals, Implementation, and Validation. One feature or one phase per plan. TDD and spec-driven: validate at every level against the spec (FRs, acceptance criteria). Define authorized and wrong sources for tech stack research. Documents must be detailed enough that the executor can depend on them with no guesswork. See execution-principles.md in the spec folder."
+ },
+ {
+  "vid": "V033",
+  "id": "speckit:Ahmed-elssamman/ERD-Ehsbha:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Ahmed-elssamman/ERD-Ehsbha",
+  "file": "specs/002-shared-platform-contracts/spec.md",
+  "shown": "Q: How should the initial shared-contract migration be deployed?\nA: Require one coordinated API, web, and admin deployment."
+ },
+ {
+  "vid": "V034",
+  "id": "speckit:haythamosama95/AiClinic:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "haythamosama95/AiClinic",
+  "file": "specs/085-abo-p4-10-reconciliation-payout-import-findings/spec.md",
+  "shown": "Q: How does E2E-P4.10-09 make the stored receipt differ?\nA: Leave the platform `listGrants` receipt unchanged. Change the `signature` on the ABO `grant_outcome.receipt` for one row whose `result` is `applied` or `already_applied`. Assert `receipt_mismatch` and AL-10. Do not tamper a void receipt or a transfer receipt. A missing `listGrants` row is the same check and does not get a new E2E id. `[implementation choice — no §citation]`"
+ },
+ {
+  "vid": "V035",
+  "id": "speckit:luanmle/revizza:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "luanmle/revizza",
+  "file": "specs/011-addon-media-sync/spec.md",
+  "shown": "Q: After uploading media during publish, how should the add-on tell the backend an upload is confirmed (FR-006)?\nA: Per-file confirm — one confirm call immediately after each successful `upload_signed_media`, not batched at the end."
+ },
+ {
+  "vid": "V036",
+  "id": "speckit:oddbullet/customer-support-fde:11",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "oddbullet/customer-support-fde",
+  "file": "specs/012-account-identification-node/spec.md",
+  "shown": "Only one account (or none) may be associated with a given conversation; switching accounts mid-conversation is out of scope."
+ },
+ {
+  "vid": "V037",
+  "id": "speckit:GustavoGomez092/InkPot:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "GustavoGomez092/InkPot",
+  "file": "specs/001-markdown-pdf-export/spec.md",
+  "shown": "Q: Where should the application store the list of recently opened projects?\nA: User application data directory (platform-specific)"
+ },
+ {
+  "vid": "V038",
+  "id": "gsd:thanhnndev/vimedcss-eval-pipeline:6",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "EN/VI Join Strategy",
+  "repo": "thanhnndev/vimedcss-eval-pipeline",
+  "file": ".planning/phases/06A-icd-10-dual-language-ingestion/CONTEXT.md",
+  "shown": "ISO 3166-1 alpha-2 chapter codes (e.g., \"IX\" for diseases of the circulatory system)"
+ },
+ {
+  "vid": "V039",
+  "id": "bmad:mendesbarreto/web-ottawa-church:14",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "mendesbarreto/web-ottawa-church",
+  "file": "_bmad-output/planning-artifacts/prds/prd-web-ottawa-church-2026-06-16/prd.md",
+  "shown": "[ASSUMPTION] Event approval applies to each Registration, not Account creation."
+ },
+ {
+  "vid": "V040",
+  "id": "bmad:testbeds/hiring-ascent:11",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "testbeds/hiring-ascent",
+  "file": "_bmad-output/planning-artifacts/prds/prd-hiring-ascent-2026-07-25/prd.md",
+  "shown": "§5.2 FR-5 — Disabling a Role for an Agency is forward-only; in-flight Candidates from that Agency continue unaffected."
+ },
+ {
+  "vid": "V041",
+  "id": "speckit:joshrendek/manyforge:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "joshrendek/manyforge",
+  "file": "specs/001-tenant-foundation/spec.md",
+  "shown": "Q: Where custom roles are defined and scoped\nA: Tenant-scoped — custom role definitions belong to the tenant (master business), are authored by holders of a manage-roles permission, and are assignable on any business within that tenant's subtree; they are invisible to other tenants. Delegated per-node role authoring is a future enhancement."
+ },
+ {
+  "vid": "V042",
+  "id": "gsd:egeek-tech/go-openholidays:41",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "egeek-tech/go-openholidays",
+  "file": ".planning/phases/02-transport/02-RESEARCH.md",
+  "shown": "`runtime.NumGoroutine() + 2` slack is sufficient for D-49's leak guard"
+ },
+ {
+  "vid": "V043",
+  "id": "speckit:jartieda/MLXTraining:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "jartieda/MLXTraining",
+  "file": "specs/001-xai-lab/spec.md",
+  "shown": "Q: How does an educator's invitation code reach her, given that the application never sends email?\nA: The lab opens the administrator's own mail client with recipient and message prefilled, with copy-to-clipboard as the fallback. The application itself sends nothing."
+ },
+ {
+  "vid": "V044",
+  "id": "bmad:Fandor626/F1_APP:4",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Fandor626/F1_APP",
+  "file": "_bmad-output/phase-1/planning-artifacts/prds/prd-F1_poc-2026-06-15/prd.md",
+  "shown": "A-1 (FR-5): Browser timezone detection is sufficient; no manual timezone selector needed for POC."
+ },
+ {
+  "vid": "V045",
+  "id": "gsd:lzw5399/video-editor:26",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "lzw5399/video-editor",
+  "file": ".planning/phases/20-long-timeline-product-uat-and-guard-baseline/20-RESEARCH.md",
+  "shown": "Sampled export-frame validation can be implemented with the bundled FFmpeg/ffprobe runtime and Node `execFile` without adding packages."
+ },
+ {
+  "vid": "V046",
+  "id": "bmad:James-Karanja/Zamu:20",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "James-Karanja/Zamu",
+  "file": "_bmad-output/specs/spec-zamu/.memlog.md",
+  "shown": "Inputs user did not name (economic activity, orphan/single-parent, siblings in school, disability, school level) excluded from PoC score — pitch as configurable future inputs"
+ },
+ {
+  "vid": "V047",
+  "id": "gsd:puppetlabs/stagehand-docs:11",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "puppetlabs/stagehand-docs",
+  "file": ".planning/phases/02-first-real-publication/02-RESEARCH.md",
+  "shown": "GitHub Actions auto-creates an unprotected Environment on first workflow reference if it doesn't already exist"
+ },
+ {
+  "vid": "V048",
+  "id": "bmad:VertereLabs/ACCE:0",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "VertereLabs/ACCE",
+  "file": "_bmad-output/specs/spec-seo-page-architecture/SPEC.md",
+  "shown": "The 7 new pages and the reviewed guide pages all ship in one release; the internal-link matrix is fully wired at release time (no link points at an unbuilt page)."
+ },
+ {
+  "vid": "V049",
+  "id": "speckit:harurun78/rust-ownership-error-navigation:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "harurun78/rust-ownership-error-navigation",
+  "file": "specs/001-ownership-report-mvp/spec.md",
+  "shown": "Phase 1 is a CLI and static HTML report, not a VS Code extension."
+ },
+ {
+  "vid": "V050",
+  "id": "bmad:testbeds/hiring-ascent:14",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "testbeds/hiring-ascent",
+  "file": "_bmad-output/planning-artifacts/prds/prd-hiring-ascent-2026-07-25/prd.md",
+  "shown": "§5.5 FR-16 — Delivery-failure handling (bounce, bad address) is not defined for v1 beyond best-effort send."
+ },
+ {
+  "vid": "V051",
+  "id": "gsd:whatthehackinsg/agent-auction:12",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Cache Invalidation",
+  "repo": "whatthehackinsg/agent-auction",
+  "file": ".planning/phases/07-identity-verification/07-CONTEXT.md",
+  "shown": "No cache for Poseidon root lookup — always fresh from chain"
+ },
+ {
+  "vid": "V052",
+  "id": "speckit:jartieda/MLXTraining:18",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "jartieda/MLXTraining",
+  "file": "specs/001-xai-lab/spec.md",
+  "shown": "First administrator: The first administrator account exists because the system was installed with it, not because anything in the application created it."
+ },
+ {
+  "vid": "V053",
+  "id": "speckit:Hyildirim8/hybot:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Hyildirim8/hybot",
+  "file": "specs/005-system-launch/spec.md",
+  "shown": "The ESP32 is pre-provisioned with the WiFi SSID, password, and host PC IP address before the first launch. Re-provisioning requires a firmware update or a separate provisioning tool (out of scope for this spec)."
+ },
+ {
+  "vid": "V054",
+  "id": "gsd:samt41/techjam_track4:24",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "samt41/techjam_track4",
+  "file": ".planning/phases/01-measurement-rig-core/01-CONTEXT.md",
+  "shown": "Exact module layout inside `arena/` (file split, naming) beyond the two fixed points: `arena/evaluator_bridge.py` is the sole evaluator seam (D-08), and `CandidateSpec` validates against an allow-list (D-10)."
+ },
+ {
+  "vid": "V055",
+  "id": "speckit:byte5ai/omadia:11",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "byte5ai/omadia",
+  "file": "specs/001-privacy-shield-v4/spec.md",
+  "shown": "v3 work merged in `omadia` PR #86 and `omadia-byte5-plugins` PR #1 stays additive-inactive until US9; no further fixes go into the v2/v3 line."
+ },
+ {
+  "vid": "V056",
+  "id": "bmad:millsks/conda-sentinel:37",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "millsks/conda-sentinel",
+  "file": "_bmad-output/planning-artifacts/prds/prd-conda-package-supply-chain-monitor-2026-09-02/.memlog.md",
+  "shown": "FR-20 priority rules and score function are deliberately unspecified; the requirement is that they are versioned data with explainable output. Content tracked as Open Question 8, blocking EP-PRIORITY"
+ },
+ {
+  "vid": "V057",
+  "id": "speckit:unbound-force/unbound-force:4",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "unbound-force/unbound-force",
+  "file": "specs/009-shared-data-model/spec.md",
+  "shown": "Q: Which Go library for JSON Schema generation?\nA: `invopop/jsonschema` — mature, supports JSON Schema draft 2020-12 (FR-001), generates from Go struct tags, handles `omitempty`, actively maintained. Use `go generate` to regenerate schemas from Go structs."
+ },
+ {
+  "vid": "V058",
+  "id": "speckit:jartieda/MLXTraining:17",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "jartieda/MLXTraining",
+  "file": "specs/001-xai-lab/spec.md",
+  "shown": "Learner identity holds no personal data: A learner is a username and an alias. Because the authentication provider requires an address-shaped identifier, one is derived from the username in a domain that cannot receive mail; it is never displayed, never mailed, and is not a means of contact."
+ },
+ {
+  "vid": "V059",
+  "id": "gsd:patruff/moltapp:12",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "URL and routing",
+  "repo": "patruff/moltapp",
+  "file": ".planning/phases/04-aws-deployment/04-CONTEXT.md",
+  "shown": "Everything through Lambda — CloudFront forwards all requests to API Gateway/Lambda, caching controlled via Cache-Control headers"
+ },
+ {
+  "vid": "V060",
+  "id": "gsd:teovillanueva/code-runner:22",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "teovillanueva/code-runner",
+  "file": ".planning/phases/08-distributed-observability/08-RESEARCH.md",
+  "shown": "OTLP/HTTP (4318) chosen over gRPC for both langs"
+ },
+ {
+  "vid": "V061",
+  "id": "bmad:Sathias23/Artificial-Planeswalker:16",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "Sathias23/Artificial-Planeswalker",
+  "file": "_bmad-output/specs/spec-quick-wins/.memlog.md",
+  "shown": "CAP-6's per-format unchecked-rule table is hand-maintained in src/logic/deck_validator.py and pinned by a test that every FormatType member has an entry"
+ },
+ {
+  "vid": "V062",
+  "id": "gsd:melcshum/Exploration2Engineering:18",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "melcshum/Exploration2Engineering",
+  "file": ".planning/phases/01-foundation/01-RESEARCH.md",
+  "shown": "`mkdocs serve --open` auto-opens the default browser on macOS"
+ },
+ {
+  "vid": "V063",
+  "id": "speckit:04Adam/Syncro:7",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "04Adam/Syncro",
+  "file": "specs/001-core-game-spec/spec.md",
+  "shown": "Q: How many vehicles start on Day 1, and how does the nightly vehicle addition grow over time?\nA: Vehicle count follows a polynomial: `f(day) = vehicleCountBase + vehicleCountGrowthPerDay × day`. Initial count = `f(0) = vehicleCountBase`. Each night, `round(f(day) × rng(1 ± vehicleCountRngVariance))` vehicles are added. All three coefficients live in `BalanceConfig` (defaults: base=20, growthPerDay=5, rngVariance=0.15). `newVehiclesPerNight` is removed."
+ },
+ {
+  "vid": "V064",
+  "id": "gsd:ParkerWilliams/dcsbm-transformer:6",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "ParkerWilliams/dcsbm-transformer",
+  "file": ".planning/phases/08-visualization/08-CONTEXT.md",
+  "shown": "Confidence band style (shaded regions vs error bars)"
+ },
+ {
+  "vid": "V065",
+  "id": "gsd:xsw632/ChipAgent:16",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "xsw632/ChipAgent",
+  "file": ".planning/phases/19-chipyard-rtl-generation-command/19-CONTEXT.md",
+  "shown": "Whether staging uses copy vs move for specific Chipyard collateral, as long as Chipyard source outputs remain discoverable and MyDesign workspace becomes the canonical downstream location."
+ },
+ {
+  "vid": "V066",
+  "id": "gsd:Shion-main/fluxtrack-main:9",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "IFO booking + release",
+  "repo": "Shion-main/fluxtrack-main",
+  "file": ".planning/phases/07-remaining-operational-surfaces/07-CONTEXT.md",
+  "shown": "D-10: Booking cancellation is decided by existing code: `room_is_free` only counts `status=\"active\"` bookings, so cancel = flip status away from \"active\"; the room frees itself. No new logic."
+ },
+ {
+  "vid": "V067",
+  "id": "gsd:s-layer/semolina:29",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "s-layer/semolina",
+  "file": ".planning/phases/46-async-query-surface/46-RESEARCH.md",
+  "shown": "The five existing `DuckDBConfig(..., pool_size=1)` test call sites still pass once 1.6.0+ actually honours `pool_size=1`. I reasoned this from the per-connection `connect` listener but did not run the suite against 1.6.1 (not installed)"
+ },
+ {
+  "vid": "V068",
+  "id": "gsd:LuisFaxas/glitch-studios:18",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Email Verification (AUTH-26..AUTH-28)",
+  "repo": "LuisFaxas/glitch-studios",
+  "file": ".planning/phases/26-brand-aware-auth-ui-redesign/26-CONTEXT.md",
+  "shown": "D-19: `/verify-email` route renders 3 states (pending / success / expired) from a single page, server-resolved by token validity."
+ },
+ {
+  "vid": "V069",
+  "id": "gsd:vansh-fyi/sepcare:42",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "vansh-fyi/sepcare",
+  "file": ".planning/phases/06-design-system-tailwind-v4-tokens/06-RESEARCH.md",
+  "shown": "The icon names quoted in CONTEXT.md (`fluent:smartwatch-dot-20-regular`, `lucide-lab:bottle-baby`, `hugeicons:baby-02`) accurately describe what's actually used in the Figma file — taken from CONTEXT.md verbatim, not independently re-confirmed against Figma this session"
+ },
+ {
+  "vid": "V070",
+  "id": "speckit:JomarJunior/miraveja-ecosystem:6",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "JomarJunior/miraveja-ecosystem",
+  "file": "specs/004-sonavida-persona-life/spec.md",
+  "shown": "Out of scope: looking at the museum, comments and replies, meetings and relationships with other personas (roadmap 007); anything visitor-facing (roadmaps 011 and 012); the AI gate's criteria and the handling of rejected pieces (roadmap 006, Q-001); the legal side of erasure (roadmap 008); a departed state and memorials on the Museum side (a later Studio Link spec)."
+ },
+ {
+  "vid": "V071",
+  "id": "gsd:alikendir0/n11-bootcamp-final-case:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Guest vs Authed Chat",
+  "repo": "alikendir0/n11-bootcamp-final-case",
+  "file": ".planning/phases/08-ai-port-adapter-agent-toolset/08-CONTEXT.md",
+  "shown": "D-03: Guest sessions live in an in-memory `Map<conversationId, Conversation>` with a 1-hour idle TTL inside ai-service. Frontend generates a UUID `conversationId` on first chat-open, persists it in `localStorage`, and sends it with every request. Survives page refresh (frontend remembers the ID), is wiped on ai-service restart — acceptable for a 6-day demo. No anonymous JWT minted. No HttpOnly cookie. The DB tables (D-01) are written only when the request carries an authed `X-User-Id`. Optional `/chat/conversations/{id}/claim` endpoint for guest→authed migration on login is planner discretion (skip unless cheap to add)."
+ },
+ {
+  "vid": "V072",
+  "id": "bmad:ROSE-Foundation/rose-engine:12",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "ROSE-Foundation/rose-engine",
+  "file": "_bmad-output/planning-artifacts/prds/prd-rose-engine-2026-06-15/prd.md",
+  "shown": "§12 — specific securities-law / \"sophisticated client\" eligibility rules for `laplace.digital` distribution (for legal counsel; shapes allowlist/claim criteria)."
+ },
+ {
+  "vid": "V073",
+  "id": "speckit:chippr-robotics/fairwins-platform:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "chippr-robotics/fairwins-platform",
+  "file": "specs/082-perps-trade-view/spec.md",
+  "shown": "Q: Which chains/networks?\nA: Market data is network-transparent (like Earn):"
+ },
+ {
+  "vid": "V074",
+  "id": "gsd:wight554/FLARE:42",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "wight554/FLARE",
+  "file": ".planning/phases/13-type-p-sync-relief-fault-trip/13-RESEARCH.md",
+  "shown": "The proposed `REQ-type-p-sync-relief-*` requirement IDs in the Phase Requirements section are this research's naming proposal, not yet present in `.planning/REQUIREMENTS.md`. `[ASSUMED]` (naming convention derived from Phase 14's precedent, not a locked decision)"
+ },
+ {
+  "vid": "V075",
+  "id": "bmad:maniator/verticopolis:10",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "maniator/verticopolis",
+  "file": "_bmad-output/specs/spec-refactor-large-files/.memlog.md",
+  "shown": "faqComplete.test.ts, calendar.test.ts, tower.test.ts, gameControllers.test.ts and the other >500 test files are in scope for splitting under the same whole-describe-block + count-parity rule as the source files."
+ },
+ {
+  "vid": "V076",
+  "id": "gsd:dkastsenich/mediadiff:40",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "dkastsenich/mediadiff",
+  "file": ".planning/phases/06-audio-analysis/06-RESEARCH.md",
+  "shown": "The synthesized HE-AAC bitstream (D-10) will be accepted by the linked 8.1 `aac`/`aac_fixed` decoders on the first attempt"
+ },
+ {
+  "vid": "V077",
+  "id": "speckit:lifekit-hq/devclaw:9",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "lifekit-hq/devclaw",
+  "file": "specs/047-console-read-side/spec.md",
+  "shown": "Usage covers worker sessions and review sessions alike; v2 has no host cognition, so there is no other spender."
+ },
+ {
+  "vid": "V078",
+  "id": "speckit:Fyzxs/MtgDiscoveryClaude:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Fyzxs/MtgDiscoveryClaude",
+  "file": "specs/001-collection-identity/spec.md",
+  "shown": "There is no browsing or searching of public collections; users must know the collection ID to access a public collection."
+ },
+ {
+  "vid": "V079",
+  "id": "gsd:Shion-main/fluxtrack-main:20",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Amendments after research (2026-07-19) — LOCKED",
+  "repo": "Shion-main/fluxtrack-main",
+  "file": ".planning/phases/07-remaining-operational-surfaces/07-CONTEXT.md",
+  "shown": "D-21 (GRD-04 alert type): the new guard alert type is pushable and mutable — added to BOTH `PUSH_TYPES` and a `CATEGORY_TYPES` category in `ops/notifications.py`. A type in `PUSH_TYPES` but absent from `CATEGORY_TYPES` is structurally unmutable; a type in neither writes bell rows that never push with `pushed_at` stuck NULL (a symptom that misreads as a VAPID failure). Guards can mute guard alerts like any other category."
+ },
+ {
+  "vid": "V080",
+  "id": "gsd:acolomba/homebridge-basement-guardian:49",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "acolomba/homebridge-basement-guardian",
+  "file": ".planning/phases/03-safety-monitoring-in-homekit/03-RESEARCH.md",
+  "shown": "Apple Home on current iOS still leaves a `StatusActive = false` sensor usable as an automation trigger, and shows the state only as a \"Status Active\" row in accessory settings."
+ },
+ {
+  "vid": "V081",
+  "id": "bmad:christinoleo/semantic-posts:20",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "15. Assumptions Index",
+  "repo": "christinoleo/semantic-posts",
+  "file": "_bmad-output/planning-artifacts/prds/prd-semanticPosts-2026-05-20/prd.md",
+  "shown": "FR-4 — Random-sample size in crawler candidate sets: ~10 random Indexable Posts per update. Confirm in architecture phase against approximation quality vs. speed trade-off."
+ },
+ {
+  "vid": "V082",
+  "id": "gsd:DevDesai444/deficiency-chatbot:31",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "DevDesai444/deficiency-chatbot",
+  "file": ".planning/phases/02-retrieval-navigation-tools-rulebook/02-RESEARCH.md",
+  "shown": "`faiss-cpu`'s presence in the `dev` dependency-group is sufficient for it to be installed wherever `search_corpus`'s dense leg eventually runs (tests, harness, and Phase-3 runtime)"
+ },
+ {
+  "vid": "V083",
+  "id": "gsd:gvandyck/Mosjescardgame-2026:8",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Folded Todos",
+  "repo": "gvandyck/Mosjescardgame-2026",
+  "file": ".planning/phases/38-alyssa-jisca-synergy-design-and-implementation-design-wire-t/38-CONTEXT.md",
+  "shown": "`2026-07-12-alyssa-jisca-synergy-design.md` — this phase IS that todo. Original problem: the duo's declared synergy is null on all three cards and the DUO starter deck's headline mechanic doesn't exist. Fully addressed here."
+ },
+ {
+  "vid": "V084",
+  "id": "bmad:tonytippi/anhhoa:8",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "tonytippi/anhhoa",
+  "file": "_bmad-output/planning-artifacts/prds/prd-passionedu-2026-09-04/.memlog.md",
+  "shown": "Initial performance and pilot outcome targets require Architecture and Product baselining before production rollout."
+ },
+ {
+  "vid": "V085",
+  "id": "speckit:smurtym/shubharambham-ai:7",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "smurtym/shubharambham-ai",
+  "file": "specs/006-horoscope-positions/spec.md",
+  "shown": "Q: How should `localTime` (city-local, no timezone suffix) be converted to UTC — caller supplies offset, hardcoded table, or a timezone library crate?\nA: Use a full IANA timezone database crate (`chrono-tz` or equivalent); no new-crates restriction applies to this feature."
+ },
+ {
+  "vid": "V086",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce",
+  "file": "specs/005-storefront-customization/spec.md",
+  "shown": "The three access tiers (admin, buyer, guest) from the constitution apply; only admins can edit content, sliders, currency, and sub-categories."
+ },
+ {
+  "vid": "V087",
+  "id": "speckit:simonbrunou/cinder:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "simonbrunou/cinder",
+  "file": "specs/034-season-disclosures/spec.md",
+  "shown": "Scope is limited to the TV series detail page; no other page's layout changes."
+ },
+ {
+  "vid": "V088",
+  "id": "speckit:tykeal/homeassistant-local-akuvox:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "tykeal/homeassistant-local-akuvox",
+  "file": "specs/004-webhook-endpoint/spec.md",
+  "shown": "The webhook URL must be reachable from the device's network. The integration does not handle NAT traversal or external URL provisioning; the device and Home Assistant must be on the same network or have appropriate routing configured."
+ },
+ {
+  "vid": "V089",
+  "id": "speckit:irvinm/TST-Tree-Sorter:9",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "irvinm/TST-Tree-Sorter",
+  "file": "specs/archived/001-tree-tab-sorter/spec.md",
+  "shown": "Q: How to handle manual tab moves during a sort operation?\nA: The sort operation takes precedence and overwrites manual moves."
+ },
+ {
+  "vid": "V090",
+  "id": "speckit:smurtym/shubharambham-ai:9",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "smurtym/shubharambham-ai",
+  "file": "specs/006-horoscope-positions/spec.md",
+  "shown": "Q: Should the engine accept only birth dates, or any point in time (past/present/future)?\nA: Any valid calendar date — no restriction; the same operation serves natal charts, transits, muhurta, and any time-specific query."
+ },
+ {
+  "vid": "V091",
+  "id": "bmad:Z0XM/pocket-dimension:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions index",
+  "repo": "Z0XM/pocket-dimension",
+  "file": "_bmad-output/chhan-chhan/planning-artifacts/prds/prd-chhan-multi-account-2026-08-23/prd.md",
+  "shown": "`[ASSUMPTION]` Archived accounts hidden from switcher in MVP."
+ },
+ {
+  "vid": "V092",
+  "id": "speckit:smurtym/shubharambham-ai:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "smurtym/shubharambham-ai",
+  "file": "specs/006-horoscope-positions/spec.md",
+  "shown": "Rahu and Ketu are always exactly 180° apart (True Node pair); Ketu is derived from Rahu, not looked up independently."
+ },
+ {
+  "vid": "V093",
+  "id": "gsd:samt41/techjam_track4:36",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "samt41/techjam_track4",
+  "file": ".planning/phases/01-measurement-rig-core/01-RESEARCH.md",
+  "shown": "Reference values of `E[max of k]` for k=20 and k=50 quoted in the accuracy table are from training knowledge, not a verified source"
+ },
+ {
+  "vid": "V094",
+  "id": "speckit:nvcnvn/tech-office:14",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "nvcnvn/tech-office",
+  "file": "specs/007-notification-hub-backend/spec.md",
+  "shown": "Q: Expected notification volume per organization per day?\nA: 100k notifications per day"
+ },
+ {
+  "vid": "V095",
+  "id": "gsd:Joinsider/dhbw:6",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Initialization Strategy",
+  "repo": "Joinsider/dhbw",
+  "file": ".planning/phases/08-critical-stability/08-CONTEXT.md",
+  "shown": "Material Design pattern: content placeholders, not a blocking full-screen splash"
+ },
+ {
+  "vid": "V096",
+  "id": "gsd:jheikkila920/coffee-snobbery:48",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "jheikkila920/coffee-snobbery",
+  "file": ".planning/phases/17-ia-restructure/17-RESEARCH.md",
+  "shown": "The DIST-07 banner can link directly to `/admin/credentials` (the credentials sub-page of Admin) rather than `/admin` (the admin home)"
+ },
+ {
+  "vid": "V097",
+  "id": "gsd:maxkrivich/frontgate:21",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "maxkrivich/frontgate",
+  "file": ".planning/phases/02-observability-and-audit/02-RESEARCH.md",
+  "shown": "`prom/prometheus:v3.10.0` and `grafana/grafana:12.4.2` are the correct pinned versions"
+ },
+ {
+  "vid": "V098",
+  "id": "gsd:teovillanueva/code-runner:23",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "teovillanueva/code-runner",
+  "file": ".planning/phases/08-distributed-observability/08-RESEARCH.md",
+  "shown": "Jaeger all-in-one tag `1.62` ingests OTLP by default"
+ },
+ {
+  "vid": "V099",
+  "id": "gsd:alikendir0/n11-bootcamp-final-case:16",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "alikendir0/n11-bootcamp-final-case",
+  "file": ".planning/phases/08-ai-port-adapter-agent-toolset/08-CONTEXT.md",
+  "shown": "Where `ToolRegistry` lives — agent-toolset module exposes `AgentTool` interface + 10 implementations as Spring `@Component`s. ai-service auto-discovers them; mcp-server (Phase 9) re-uses the same beans via `@Tool` annotation. Concrete Spring config and module boundaries are planner shape."
+ },
+ {
+  "vid": "V100",
+  "id": "speckit:oracleot/algos-mastery:9",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "oracleot/algos-mastery",
+  "file": "specs/007-learning-resources/spec.md",
+  "shown": "Q: When should source auto-detection trigger?\nA: On blur (when user leaves the URL field), not on every keystroke."
+ },
+ {
+  "vid": "V101",
+  "id": "gsd:KofTwentyTwo/Jarvis:44",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "KofTwentyTwo/Jarvis",
+  "file": ".planning/phases/07-memory-vision/07-RESEARCH.md",
+  "shown": "Ollama `/api/embed` stable (not deprecated)"
+ },
+ {
+  "vid": "V102",
+  "id": "gsd:GeniusVentures/SuperGenius:28",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "GeniusVentures/SuperGenius",
+  "file": ".planning/phases/13-close-v1-1-trusted-peer-genesis-quorum-policy-and-production/13-RESEARCH.md",
+  "shown": "Use a dedicated synchronous RocksDB trust store under the network-scoped node path."
+ },
+ {
+  "vid": "V103",
+  "id": "bmad:millsks/conda-sentinel:41",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "inline tag",
+  "repo": "millsks/conda-sentinel",
+  "file": "_bmad-output/planning-artifacts/prds/prd-conda-package-supply-chain-monitor-2026-09-02/review-rubric.md",
+  "shown": "the six recurring reports\n  are inferred from the role table; confirm the list with the reviewers who consume them."
+ },
+ {
+  "vid": "V104",
+  "id": "gsd:DevDesai444/deficiency-chatbot:30",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "DevDesai444/deficiency-chatbot",
+  "file": ".planning/phases/02-retrieval-navigation-tools-rulebook/02-RESEARCH.md",
+  "shown": "The 1,000 requests/hour api.data.gov default applies to a newly-registered regulations.gov key without additional approval steps"
+ },
+ {
+  "vid": "V105",
+  "id": "bmad:millsks/homelab:35",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "5. Assumptions Index Roundtrip (§12)",
+  "repo": "millsks/homelab",
+  "file": "_bmad-output/planning-artifacts/prds/prd-homelab-2026-08-28/review-structure.md",
+  "shown": "[low] §12 entry \"§9\" (line 971) has no FR/NFR anchor, unlike the other five. *Fix:* anchor to §9 Phase 0 / S7."
+ },
+ {
+  "vid": "V106",
+  "id": "bmad:Sallvainian/Pack-Manager:3",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "Sallvainian/Pack-Manager",
+  "file": "_bmad-output/archive/2026-07-24-scope-recalibration/planning/prds/prd-Pack-Manager-2026-07-22/.memlog.md",
+  "shown": "Proceed on Fast path because the user approved continuing after it was recommended and supplied complete source paths."
+ },
+ {
+  "vid": "V107",
+  "id": "bmad:Freston1605/chemic-ally:11",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Freston1605/chemic-ally",
+  "file": "_bmad-output/planning-artifacts/prds/prd-ChemicAlly-2026-05-19/prd.md",
+  "shown": "§4.6 (FR-22): Bootstrap 5.3's CSS vars provide the baseline; design system overrides them."
+ },
+ {
+  "vid": "V108",
+  "id": "bmad:cjjutba/soloist:25",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "15. Assumptions Index",
+  "repo": "cjjutba/soloist",
+  "file": "_bmad-output/planning-artifacts/prds/prd-soloist-2026-06-05/prd.md",
+  "shown": "§9 — Each Tenant's data belongs to its Freelancer; formal retention policy deferred."
+ },
+ {
+  "vid": "V109",
+  "id": "speckit:Varun-Patkar/LMStudioClaw:8",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Varun-Patkar/LMStudioClaw",
+  "file": "specs/002-ui-tools-concurrency/spec.md",
+  "shown": "Q: Does the run queue survive an app/PC restart?\nA: Yes — the queue is fully persisted. Both manual sessions and automation runs that were queued (and an interrupted in-progress run) are saved and resumed on next startup, continuing where they left off, so no queued work is silently lost."
+ },
+ {
+  "vid": "V110",
+  "id": "speckit:joaoajmatos/raya:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "joaoajmatos/raya",
+  "file": "specs/009-gemm-backend-comparison/spec.md",
+  "shown": "Survey facts about the crates are `[documented]` and must be re-verified from the pinned crate versions' own docs and source at T004, T005 and T006."
+ },
+ {
+  "vid": "V111",
+  "id": "gsd:sajtosM/playlist-o-matic:8",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "sajtosM/playlist-o-matic",
+  "file": ".planning/phases/01-dependency-swap/01-CONTEXT.md",
+  "shown": "Whether to add `@ai-sdk/ollama` types separately or whether they're bundled — check SDK docs."
+ },
+ {
+  "vid": "V112",
+  "id": "speckit:hopheartsceo/Laravel-Release-Guard:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "hopheartsceo/Laravel-Release-Guard",
+  "file": "specs/001-eloquent-fresh-save/spec.md",
+  "shown": "Supported direct assignments mean same-receiver property writes and same-receiver attribute array writes with literal attribute names; method-based mass assignment, helper-mediated assignment, aliases, and control-flow-dependent assignment remain outside this feature."
+ },
+ {
+  "vid": "V113",
+  "id": "gsd:wight554/FLARE:22",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Rail-relative triggers (carried caveat from `51bdca8`)",
+  "repo": "wight554/FLARE",
+  "file": ".planning/phases/13-type-p-sync-relief-fault-trip/13-CONTEXT.md",
+  "shown": "D-23: \"Pinned\" (for the mm accumulator) and \"moved off the rail\" (for the probe) both reuse `BL_BREAK_DELTA_NORM` relative to the observed extreme — one hardware-validated delta, no new magic number."
+ },
+ {
+  "vid": "V114",
+  "id": "bmad:raeltec-systems/intellifin-audit:7",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "raeltec-systems/intellifin-audit",
+  "file": "_bmad-output/specs/spec-IntelliFin Audit/SPEC.md",
+  "shown": "Replay is independent of provider retention: the platform copies the Workspace Provider recording into its own storage at Run end, provider retention is set to its minimum, and the provider region matches the hosting region."
+ },
+ {
+  "vid": "V115",
+  "id": "bmad:Phamvu23082004/Web_Luyen_Thi_12:6",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Phamvu23082004/Web_Luyen_Thi_12",
+  "file": "_bmad-output/planning-artifacts/prds/prd-Web_OnThi12-2026-07-15/prd.md",
+  "shown": "§7 SM-2 / SM-3 — Concrete edit-rate and time-to-publish targets are TBD (Open Question 2)."
+ },
+ {
+  "vid": "V116",
+  "id": "speckit:jggomez/ai-rag-docs:0",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "jggomez/ai-rag-docs",
+  "file": "specs/001-rag-document-ingestion/spec.md",
+  "shown": "Source files are primarily textual and do not require OCR in the initial version."
+ },
+ {
+  "vid": "V117",
+  "id": "gsd:formax68/memoChron:36",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "formax68/memoChron",
+  "file": ".planning/phases/05-guardrails-trivial-fixes/05-RESEARCH.md",
+  "shown": "Phase 6/7/8 file-glob assignments in the override skeleton (§4.1)"
+ },
+ {
+  "vid": "V118",
+  "id": "bmad:MONS-Designers/news-agent:13",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "MONS-Designers/news-agent",
+  "file": "_bmad-output/specs/spec-topic-source-discovery/.memlog.md",
+  "shown": "No automatic retry or periodic sweep job for a topic where the first discovery attempt finds zero valid sources - a permanently-sourceless pending Topic is an accepted V1 edge case, per the user's agreement to keep this to a single at-creation attempt"
+ },
+ {
+  "vid": "V119",
+  "id": "speckit:mbround18/paws:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "mbround18/paws",
+  "file": "specs/006-paws-doesn-expose/spec.md",
+  "shown": "This spec assumes `005`'s `GitHubActionsCache` implementation itself (the restore-before/save-after logic around the shared Dagger engine's persistent state) is correct and doesn't need changes — only its *inputs* are broken. If real-runner validation (FR-004) surfaces a problem in that logic too, that's a separate follow-up, not silently folded into this spec's scope."
+ },
+ {
+  "vid": "V120",
+  "id": "speckit:luanmle/revizza:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "luanmle/revizza",
+  "file": "specs/011-addon-media-sync/spec.md",
+  "shown": "Q: Max per-file media size the add-on should enforce before rejecting a download (FR-009, SC-003)?\nA: 10 MB."
+ },
+ {
+  "vid": "V121",
+  "id": "gsd:pasttrunks/lecturepack:3",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Runtime Resolution (D-01 through D-04)",
+  "repo": "pasttrunks/lecturepack",
+  "file": ".planning/phases/02-real-lecture-import-processing/02-CONTEXT.md",
+  "shown": "D-04: Claude decides whether the resolver handles engine selection (CPU vs Vulkan) or just paths, and whether yt-dlp absence hides the Paste Link button or shows an error on click. Pick whatever the existing code already does or whatever is simplest."
+ },
+ {
+  "vid": "V122",
+  "id": "gsd:kumarahul98/bizzle:11",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion (resolve in planning)",
+  "repo": "kumarahul98/bizzle",
+  "file": ".planning/phases/20-first-run-login-skip/20-CONTEXT.md",
+  "shown": "Whether D-08 uses re-serialize vs delete+re-enqueue — based on the real `sync_queue` payload + `SyncQueueDao` API."
+ },
+ {
+  "vid": "V123",
+  "id": "gsd:jheikkila920/coffee-snobbery:24",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion (planner picks)",
+  "repo": "jheikkila920/coffee-snobbery",
+  "file": ".planning/phases/17-ia-restructure/17-CONTEXT.md",
+  "shown": "Cold-start fragment factoring — whether `fragments/home/_cold_start.html` moves to `fragments/ai/_cold_start.html` or both home and AI share one `fragments/_cold_start.html` (likely the latter — though home no longer renders the meter per D-11, so it's effectively `fragments/ai/_cold_start.html`)."
+ },
+ {
+  "vid": "V124",
+  "id": "speckit:Kemetra/Aker-Build:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Kemetra/Aker-Build",
+  "file": "specs/001-product-foundation/spec.md",
+  "shown": "GitHub is the first-class remote platform for later integration; other forges are out of MVP scope."
+ },
+ {
+  "vid": "V125",
+  "id": "speckit:ScholarX-Labs/web:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ScholarX-Labs/web",
+  "file": "specs/016-course-leaderboard/spec.md",
+  "shown": "Mobile responsiveness is required; a dedicated native mobile app is out of scope."
+ },
+ {
+  "vid": "V126",
+  "id": "speckit:venancioigrejasneto/ai-scheduler-go:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "venancioigrejasneto/ai-scheduler-go",
+  "file": "specs/001-scheduler-poc/spec.md",
+  "shown": "Q: What format and fields should the RabbitMQ job trigger message payload contain?\nA: Structured JSON payload containing execution_id, job_id, job_name, scheduled_time, triggered_at, and payload."
+ },
+ {
+  "vid": "V127",
+  "id": "speckit:dontry/obsidian-github-stargazer:18",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "dontry/obsidian-github-stargazer",
+  "file": "specs/004-fetch-readme/spec.md",
+  "shown": "Private repository starred by the user implies access to fetch README (unless access was revoked)"
+ },
+ {
+  "vid": "V128",
+  "id": "gsd:patruff/moltapp:10",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "URL and routing",
+  "repo": "patruff/moltapp",
+  "file": ".planning/phases/04-aws-deployment/04-CONTEXT.md",
+  "shown": "Custom domain: patgpt.us (user owns it, currently an S3 static site — will be replaced by MoltApp)"
+ },
+ {
+  "vid": "V129",
+  "id": "gsd:OlaProeis/Ferrite:10",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "OlaProeis/Ferrite",
+  "file": ".planning/phases/07-productivity-hub/07-CONTEXT.md",
+  "shown": "Notification sound selection/timing"
+ },
+ {
+  "vid": "V130",
+  "id": "bmad:NxT-Solutions/Bronze:6",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "NxT-Solutions/Bronze",
+  "file": "_bmad-output/planning-artifacts/prds/prd-bronze-app-2026-08-27/prd.md",
+  "shown": "v1 targets a supported current macOS range chosen during Spike 0; minimum cannot be selected solely from a competitor claim."
+ },
+ {
+  "vid": "V131",
+  "id": "speckit:code2nguyen/web-components:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "code2nguyen/web-components",
+  "file": "specs/004-verify-css-contracts/spec.md",
+  "shown": "Q: Across which browsers should the live styling verification run for each ordinary component?\nA: Verify every property in Chromium, with representative styling checks in Firefox and WebKit."
+ },
+ {
+  "vid": "V132",
+  "id": "bmad:pag6606/walktracker:15",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "pag6606/walktracker",
+  "file": "_bmad-output/planning-artifacts/prds/prd-walktracker-2026-07-03/.memlog.md",
+  "shown": "Schema CSV vs Health Importer diferido a v1.1 (RF-10 ya era Should/v1.1)"
+ },
+ {
+  "vid": "V133",
+  "id": "speckit:diogocavilha/lista-compras-gh-pages:0",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "diogocavilha/lista-compras-gh-pages",
+  "file": "specs/013-long-press-edit/spec.md",
+  "shown": "The existing edit popup component will be reused"
+ },
+ {
+  "vid": "V134",
+  "id": "gsd:imroc/zjbar:6",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "imroc/zjbar",
+  "file": ".planning/phases/03-ts/03-CONTEXT.md",
+  "shown": "Assertion granularity: Claude decides whether to verify exact ANSI output strings or check for key content presence (session name, tab name, activity symbol) — balance strictness vs maintenance cost"
+ },
+ {
+  "vid": "V135",
+  "id": "speckit:CyrilBaah/ballast:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "CyrilBaah/ballast",
+  "file": "specs/002-resumable-upload-engine/spec.md",
+  "shown": "Q: How quickly, at most, must a terminal failure's specific reason be shown to the user after the failure is detected?\nA: Within 5 seconds, matching this project's existing progress-reporting cadence precedent (Feature 001's SC-004)."
+ },
+ {
+  "vid": "V136",
+  "id": "speckit:NicoleAndreaBolus/petstore:0",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "NicoleAndreaBolus/petstore",
+  "file": "specs/003-user-authentication/spec.md",
+  "shown": "Email is used as the unique identifier for registration and login."
+ },
+ {
+  "vid": "V137",
+  "id": "gsd:Shion-main/fluxtrack-main:30",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Shion-main/fluxtrack-main",
+  "file": ".planning/phases/07-remaining-operational-surfaces/07-RESEARCH.md",
+  "shown": "`htmx:xhr:progress` is the event for upload progress"
+ },
+ {
+  "vid": "V138",
+  "id": "bmad:anhtunguyen05/cv:9",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "anhtunguyen05/cv",
+  "file": "_bmad-output/planning-artifacts/prds/prd-CareerFitCV-2026-09-01/prd.md",
+  "shown": "[ASSUMPTION: baseline metrics first] Success Metrics begin with baseline measurement because no product usage or evaluation dataset exists yet."
+ },
+ {
+  "vid": "V139",
+  "id": "bmad:Freston1605/chemic-ally:7",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Freston1605/chemic-ally",
+  "file": "_bmad-output/planning-artifacts/prds/prd-ChemicAlly-2026-05-19/prd.md",
+  "shown": "§4.1 (FR-3): The brand mark is a simple SVG logo or text treatment, not an image asset."
+ },
+ {
+  "vid": "V140",
+  "id": "gsd:levil13/mrkekbot:21",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "levil13/mrkekbot",
+  "file": ".planning/phases/01-foundation-secrets-config-dual-client-bootstrap/01-RESEARCH.md",
+  "shown": "The `input` npm package (callumlocke, 1.0.1) is the prompt library GramJS examples intend for `client.start`. It passed the legitimacy seam (OK) but is low-traffic (~38K/wk)."
+ },
+ {
+  "vid": "V141",
+  "id": "gsd:StuntmanDaver/UNIT:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "SLA & Request Assignment",
+  "repo": "StuntmanDaver/UNIT",
+  "file": ".planning/phases/02-financial-operations-workflows/02-CONTEXT.md",
+  "shown": "D-08: On SLA breach: request gets an 'escalated' badge in the UI, moves to top of landlord's request list, and triggers an email to the property manager."
+ },
+ {
+  "vid": "V142",
+  "id": "speckit:oracleot/algos-mastery:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "oracleot/algos-mastery",
+  "file": "specs/007-learning-resources/spec.md",
+  "shown": "Resource content is not embedded or scraped; only links are stored."
+ },
+ {
+  "vid": "V143",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker",
+  "file": "specs/015-admin-ui-details/spec.md",
+  "shown": "Q: Can dashboard cards have a custom display name editable by the admin?\nA: Yes — in edit mode, each card has an editable name field. The saved name is shown on the dashboard card instead of the raw form name."
+ },
+ {
+  "vid": "V144",
+  "id": "gsd:egeek-tech/go-openholidays:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "A2 — Timeout enforcement",
+  "repo": "egeek-tech/go-openholidays",
+  "file": ".planning/phases/02-transport/02-CONTEXT.md",
+  "shown": "D-26: `WithTimeout(d time.Duration) Option` sets `cfg.timeout` only; `cfg.httpClient.Timeout` is left at the caller's value (default 0 = no Go-level timer)."
+ },
+ {
+  "vid": "V145",
+  "id": "speckit:counterfitninja/cubs-fun2.0:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "counterfitninja/cubs-fun2.0",
+  "file": "specs/003-sqlite-persistence/spec.md",
+  "shown": "The feature is focused on durable game storage, not a general user-authentication or multi-tenant system."
+ },
+ {
+  "vid": "V146",
+  "id": "speckit:NoeOsorio/porter-galaxy:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "NoeOsorio/porter-galaxy",
+  "file": "specs/005-access-control/spec.md",
+  "shown": "Galaxy stays an open-source Helm chart installed on any cluster, including as a Porter custom Helm chart add-on. It does not rely on Porter-managed domains or Porter authentication."
+ },
+ {
+  "vid": "V147",
+  "id": "gsd:anchapin/portkit:12",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "anchapin/portkit",
+  "file": ".planning/phases/16-06-qa-report-generator/16-06-CONTEXT.md",
+  "shown": "Report file naming conventions"
+ },
+ {
+  "vid": "V148",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker",
+  "file": "specs/015-admin-ui-details/spec.md",
+  "shown": "Q: What metric value do dashboard cards display?\nA: The number of submissions for the linked form, auto-populated and not manually editable. The admin can only edit the display name."
+ },
+ {
+  "vid": "V149",
+  "id": "gsd:bwaeden/braeden-site:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Page Layout",
+  "repo": "bwaeden/braeden-site",
+  "file": ".planning/phases/03-about-page/03-CONTEXT.md",
+  "shown": "D-08: Photo dimensions match home hero: 240×240 mobile (`w-60 h-60`), 320×320 desktop (`w-80 md:w-80`). Same `<Image>` props as home (`priority`, `placeholder=\"blur\"`, `quality={90}`, static portrait import). Reuse `<HeroPhoto />` directly OR factor a thin shared `<PortraitTile>` component if the photo wrapper needs slightly different framing on /about (e.g., no `data-test=\"hero-photo-tile\"`). Decision left to planning."
+ },
+ {
+  "vid": "V150",
+  "id": "speckit:hopheartsceo/Laravel-Release-Guard:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "hopheartsceo/Laravel-Release-Guard",
+  "file": "specs/001-eloquent-fresh-save/spec.md",
+  "shown": "The supported fresh-instance evidence boundary is intentionally local and narrow: direct construction of a known model receiver, optional supported direct assignments on that same receiver, and `save()` on that same receiver."
+ },
+ {
+  "vid": "V151",
+  "id": "gsd:levil13/mrkekbot:22",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "levil13/mrkekbot",
+  "file": ".planning/phases/01-foundation-secrets-config-dual-client-bootstrap/01-RESEARCH.md",
+  "shown": "Telegram chat/channel ids (`-1001685837062`, `-1001493761518`) fit within JS safe-integer range and are correctly stored/coerced as `number`."
+ },
+ {
+  "vid": "V152",
+  "id": "gsd:LikeSundayLikeRain/obsidian-leetcode:28",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "LikeSundayLikeRain/obsidian-leetcode",
+  "file": ".planning/phases/20-reconciliation-ux-action-row-section-protection/20-CONTEXT.md",
+  "shown": "3-pane diff UX details: column widths, syntax-highlighting on the Mine/External columns (probably yes, via the same `languageCompartment` configured for the active language), diff marker style (gutter vs. inline strikethrough), scroll synchronization. Planner picks based on Obsidian Modal sizing constraints."
+ },
+ {
+  "vid": "V153",
+  "id": "gsd:puppetlabs/stagehand-docs:9",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "puppetlabs/stagehand-docs",
+  "file": ".planning/phases/02-first-real-publication/02-RESEARCH.md",
+  "shown": "`gh api` REST endpoint paths/field names for Environment and Environment-variable creation"
+ },
+ {
+  "vid": "V154",
+  "id": "gsd:pasttrunks/lecturepack:11",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "pasttrunks/lecturepack",
+  "file": ".planning/phases/02-real-lecture-import-processing/02-CONTEXT.md",
+  "shown": "Whether the resolver also handles engine selection or just paths"
+ },
+ {
+  "vid": "V155",
+  "id": "speckit:ScholarX-Labs/web:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ScholarX-Labs/web",
+  "file": "specs/016-course-leaderboard/spec.md",
+  "shown": "The existing Better Auth session system provides the necessary learner identity context for both privacy enforcement and admin-role discrimination."
+ },
+ {
+  "vid": "V156",
+  "id": "gsd:igorder-dev/gsd_antigravity:9",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Output & messaging",
+  "repo": "igorder-dev/gsd_antigravity",
+  "file": ".planning/phases/01-cli-bootstrap/01-CONTEXT.md",
+  "shown": "Success hints: Include `/gsd:help` hint for Antigravity."
+ },
+ {
+  "vid": "V157",
+  "id": "bmad:CobusKruger/ink-vibe:19",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "17. Assumptions Index",
+  "repo": "CobusKruger/ink-vibe",
+  "file": "_bmad-output/planning-artifacts/prds/prd-ink-vibe-2026-06-14/prd.md",
+  "shown": "✅ §5 — IA verified against `docs/design-handoff/page-map.csv` (2026-06-15): all surface labels match. *InkPols* is in the IA but not yet in the Lovable repo (assembly-only surface, like Lidmaatskap / Kontak / Auth) — a not-yet-mocked surface, not a mislabel."
+ },
+ {
+  "vid": "V158",
+  "id": "bmad:panitw/folio8:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "panitw/folio8",
+  "file": "_bmad-output/specs/spec-folio/SPEC.md",
+  "shown": "Sample JSON is a separate local file alongside the template, not embedded in the `.folio`."
+ },
+ {
+  "vid": "V159",
+  "id": "gsd:Adi07289/drhplens:4",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Training universe: source & scope",
+  "repo": "Adi07289/drhplens",
+  "file": ".planning/phases/05-calibrated-listing-day-forecaster/05-CONTEXT.md",
+  "shown": "D5-05 — Verified subset first, then expand. Build a clean ~200–300-IPO verified slice first, exercise the full pipeline end-to-end (feature build → walk-forward CV → CQR/MAPIE conformal → model card), THEN expand N toward the full 2014-present universe. De-risks the data blocker and protects the ≥35% non-LLM modeling budget (P11 — cut agent scope before modeling scope). Full-universe-up-front was rejected (stays fully blocked on a fragile source)."
+ },
+ {
+  "vid": "V160",
+  "id": "gsd:alkimya/gathering:3",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "alkimya/gathering",
+  "file": ".planning/phases/06-core-autonomy-infrastructure/06-CONTEXT.md",
+  "shown": "Full autonomy on per-agent override approach"
+ },
+ {
+  "vid": "V161",
+  "id": "gsd:sudokku/storygrid:6",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "sudokku/storygrid",
+  "file": ".planning/phases/31-improve-mobile-interactions-ui-ux/31-CONTEXT.md",
+  "shown": "Exact pixel value for the widened divider hit area (40px is the decision but ±4px is fine if layout demands it)."
+ },
+ {
+  "vid": "V162",
+  "id": "speckit:EazyTom/Ableton-Hub:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "EazyTom/Ableton-Hub",
+  "file": "specs/001-ml-similarity-cluster-tree/spec.md",
+  "shown": "“Strongest” similarity means tempo proximity outweighs plugin/device overlap when the model must rank or split groups, ahead of other metadata dimensions (see functional requirements)."
+ },
+ {
+  "vid": "V163",
+  "id": "gsd:jpgu07/amarias:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Product Detail View",
+  "repo": "jpgu07/amarias",
+  "file": ".planning/phases/03-catalog-order-wizard/03-CONTEXT.md",
+  "shown": "D-03: Small image gallery (2–4 images) per product — main hero image + 2–3 thumbnails (e.g., whole cake, slice, close-up). Requires an image array field in Sanity schema."
+ },
+ {
+  "vid": "V164",
+  "id": "gsd:YOUYUDAWANG/bili-music:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Full-Player Minimization",
+  "repo": "YOUYUDAWANG/bili-music",
+  "file": ".planning/phases/03-player-interaction-and-regression-coverage/03-CONTEXT.md",
+  "shown": "D-12: On the center Now Playing page, users can minimize by dragging downward from blank/cover/player body areas."
+ },
+ {
+  "vid": "V165",
+  "id": "gsd:samt41/techjam_track4:26",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "samt41/techjam_track4",
+  "file": ".planning/phases/01-measurement-rig-core/01-CONTEXT.md",
+  "shown": "MDD derivation detail (normal-approximation closed form vs simulation from the observed paired-difference distribution). Either is acceptable if the fixtures in D-01 Layer 1 pin the answer."
+ },
+ {
+  "vid": "V166",
+  "id": "gsd:TungDao1102/Crypto-News-Pipeline:28",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "TungDao1102/Crypto-News-Pipeline",
+  "file": ".planning/phases/04-publisher/04-RESEARCH-TELEGRAM.md",
+  "shown": "Pydantic `max_length=4000` in DraftContent is sufficient to stay under 4096 Bot API limit"
+ },
+ {
+  "vid": "V167",
+  "id": "gsd:Mrjoel97/PIKAR-AI:38",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Mrjoel97/PIKAR-AI",
+  "file": ".planning/phases/51-observability-monitoring/51-CONTEXT.md",
+  "shown": "Test file naming and structure (follow existing `tests/unit/services/test_billing_metrics_service.py` pattern)"
+ },
+ {
+  "vid": "V168",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker:11",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/advanced-form-maker",
+  "file": "specs/015-admin-ui-details/spec.md",
+  "shown": "The \"contact form\" is uniquely identifiable in the system by a specific attribute or name; it is the only form with the lock capability."
+ },
+ {
+  "vid": "V169",
+  "id": "gsd:karthiksuru06/finance-os:20",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Compliance Auto-Routing",
+  "repo": "karthiksuru06/finance-os",
+  "file": ".planning/phases/15-gmail-mcp-integration/15-CONTEXT.md",
+  "shown": "D-17 [REVISED 2026-05-07 — Phase 10 v2.0 deferred custom NER training; ner.py:49 raises NotImplementedError. v2.0 uses regex_patterns.py (GSTIN/PAN/CIN/section refs) + extract_with_llm() for narrative fields. v2.1 swap-in mirrors D-16's BERT pattern.]: Notice metadata extraction reuses Phase 10 spaCy NER — same code path, different input source. Applies to body + first attachment (OCR if image/PDF) after rule-detector fires."
+ },
+ {
+  "vid": "V170",
+  "id": "speckit:nvcnvn/tech-office:25",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "nvcnvn/tech-office",
+  "file": "specs/007-notification-hub-backend/spec.md",
+  "shown": "Q: How to partition notification delivery load across instances?\nA: Load naturally balanced by user connection distribution via load balancer; registry ensures events route to correct instance regardless of which instance handles notification creation"
+ },
+ {
+  "vid": "V171",
+  "id": "speckit:byte5ai/omadia:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "byte5ai/omadia",
+  "file": "specs/001-privacy-shield-v4/spec.md",
+  "shown": "Q: Should an interned dataset survive across conversation turns?\nA: No —"
+ },
+ {
+  "vid": "V172",
+  "id": "gsd:HuanfuLi/LapSight:56",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "HuanfuLi/LapSight",
+  "file": ".planning/phases/03-local-sessions-review-and-export/03-RESEARCH.md",
+  "shown": "Reference-line extraction can be built with spatial anchors, loop scoring, robust outlier rejection, and normalized-distance averaging without a third-party geometry library."
+ },
+ {
+  "vid": "V173",
+  "id": "speckit:cryptotomte/WateringSystem:7",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "cryptotomte/WateringSystem",
+  "file": "specs/005-bme280-i2c/spec.md",
+  "shown": "Web exposure and data logging are out of scope (PR-09/PR-06 territory); the reading contract (cached last-good values, validity flag) is designed so PR-09 can serve cached values without blocking on a fresh read (parity QUIRK 5)."
+ },
+ {
+  "vid": "V174",
+  "id": "gsd:jamesburton/DockerAgentUI:23",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "jamesburton/DockerAgentUI",
+  "file": ".planning/phases/04-web-dashboard/04-CONTEXT.md",
+  "shown": "Terminal output rendering approach (pre-formatted text vs virtual scrolling)"
+ },
+ {
+  "vid": "V175",
+  "id": "gsd:melcshum/Exploration2Engineering:9",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Build & Local Development",
+  "repo": "melcshum/Exploration2Engineering",
+  "file": ".planning/phases/01-foundation/01-CONTEXT.md",
+  "shown": "D-10: `mkdocs serve` runs for live preview during development"
+ },
+ {
+  "vid": "V176",
+  "id": "speckit:leanjunio/ledger:7",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "leanjunio/ledger",
+  "file": "specs/001-developer-ledger/spec.md",
+  "shown": "Q: Errors — How should errors be handled and logged?\nA: Format logs to industry-standard expectations; save logs on the user's local device."
+ },
+ {
+  "vid": "V177",
+  "id": "speckit:Maximus-Technologies-Uganda/training-prince-mirror:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Maximus-Technologies-Uganda/training-prince-mirror",
+  "file": "specs/025-week-5-day/spec.md",
+  "shown": "Q: Who performs each D0 task (automated vs manual)?\nA: Hybrid approach - automation where possible (auto-add issues/PRs via GitHub native), manual UI for initial GitHub Project field setup and branch protection configuration"
+ },
+ {
+  "vid": "V178",
+  "id": "gsd:HuanfuLi/LapSight:60",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "HuanfuLi/LapSight",
+  "file": ".planning/phases/03-local-sessions-review-and-export/03-RESEARCH.md",
+  "shown": "Compose raw resources are an acceptable place for committed demo fixture JSON files used by the app."
+ },
+ {
+  "vid": "V179",
+  "id": "gsd:xsw632/ChipAgent:14",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Output Contract and UX",
+  "repo": "xsw632/ChipAgent",
+  "file": ".planning/phases/19-chipyard-rtl-generation-command/19-CONTEXT.md",
+  "shown": "D-15: Completion messaging should clearly hand the user to the next backend step: run `/chip-agent:pnr <Config>`."
+ },
+ {
+  "vid": "V180",
+  "id": "speckit:Fyzxs/MtgDiscoveryClaude:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Fyzxs/MtgDiscoveryClaude",
+  "file": "specs/001-collection-identity/spec.md",
+  "shown": "There is no enforced limit on the number of collections a user can create."
+ },
+ {
+  "vid": "V181",
+  "id": "gsd:josmanvis/projax:6",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "josmanvis/projax",
+  "file": ".planning/phases/01-build-health/01-CONTEXT.md",
+  "shown": "Dependency version resolution strategy"
+ },
+ {
+  "vid": "V182",
+  "id": "bmad:raeltec-systems/intellifin-audit:13",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "raeltec-systems/intellifin-audit",
+  "file": "_bmad-output/specs/spec-IntelliFin Audit/SPEC.md",
+  "shown": "The IntelliFin Design System bundle (\"Ledger Signal\") is an external UI system; DESIGN.md restates every token it needs."
+ },
+ {
+  "vid": "V183",
+  "id": "speckit:alexisbeaulieu97/Streamy:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "alexisbeaulieu97/Streamy",
+  "file": "specs/004-extend-plugin-contract/spec.md",
+  "shown": "Q: What's the expected timeout threshold for verification checks mentioned in FR-021?\nA: Configurable per-step with global default of 30 seconds"
+ },
+ {
+  "vid": "V184",
+  "id": "bmad:2233admin/opencli-Razormind:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "2233admin/opencli-Razormind",
+  "file": "_bmad-output/specs/spec-opencli-Razormind/SPEC.md",
+  "shown": "OpenCLI and CloseI alignment means compatible capability and consumption contracts, not merging their product identities."
+ },
+ {
+  "vid": "V185",
+  "id": "gsd:unanmed/evolved-marble:23",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "unanmed/evolved-marble",
+  "file": ".planning/phases/02-physics-simulation/02-RESEARCH.md",
+  "shown": "Damage events are emitted only when a `Weapon` part is involved and owners differ; body↔body bumps deal no damage; weapon↔weapon is a design choice"
+ },
+ {
+  "vid": "V186",
+  "id": "gsd:Michal-Pi/complete-design:51",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Michal-Pi/complete-design",
+  "file": ".planning/phases/01-v1-5-infrastructure-determinism-foundation/01-RESEARCH.md",
+  "shown": "Google DESIGN.md schema is stable for the 14-week build window"
+ },
+ {
+  "vid": "V187",
+  "id": "gsd:DanyelArm/learnDSA:5",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Stage Ordering",
+  "repo": "DanyelArm/learnDSA",
+  "file": ".planning/phases/02-lesson-flow/02-CONTEXT.md",
+  "shown": "Theory → Practice → Challenge — hard gate; cannot skip stages"
+ },
+ {
+  "vid": "V188",
+  "id": "gsd:The-Artificer-of-Ciphers-LLC/sentinel-of-mnemosyne:39",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "The-Artificer-of-Ciphers-LLC/sentinel-of-mnemosyne",
+  "file": ".planning/phases/40-semantic-recall/40-RESEARCH.md",
+  "shown": "Nomic-embed GGUF on LM Studio respects `search_query:` prefix in the same way as the HF model"
+ },
+ {
+  "vid": "V189",
+  "id": "gsd:ubwzwd/wallet_app:31",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "ubwzwd/wallet_app",
+  "file": ".planning/phases/05-pwa-ify-frontend-mobile-polish/05-RESEARCH.md",
+  "shown": "`pip install slopcheck` and `npx workbox` will be available in the executor's environment."
+ },
+ {
+  "vid": "V190",
+  "id": "gsd:lzw5399/video-editor:25",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "lzw5399/video-editor",
+  "file": ".planning/phases/20-long-timeline-product-uat-and-guard-baseline/20-RESEARCH.md",
+  "shown": "Warning signs in some pitfalls are inferred patterns rather than verified current violations."
+ },
+ {
+  "vid": "V191",
+  "id": "gsd:claude-code-expert/markdown-kms:25",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "claude-code-expert/markdown-kms",
+  "file": ".planning/phases/02-markdown-rendering-editor-formatting/02-RESEARCH.md",
+  "shown": "Pushing 3 uncombined extension objects directly into `data().micromarkExtensions`/`fromMarkdownExtensions` (rather than pre-combining via `micromark-util-combine-extensions`) works without an explicit combine step"
+ },
+ {
+  "vid": "V192",
+  "id": "bmad:delorenj/TikTokTrivia:30",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "delorenj/TikTokTrivia",
+  "file": "_bmad-output/specs/spec-trivia-video-factory/.memlog.md",
+  "shown": "recovered by critic: transcript is ambiguous about whose anti-AI stance it is -- \"I am not a fan of AI. She knows that that is my thing\" reads as Jarad, but the pre-state being measured is Carrie's; flagged as an open question rather than resolved"
+ },
+ {
+  "vid": "V193",
+  "id": "speckit:tbaiocco/dumpster-spec:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "tbaiocco/dumpster-spec",
+  "file": "specs/002-user-frontend-interface/spec.md",
+  "shown": "Q: What are the precise definitions for time buckets (Tomorrow, Next Week, Next Month)?\nA: Calendar-based: Tomorrow = next calendar day; Next Week = next Monday-Sunday; Next Month = next calendar month"
+ },
+ {
+  "vid": "V194",
+  "id": "gsd:acolomba/homebridge-basement-guardian:22",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "acolomba/homebridge-basement-guardian",
+  "file": ".planning/phases/03-safety-monitoring-in-homekit/03-CONTEXT.md",
+  "shown": "Exact wording of every log line, subject to `D-17`'s content requirement."
+ },
+ {
+  "vid": "V195",
+  "id": "gsd:prenansantana/waid:6",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "prenansantana/waid",
+  "file": ".planning/phases/01-security-hardening/01-CONTEXT.md",
+  "shown": "Context detachment approach for webhook goroutines (use `context.WithoutCancel` or `context.Background()` — Go 1.21+ available)"
+ },
+ {
+  "vid": "V196",
+  "id": "gsd:NattakritJ/solar-grafana:16",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Agent's Discretion",
+  "repo": "NattakritJ/solar-grafana",
+  "file": ".planning/phases/09-update-panels-to-use-new-ct-meter-data-for-grid-energy-import-current-voltage-real-power-instead-of-smart-meter/09-CONTEXT.md",
+  "shown": "Whether Panel 20's two series need any display label updates"
+ },
+ {
+  "vid": "V197",
+  "id": "gsd:Adi07289/drhplens:32",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Adi07289/drhplens",
+  "file": ".planning/phases/05-calibrated-listing-day-forecaster/05-RESEARCH.md",
+  "shown": "NSE `public-past-issues` JSON returns issue price + listing date per IPO with field names the parser can map"
+ },
+ {
+  "vid": "V198",
+  "id": "gsd:tazzledazzle/ff-promo:33",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "tazzledazzle/ff-promo",
+  "file": ".planning/phases/06-operator-dashboard/06-RESEARCH.md",
+  "shown": "Table-only gate display satisfies UI-02 without Recharts"
+ },
+ {
+  "vid": "V199",
+  "id": "bmad:sethbam9/early-church:14",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "sethbam9/early-church",
+  "file": "_bmad-output/planning-artifacts/prds/prd-early-church-2026-07-01/.memlog.md",
+  "shown": "AND-only filter composition for v1; 5000-claim perf target (~2.3x headroom)"
+ },
+ {
+  "vid": "V200",
+  "id": "gsd:lzw5399/video-editor:12",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Performance And Telemetry Budgets",
+  "repo": "lzw5399/video-editor",
+  "file": ".planning/phases/20-long-timeline-product-uat-and-guard-baseline/20-CONTEXT.md",
+  "shown": "D-13: Rust/testkit large-scale gates should prioritize bounded graph diff, dirty range, and cache invalidation assertions over wall-clock timing. Wall-clock data should be captured as diagnostics, not used as a hard gate in Phase 20."
+ },
+ {
+  "vid": "V201",
+  "id": "speckit:ohaukeboe/dot-emacs:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ohaukeboe/dot-emacs",
+  "file": "specs/001-agent-process-cap/spec.md",
+  "shown": "Q: Which agent tools must the runtime cap cover — only Claude Code's shell tool, or every AI agent harness this repo configures?\nA: Claude Code Bash tool only; other harnesses explicitly out of scope."
+ },
+ {
+  "vid": "V202",
+  "id": "gsd:CamposBruno/Twelvify:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Screenshots",
+  "repo": "CamposBruno/Twelvify",
+  "file": ".planning/phases/10-chrome-web-store-submission/10-CONTEXT.md",
+  "shown": "Feature coverage: text selection + popup (core flow), settings/personalization, different website contexts (news, Wikipedia, academic), before/after comparison"
+ },
+ {
+  "vid": "V203",
+  "id": "bmad:ricomiles/Tailor:2",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ricomiles/Tailor",
+  "file": "_bmad-output/specs/spec-tailor/SPEC.md",
+  "shown": "~~`boards.json` holds the watched board list as type plus token or URL; the build spec names the file as the config location but not its shape.~~ Resolved 2026-09-02 (story 1.5). The shape is declared once in `core/boards/boards-file.ts` as `{ \"boards\": [{ type, token, label? }] }`, where `type` is the lowercase vendor union and `token` is the board identifier from the vendor's URL. Not \"or URL\": every endpoint in `adapters.md` is built from a token, so accepting a pasted URL would give two spellings of one field and no adapter a single thing to read."
+ },
+ {
+  "vid": "V204",
+  "id": "speckit:04Adam/Syncro:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "04Adam/Syncro",
+  "file": "specs/001-core-game-spec/spec.md",
+  "shown": "Q: Should FR-049's \"destination entrance cell\" wording be expanded inline to reference the TilePos derivation?\nA: No. \"Entrance cell\" is now a canonical term defined in the glossary; no inline expansion is needed in FR-049."
+ },
+ {
+  "vid": "V205",
+  "id": "bmad:Olga-Levchenko/PeopleManagementSystem:26",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "Olga-Levchenko/PeopleManagementSystem",
+  "file": "_bmad-output/planning-artifacts/prds/prd-PeopleManagementSystem-2026-08-25/.memlog.md",
+  "shown": "User journeys will be drafted representatively from the spec's role definitions (UM/DM/PM/PP/HR Admin/Employee) and flagged [ASSUMPTION] for user correction, since no real scenarios were supplied."
+ },
+ {
+  "vid": "V206",
+  "id": "gsd:harveybl/Lease-Exit-Calculator:15",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "harveybl/Lease-Exit-Calculator",
+  "file": ".planning/phases/04-market-value-and-valuation/04-CONTEXT.md",
+  "shown": "Exact layout of multi-source display within the comparison page"
+ },
+ {
+  "vid": "V207",
+  "id": "bmad:Kothapallyvinaykumargoud/fraud-model-platform:6",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Kothapallyvinaykumargoud/fraud-model-platform",
+  "file": "_bmad-output/planning-artifacts/prds/prd-fraud-model-platform-2026-07-20/prd.md",
+  "shown": "§4.4 FR-8 — Response schema (verdict + confidence score + serving Model Version ID) and response-time target (<1s) not yet confirmed."
+ },
+ {
+  "vid": "V208",
+  "id": "gsd:s-layer/semolina:20",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "s-layer/semolina",
+  "file": ".planning/phases/46-async-query-surface/46-CONTEXT.md",
+  "shown": "Whether `aexecute()` returns an awaited-open cursor (`async with await engine.aexecute(q) as cur:`) or an async context manager (`async with engine.aexecute(q) as cur:`). ASYNC-01's wording (\"`await engine.aexecute(query)`\") leans to the former; planner may choose on ergonomics."
+ },
+ {
+  "vid": "V209",
+  "id": "gsd:kumarahul98/bizzle:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "First-run flag + gate (AUTH-04, SC#1/2)",
+  "repo": "kumarahul98/bizzle",
+  "file": ".planning/phases/20-first-run-login-skip/20-CONTEXT.md",
+  "shown": "D-03: No-flash gate (Gemini): the root (`app.dart`) routes off BOTH `authStateProvider` and the initial `userPreferenceProvider` read: - `AuthLoading` OR prefs still loading → `SplashScreen` (no flash either way). - `AuthSignedIn` → `MainShell` (never show the wall to a signed-in user). - `AuthGuest` AND `hasSeenOnboarding == true` → `MainShell`. - `AuthGuest` AND `hasSeenOnboarding == false` → the first-run LoginScreen. Keep the existing sealed `switch` exhaustiveness discipline."
+ },
+ {
+  "vid": "V210",
+  "id": "bmad:Hexalith/Hexalith.FrontComposer:1",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "13. Assumptions Index",
+  "repo": "Hexalith/Hexalith.FrontComposer",
+  "file": "_bmad-output/planning-artifacts/archive/prds/prd-frontcomposer-2026-07-05/prd.md",
+  "shown": "A2 (§4): v1.0 readiness is judged primarily by package-consumer safety and Hexalith domain-module adoption, not by a public web launch funnel. Disposition: accepted as the v1.0 product-form-factor assumption; validated by SM-1 and SM-2 rather than a separate implementation story."
+ },
+ {
+  "vid": "V211",
+  "id": "speckit:Bruoche/optistock:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Bruoche/optistock",
+  "file": "specs/009-tour-date-selection/spec.md",
+  "shown": "Time-of-day is intentionally out of scope and will be derived later from driver schedules, per the feature description."
+ },
+ {
+  "vid": "V212",
+  "id": "gsd:whatthehackinsg/agent-auction:19",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "whatthehackinsg/agent-auction",
+  "file": ".planning/phases/07-identity-verification/07-CONTEXT.md",
+  "shown": "HTTP status codes for each error type (400 vs 403 vs 502)"
+ },
+ {
+  "vid": "V213",
+  "id": "gsd:StuntmanDaver/UNIT:19",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "StuntmanDaver/UNIT",
+  "file": ".planning/phases/02-financial-operations-workflows/02-CONTEXT.md",
+  "shown": "Cron job implementation details (pg_cron vs. scheduled Edge Function)"
+ },
+ {
+  "vid": "V214",
+  "id": "gsd:DamianFlynn/selfhost-stacks:56",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "DamianFlynn/selfhost-stacks",
+  "file": ".planning/phases/04-collapse-to-one-tagger/04-RESEARCH.md",
+  "shown": "Renovate will propose `2.13.1-ls350` as a patch-class update and automerge it via `packageRules[1]` once regex versioning lands"
+ },
+ {
+  "vid": "V215",
+  "id": "gsd:TheGoatedDev/Bubbdub:21",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "TheGoatedDev/Bubbdub",
+  "file": ".planning/phases/02-credit-system/02-CONTEXT.md",
+  "shown": "Warning banner styling and placement"
+ },
+ {
+  "vid": "V216",
+  "id": "gsd:omiiii21/tracer-ai:4",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Python Dependency Manager (D-2.05..D-2.07)",
+  "repo": "omiiii21/tracer-ai",
+  "file": ".planning/phases/02-skeleton-infrastructure/02-CONTEXT.md",
+  "shown": "D-2.05: `uv` is the dependency manager. `pyproject.toml` is the single source of truth; `uv.lock` is committed. Justification: faster than Poetry/`pip-tools` (10–100× cold installs); single static binary in CI/Docker; native `pyproject.toml`; reproducible locks. Tradeoff acknowledged: less mature than Poetry, but the API surface used here (`uv sync`, `uv pip compile`, `uv run`) has been stable since `uv 0.4`."
+ },
+ {
+  "vid": "V217",
+  "id": "speckit:JomarJunior/miraveja-ecosystem:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "JomarJunior/miraveja-ecosystem",
+  "file": "specs/004-sonavida-persona-life/spec.md",
+  "shown": "Q: How deep is forgetting on an erasure notice?\nA: The memories stay but lose the visitor's identity. The persona can still recall that \"someone once said…\", but can no longer recognize, name or link that visitor."
+ },
+ {
+  "vid": "V218",
+  "id": "gsd:karthiksuru06/finance-os:28",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Bill Management",
+  "repo": "karthiksuru06/finance-os",
+  "file": ".planning/phases/15-gmail-mcp-integration/15-CONTEXT.md",
+  "shown": "D-20: Bill fields: `biller_name`, `biller_category` (utility/telecom/credit_card/subscription/other), `amount_due` (Decimal INR), `currency` default INR, `due_date`, `account_number_last4`, `payment_status` (pending/paid/overdue), `is_recurring`, `recurrence_period` (monthly/quarterly/annual), `parent_bill_id` for sibling linking, plus `source_document_id` (FK, nullable, per D-19 refinement) and `source_email_id` (FK to gmail_message_log)."
+ },
+ {
+  "vid": "V219",
+  "id": "gsd:LikeSundayLikeRain/obsidian-leetcode:51",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "LikeSundayLikeRain/obsidian-leetcode",
+  "file": ".planning/phases/20-reconciliation-ux-action-row-section-protection/20-RESEARCH.md",
+  "shown": "Live `Compartment.reconfigure` for vim does NOT lose cursor / scroll / undo state. [ASSUMED — Pattern is identical to languageCompartment which DOES preserve in Phase 16; vim Compartment empirically untested.]"
+ },
+ {
+  "vid": "V220",
+  "id": "speckit:CyrilBaah/ballast:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "CyrilBaah/ballast",
+  "file": "specs/002-resumable-upload-engine/spec.md",
+  "shown": "Q: If the Google Drive destination folder is deleted or becomes inaccessible while an upload is paused, should this be a terminal failure requiring a new destination, or use the same confirm-and-restart flow as an expired session?\nA: Terminal, not recoverable — restarting the same session can't fix a destination that no longer exists, so the user must start a new upload with a new destination."
+ },
+ {
+  "vid": "V221",
+  "id": "gsd:DamianFlynn/selfhost-stacks:3",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "The surviving definition",
+  "repo": "DamianFlynn/selfhost-stacks",
+  "file": ".planning/phases/04-collapse-to-one-tagger/04-CONTEXT.md",
+  "shown": "D-04: Retirement reaches host runtime state, not just the repo. Repo definitions deleted, containers stopped and `docker rm`'d, and the retired taggers' appdata trees deleted on the host — but only after confirming Phase 1's fence at `/mnt/fast/safety` already holds a copy (01-02 took 18 `library.db` copies, each integrity-checked). \"One `library.db`\" must be a measured fact about the estate, not a claim about the repo."
+ },
+ {
+  "vid": "V222",
+  "id": "gsd:JoaoRicardoBrito/Limpa_fossa:35",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "JoaoRicardoBrito/Limpa_fossa",
+  "file": ".planning/phases/01-foundation/01-CONTEXT.md",
+  "shown": "Exact footer structure/layout"
+ },
+ {
+  "vid": "V223",
+  "id": "speckit:alkem-io/ecosystem-analytics:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "alkem-io/ecosystem-analytics",
+  "file": "specs/010-sso-session-reuse/spec.md",
+  "shown": "Q: Should the frontend query the Alkemio GraphQL API directly or go through the BFF for session detection?\nA: Frontend sends detected cookie to BFF; BFF queries Alkemio GraphQL API and returns user identity (preserves BFF boundary principle)."
+ },
+ {
+  "vid": "V224",
+  "id": "gsd:Mrjoel97/PIKAR-AI:39",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Mrjoel97/PIKAR-AI",
+  "file": ".planning/phases/51-observability-monitoring/51-CONTEXT.md",
+  "shown": "Whether to add a `request_id` field to Sentry events beyond user_id (decide based on whether FastAPI request middleware already has one)"
+ },
+ {
+  "vid": "V225",
+  "id": "bmad:RicardoJBarrios/ha-tank-os:18",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "RicardoJBarrios/ha-tank-os",
+  "file": "_bmad-output/planning-artifacts/prds/prd-ha-tank-os-2026-09-30/prd.md",
+  "shown": "A-15 (§4.1 FR-14–FR-15, §6): Storage containers are graduated and are measured through periodic direct level/volume observations. Initial-release consumption or top-off amounts may be derived by comparison with the preceding observation and known intervening records. No ATO integration is required in the initial release; manual recording remains available."
+ },
+ {
+  "vid": "V226",
+  "id": "gsd:Rishabhku03/ML_project:3",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "PostgreSQL Schema",
+  "repo": "Rishabhku03/ML_project",
+  "file": ".planning/phases/01-infrastructure-ingestion/01-CONTEXT.md",
+  "shown": "D-04: UUIDs for all primary keys, source tracking column, created_at timestamps"
+ },
+ {
+  "vid": "V227",
+  "id": "speckit:alexisbeaulieu97/Streamy:4",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "alexisbeaulieu97/Streamy",
+  "file": "specs/004-extend-plugin-contract/spec.md",
+  "shown": "Q: How should verification handle transient failures (e.g., temporary network issues, file locks)?\nA: Fail immediately, report as \"blocked\""
+ },
+ {
+  "vid": "V228",
+  "id": "gsd:strycker/barkeeper-bjorn-website:46",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "strycker/barkeeper-bjorn-website",
+  "file": ".planning/phases/07-ai-integration/07-CONTEXT.md",
+  "shown": "`N` for \"recent turns sent in full\" and the threshold at which summarization kicks in."
+ },
+ {
+  "vid": "V229",
+  "id": "speckit:RaphaCastelloes/talk-pi:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "RaphaCastelloes/talk-pi",
+  "file": "specs/002-whisper-input/spec.md",
+  "shown": "Existing keyboard and microphone capture flow already provides a finished audio file."
+ },
+ {
+  "vid": "V230",
+  "id": "speckit:dan1510123/CopilotOffice:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "dan1510123/CopilotOffice",
+  "file": "specs/017-orchestrator-improvements/spec.md",
+  "shown": "Q: What is the transcript retention bound (FR-006)?\nA: Mirror how agent TUIs work today — a bounded xterm scrollback window per session (the existing scrollback-line cap, e.g. the orchestrator panel's current 5000 lines), which resets on a new session; persistence stores that same bounded window for restart-restore. No separate unbounded transcript log."
+ },
+ {
+  "vid": "V231",
+  "id": "speckit:code2nguyen/web-components:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "code2nguyen/web-components",
+  "file": "specs/004-verify-css-contracts/spec.md",
+  "shown": "Q: Can generated icons use one live styling sample per icon set?\nA: Yes. Check every generated tag's published contract statically, but live-test one representative icon per icon set for its shared CSS styling path. A genuinely different styling implementation needs its own sample."
+ },
+ {
+  "vid": "V232",
+  "id": "gsd:Adi07289/drhplens:18",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion (research / planner territory)",
+  "repo": "Adi07289/drhplens",
+  "file": ".planning/phases/05-calibrated-listing-day-forecaster/05-CONTEXT.md",
+  "shown": "Exact sector taxonomy and the precise small-N pooling threshold (guideline ~30)."
+ },
+ {
+  "vid": "V233",
+  "id": "gsd:Mrjoel97/PIKAR-AI:4",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Error Capture (Sentry)",
+  "repo": "Mrjoel97/PIKAR-AI",
+  "file": ".planning/phases/51-observability-monitoring/51-CONTEXT.md",
+  "shown": "DSN management: `SENTRY_DSN_BACKEND` and `SENTRY_DSN_FRONTEND` env vars. Set via `.env` locally and Cloud Run / Vercel project settings in production. Frontend DSN is `NEXT_PUBLIC_SENTRY_DSN` (safe to expose — public DSNs are designed for browser use)."
+ },
+ {
+  "vid": "V234",
+  "id": "gsd:Zephyrxx0/Ripple:5",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Branch & MR Creation (Agent 5 — FIX-04, FIX-05)",
+  "repo": "Zephyrxx0/Ripple",
+  "file": ".planning/phases/03-automated-remediation/03-CONTEXT.md",
+  "shown": "D-06: Target consumer repo's default branch — Use `Repo.default_branch` (already stored in the DB) as the fix MR target. Consistent and simple."
+ },
+ {
+  "vid": "V235",
+  "id": "speckit:take44444/asca-frontend:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "take44444/asca-frontend",
+  "file": "specs/002-user-auth/spec.md",
+  "shown": "No A.S.C.A. backend API interaction is required for this feature beyond authentication/session handling; \"Run A.S.C.A.\" remains protected at the frontend boundary until backend functionality is specified separately."
+ },
+ {
+  "vid": "V236",
+  "id": "speckit:SmolSoftBoi/eslint-config:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "SmolSoftBoi/eslint-config",
+  "file": "specs/001-pre-release-preflight/spec.md",
+  "shown": "Q: How should the packaging smoke test determine expected files and entry points?\nA: Derive expected files/entry points from package.json (files, main, exports) and require a minimum set of critical files."
+ },
+ {
+  "vid": "V237",
+  "id": "gsd:MrAshRhodes/office-minions:12",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Walk frame design",
+  "repo": "MrAshRhodes/office-minions",
+  "file": ".planning/phases/07-sprite-redesign/07-CONTEXT.md",
+  "shown": "2 front-facing walk-cycle frames per persona: leg alternation + arm swings"
+ },
+ {
+  "vid": "V238",
+  "id": "speckit:dontry/obsidian-github-stargazer:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "dontry/obsidian-github-stargazer",
+  "file": "specs/004-fetch-readme/spec.md",
+  "shown": "Q: How should README files be organized in the vault (folder structure vs flat)?\nA: Flat structure directly in vault root as `{owner}-{repo}-README.md` files"
+ },
+ {
+  "vid": "V239",
+  "id": "gsd:s-layer/semolina:15",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Testing",
+  "repo": "s-layer/semolina",
+  "file": ".planning/phases/46-async-query-surface/46-CONTEXT.md",
+  "shown": "D-16: Task 1 is a spike proving one existing cassette replays end-to-end through the async path. D-15 is a structural inference from source reading, not an executed test — poolhouse 1.5.0 is not installed in the project venv. Nothing else should be built on the assumption until the spike confirms it."
+ },
+ {
+  "vid": "V240",
+  "id": "gsd:eksses/minecraft-kit-bot:1",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Scan Trigger Flow",
+  "repo": "eksses/minecraft-kit-bot",
+  "file": ".planning/phases/02-chest-scanner/02-CONTEXT.md",
+  "shown": "D-02: Per-bot settings — each bot has its own scan configuration, not global"
+ },
+ {
+  "vid": "V241",
+  "id": "gsd:Zephyrxx0/Nichijou:28",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Zephyrxx0/Nichijou",
+  "file": ".planning/phases/04-ask-dailycity/04-RESEARCH.md",
+  "shown": "Ward name-to-ID mapping: \"downtown\" → ward 3, \"midtown\" → ward 5, \"riverside\" → ward 7, \"suburbs\" → ward 12, \"industrial\" → ward 20. These names come from AI-SPEC tool descriptions but the seed data only uses numeric IDs."
+ },
+ {
+  "vid": "V242",
+  "id": "gsd:Codesushi-com/gsd-console:10",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Plan file display",
+  "repo": "Codesushi-com/gsd-console",
+  "file": ".planning/phases/03.1-ui-polish/03.1-CONTEXT.md",
+  "shown": "Interaction: View plan content inline in TUI (not editor integration)"
+ },
+ {
+  "vid": "V243",
+  "id": "gsd:EhsanulHaqueSiam/DoinikHishab:15",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "EhsanulHaqueSiam/DoinikHishab",
+  "file": ".planning/phases/01-tooling-foundation/01-CONTEXT.md",
+  "shown": "Bengali pluralization polyfill approach (intl-pluralrules)"
+ },
+ {
+  "vid": "V244",
+  "id": "speckit:JomarJunior/miraveja-ecosystem:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "JomarJunior/miraveja-ecosystem",
+  "file": "specs/004-sonavida-persona-life/spec.md",
+  "shown": "Several personas, each alone: any number of resident personas may be alive at once (FR-041). The pre-alpha roster is the first use; running the whole roster continuously is not required by this spec."
+ },
+ {
+  "vid": "V245",
+  "id": "gsd:rohanpandula/nikon-coolscan4-software-archaeology:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Swift app scope (keep deliberately small)",
+  "repo": "rohanpandula/nikon-coolscan4-software-archaeology",
+  "file": ".planning/phases/01-walking-skeleton/01-CONTEXT.md",
+  "shown": "D-12: Visual language: restrained P1 styling only — dark-graphite-friendly (respect system dark mode), amber accent for the primary capture action, cyan for healthy status dots. Do NOT attempt the full mockup design in this phase."
+ },
+ {
+  "vid": "V246",
+  "id": "gsd:molmdl/quickice:1",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Export type",
+  "repo": "molmdl/quickice",
+  "file": ".planning/phases/14-gromacs-export/14-CONTEXT.md",
+  "shown": "Follows existing QuickIce export pattern: QFileDialog, File menu, consistent UI"
+ },
+ {
+  "vid": "V247",
+  "id": "gsd:strycker/barkeeper-bjorn-website:61",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "strycker/barkeeper-bjorn-website",
+  "file": ".planning/phases/07-ai-integration/07-RESEARCH.md",
+  "shown": "The write-gate is best as a standalone `write-gate.js` reused by 3 callers (vs. inline per feature)"
+ },
+ {
+  "vid": "V248",
+  "id": "bmad:Hexalith/Hexalith.Memories:77",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "inline tag",
+  "repo": "Hexalith/Hexalith.Memories",
+  "file": "_bmad-output/planning-artifacts/review-rubric-finalize-2026-09-08.md",
+  "shown": "those destinations stay deferred until an owner names a phase"
+ },
+ {
+  "vid": "V249",
+  "id": "speckit:venancioigrejasneto/ai-scheduler-go:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "venancioigrejasneto/ai-scheduler-go",
+  "file": "specs/001-scheduler-poc/spec.md",
+  "shown": "Q: How should overlapping job triggers be handled if a previous execution is still in progress?\nA: Allow concurrent execution — trigger and publish each scheduled tick independently as a new JobExecution."
+ },
+ {
+  "vid": "V250",
+  "id": "gsd:alexsolum/runsmart:15",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "alexsolum/runsmart",
+  "file": ".planning/phases/19-plan-viewer-ui/19-CONTEXT.md",
+  "shown": "Exact mechanics for auto-scrolling or focusing the first current-or-upcoming week on initial load."
+ },
+ {
+  "vid": "V251",
+  "id": "bmad:NicoIodice/fishtank:14",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "NicoIodice/fishtank",
+  "file": "_bmad-output/planning-artifacts/prds/prd-Fishtank-2026-06-19/prd.md",
+  "shown": "A-7 (§6 NFR-1): All UI assets are served from the container; no CDN dependency at runtime."
+ },
+ {
+  "vid": "V252",
+  "id": "speckit:lifekit-hq/devclaw:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "lifekit-hq/devclaw",
+  "file": "specs/047-console-read-side/spec.md",
+  "shown": "Q: Should usage be its own console page or inline numbers?\nA: Inline — tokens on the session page, totals on the goal page and in the projects list; no usage route, no usage page. The instance history is the `/metrics` counter in Grafana."
+ },
+ {
+  "vid": "V253",
+  "id": "gsd:jokerlin135/notepro-viet:11",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "jokerlin135/notepro-viet",
+  "file": ".planning/phases/04-reminders-notifications/04-CONTEXT.md",
+  "shown": "Whether exact-alarm and battery prompts share a common modal/sheet shell internally."
+ },
+ {
+  "vid": "V254",
+  "id": "gsd:strycker/barkeeper-bjorn-website:41",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "D-14: AI-enhanced data features (AI-04, AI-05, AI-08, AI-10, AI-11, AI-12, AI-13)",
+  "repo": "strycker/barkeeper-bjorn-website",
+  "file": ".planning/phases/07-ai-integration/07-CONTEXT.md",
+  "shown": "AI-12: Bartender Wizard AI assist — \"Help me write this with Claude\" drafts long-form persona text from short preference inputs."
+ },
+ {
+  "vid": "V255",
+  "id": "gsd:Zephyrxx0/Nichijou:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Answer Display & Loading States",
+  "repo": "Zephyrxx0/Nichijou",
+  "file": ".planning/phases/04-ask-dailycity/04-CONTEXT.md",
+  "shown": "D-12: Single clean text input field at the sheet bottom with a send/arrow button. Placeholder: \"Ask about your city...\" Disabled during tool execution. Pixel OS calm aesthetic."
+ },
+ {
+  "vid": "V256",
+  "id": "gsd:Aorus22/web-tmux:24",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Aorus22/web-tmux",
+  "file": ".planning/phases/04-terminal-engine-live-rendering/04-RESEARCH.md",
+  "shown": "tmux never reuses a live-visible `%N` within one monitor lifetime, so D7 retirement (rather than content comparison) is sufficient hygiene"
+ },
+ {
+  "vid": "V257",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce",
+  "file": "specs/005-storefront-customization/spec.md",
+  "shown": "Q: When an admin changes the site currency, should it only change the displayed symbol/format, or convert prices?\nA: Automatic conversion using a stored, admin-set exchange rate per currency."
+ },
+ {
+  "vid": "V258",
+  "id": "gsd:ogdevlabs/MWF:22",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "ogdevlabs/MWF",
+  "file": ".planning/phases/05-us3-offline-first/05-CONTEXT.md",
+  "shown": "Whether to show total download size estimate on session card"
+ },
+ {
+  "vid": "V259",
+  "id": "gsd:acolomba/homebridge-basement-guardian:53",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "acolomba/homebridge-basement-guardian",
+  "file": ".planning/phases/03-safety-monitoring-in-homekit/03-RESEARCH.md",
+  "shown": "An `ignoredFaults` array expressed as `{ type: 'array', uniqueItems: true, items: { type: 'string', enum: [...seven slugs] } }` renders acceptably in the Homebridge Plugin Settings GUI under `strictValidation: true`."
+ },
+ {
+  "vid": "V260",
+  "id": "gsd:egeek-tech/go-openholidays:46",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "egeek-tech/go-openholidays",
+  "file": ".planning/phases/02-transport/02-RESEARCH.md",
+  "shown": "The deferred drain-and-close pattern (`io.Copy(io.Discard, body); body.Close()` in one deferred func) does NOT introduce a measurable latency penalty for sub-MB responses"
+ },
+ {
+  "vid": "V261",
+  "id": "gsd:robindarlington/darlng.com:13",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "robindarlington/darlng.com",
+  "file": ".planning/phases/04-newsletter-fan-capture/04-CONTEXT.md",
+  "shown": "Island filename/structure, fetch error taxonomy, exact mock approach for testing, microcopy detail, whether to add a tiny inline privacy note (\"No spam. Unsubscribe anytime.\" — recommended)."
+ },
+ {
+  "vid": "V262",
+  "id": "speckit:kusaridev/kusari-cli:9",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "kusaridev/kusari-cli",
+  "file": "specs/001-mcp-server/spec.md",
+  "shown": "Supported MCP clients follow their documented configuration file locations and formats."
+ },
+ {
+  "vid": "V263",
+  "id": "bmad:millsks/homelab:8",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "millsks/homelab",
+  "file": "_bmad-output/planning-artifacts/prds/prd-homelab-2026-08-28/prd.md",
+  "shown": "§7.2 / Remote access — cut entirely rather than deferred, but recorded because it removes a whole plane from the design. Reintroducible later without disturbing anything else, since no requirement depends on it."
+ },
+ {
+  "vid": "V264",
+  "id": "gsd:strycker/gsd-scratch-work:0",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Implementation decisions",
+  "repo": "strycker/gsd-scratch-work",
+  "file": ".planning/phases/29-v1-3-submodule-comparison-matrix/29-CONTEXT.md",
+  "shown": "Merge order (locked): `trading-crab-lib` mirror → `claude-scratch-work` → `trading-crab`; each step gets dependency/risk notes in the artifact."
+ },
+ {
+  "vid": "V265",
+  "id": "speckit:loydmilligan/uncle_mad_libs:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "loydmilligan/uncle_mad_libs",
+  "file": "specs/001-uncle-mad-libs/spec.md",
+  "shown": "Libbers primarily use the app during morning (6-9am) and afternoon/evening (2-8pm) hours"
+ },
+ {
+  "vid": "V266",
+  "id": "speckit:Ahmed-elssamman/ERD-Ehsbha:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Ahmed-elssamman/ERD-Ehsbha",
+  "file": "specs/002-shared-platform-contracts/spec.md",
+  "shown": "Q: What are the platform-wide pagination bounds?\nA: Default 25 items; maximum 100 items."
+ },
+ {
+  "vid": "V267",
+  "id": "gsd:TheGoatedDev/Bubbdub:15",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Balance Display",
+  "repo": "TheGoatedDev/Bubbdub",
+  "file": ".planning/phases/02-credit-system/02-CONTEXT.md",
+  "shown": "Low balance warning banner when credits drop below 10"
+ },
+ {
+  "vid": "V268",
+  "id": "gsd:omiiii21/tracer-ai:43",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "omiiii21/tracer-ai",
+  "file": ".planning/phases/02-skeleton-infrastructure/02-CONTEXT.md",
+  "shown": "D-2.05 (`uv` vs Poetry — if the operator already has Poetry muscle memory)"
+ },
+ {
+  "vid": "V269",
+  "id": "speckit:petarnenov/l4j-lab:6",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "petarnenov/l4j-lab",
+  "file": "specs/007-mcp-billing-server/spec.md",
+  "shown": "The system runs offline; no hosted inference provider and no external identity provider is contacted."
+ },
+ {
+  "vid": "V270",
+  "id": "speckit:Maximus-Technologies-Uganda/training-prince-mirror:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Maximus-Technologies-Uganda/training-prince-mirror",
+  "file": "specs/025-week-5-day/spec.md",
+  "shown": "Q: How to handle pre-existing GitHub Projects?\nA: Additive approach - create new \"Week 5 Day-0\" project fresh; leave any existing projects as-is for backward compatibility"
+ },
+ {
+  "vid": "V271",
+  "id": "gsd:ParkerWilliams/dcsbm-transformer:0",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Visual style",
+  "repo": "ParkerWilliams/dcsbm-transformer",
+  "file": ".planning/phases/08-visualization/08-CONTEXT.md",
+  "shown": "Use seaborn whitegrid as specified in requirements"
+ },
+ {
+  "vid": "V272",
+  "id": "gsd:LuisFaxas/glitch-studios:25",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "LuisFaxas/glitch-studios",
+  "file": ".planning/phases/26-brand-aware-auth-ui-redesign/26-CONTEXT.md",
+  "shown": "Loading skeletons during OAuth redirects."
+ },
+ {
+  "vid": "V273",
+  "id": "speckit:Fyzxs/MtgDiscoveryClaude:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Fyzxs/MtgDiscoveryClaude",
+  "file": "specs/001-collection-identity/spec.md",
+  "shown": "Q: Can collection name and type be modified after creation?\nA: Name can be changed (on the collections management page); type is immutable after creation."
+ },
+ {
+  "vid": "V274",
+  "id": "speckit:somtimz/plugins:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "somtimz/plugins",
+  "file": "specs/002-ea-project-management/spec.md",
+  "shown": "Q: Where does the edit flow live — new command, part of `/ea-open`, or both?\nA: Part of `/ea-open` — edit actions offered as \"next actions\" after opening an engagement."
+ },
+ {
+  "vid": "V275",
+  "id": "gsd:mustafa3252/openOffice:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Landing Page & Overall Aesthetic",
+  "repo": "mustafa3252/openOffice",
+  "file": ".planning/phases/01-visual-shell/01-CONTEXT.md",
+  "shown": "Recent projects displayed as cards with previews — company name, small 3D office thumbnail/icon, last accessed time, active agent count. Visual, scannable, inviting to click"
+ },
+ {
+  "vid": "V276",
+  "id": "speckit:byte5ai/omadia:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "byte5ai/omadia",
+  "file": "specs/001-privacy-shield-v4/spec.md",
+  "shown": "Q: How is a pseudonym kept from colliding with a real person?\nA: The fake"
+ },
+ {
+  "vid": "V277",
+  "id": "bmad:Hexalith/Hexalith.Tenants:17",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "17. Assumptions Index",
+  "repo": "Hexalith/Hexalith.Tenants",
+  "file": "_bmad-output/planning-artifacts/prds/prd-tenants-2026-06-02/prd.md",
+  "shown": "§5.2 — Fluent UI semantic theme roles (no separate branded palette) are the visual authority."
+ },
+ {
+  "vid": "V278",
+  "id": "bmad:christinoleo/semantic-posts:15",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "15. Assumptions Index",
+  "repo": "christinoleo/semantic-posts",
+  "file": "_bmad-output/planning-artifacts/prds/prd-semanticPosts-2026-05-20/prd.md",
+  "shown": "~~FR-4 — Tagged `[TARGET — pending architecture-phase validation]`~~ — Resolved by ADR-0008. Crawler per-update budget validated at ~70 ms on Reference environment via the phased cold-start design (visit budget 300, batched postmeta reads). Independent of corpus size up to 50k as originally targeted."
+ },
+ {
+  "vid": "V279",
+  "id": "bmad:James-Karanja/Zamu:22",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "James-Karanja/Zamu",
+  "file": "_bmad-output/specs/spec-zamu/.memlog.md",
+  "shown": "Waiting bonus resets to 0 when child receives an award; no cap on bonus; ties broken by earlier application time"
+ },
+ {
+  "vid": "V280",
+  "id": "bmad:delorenj/sidepiece:9",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "13. Assumptions Index",
+  "repo": "delorenj/sidepiece",
+  "file": "_bmad-output/planning-artifacts/prds/prd-sidepiece-2026-09-17/prd.md",
+  "shown": "§4.1 FR-1 — The pjid declaration is readable from served HTML without executing page JS."
+ },
+ {
+  "vid": "V281",
+  "id": "gsd:formax68/memoChron:37",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "formax68/memoChron",
+  "file": ".planning/phases/05-guardrails-trivial-fixes/05-RESEARCH.md",
+  "shown": "TS 4.7 → 5.9 will not introduce new type errors in `src/`"
+ },
+ {
+  "vid": "V282",
+  "id": "gsd:nexttylabs/kubebar:8",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Tab Structure",
+  "repo": "nexttylabs/kubebar",
+  "file": ".planning/phases/09-codexbar-inspired-tabbed-menu-redesign/09-CONTEXT.md",
+  "shown": "D-09: The selected tab is menu-local UI state. It should not be persisted unless the implementation naturally needs it for accessibility or testing."
+ },
+ {
+  "vid": "V283",
+  "id": "bmad:cardpay/unlimeety:0",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "cardpay/unlimeety",
+  "file": "_bmad-output/specs/spec-system-audio-echo/SPEC.md",
+  "shown": "Express mode is sufficient because the failure and desired outcome are explicit."
+ },
+ {
+  "vid": "V284",
+  "id": "speckit:tykeal/homeassistant-local-akuvox:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "tykeal/homeassistant-local-akuvox",
+  "file": "specs/004-webhook-endpoint/spec.md",
+  "shown": "Each Akuvox device sends webhooks independently; there is no centralized webhook relay or aggregation service involved."
+ },
+ {
+  "vid": "V285",
+  "id": "speckit:Varun-Patkar/LMStudioClaw:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Varun-Patkar/LMStudioClaw",
+  "file": "specs/002-ui-tools-concurrency/spec.md",
+  "shown": "Q: How does the powershell tool relate to the consent/path gate?\nA: PowerShell uses the same consent model as the file tools. It starts in the workspace and may access folders already consented; the secrets store and app internals are always denied. If a command needs a path outside currently consented folders, the same consent prompt is raised (session/permanent), and a permanent grant is persisted as a user-consented path in Settings."
+ },
+ {
+  "vid": "V286",
+  "id": "gsd:szTheory/scoria:37",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "szTheory/scoria",
+  "file": ".planning/phases/49-ai-accessible-docs-and-docs-verification-gate/49-RESEARCH.md",
+  "shown": "No `[ASSUMED]` factual claims are used in this research."
+ },
+ {
+  "vid": "V287",
+  "id": "gsd:cx18121/auto-shorts:15",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Style profile integration",
+  "repo": "cx18121/auto-shorts",
+  "file": ".planning/phases/03-ai-story-generation/03-CONTEXT.md",
+  "shown": "Profile path stored as `style_profile` field in `channels.yaml` per channel"
+ },
+ {
+  "vid": "V288",
+  "id": "speckit:irvinm/TST-Tree-Sorter:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "irvinm/TST-Tree-Sorter",
+  "file": "specs/archived/001-tree-tab-sorter/spec.md",
+  "shown": "Q: What specific logic should be used for URL sorting?\nA: Sort by Hostname first, then by Path."
+ },
+ {
+  "vid": "V289",
+  "id": "gsd:tazzledazzle/ff-promo:23",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "tazzledazzle/ff-promo",
+  "file": ".planning/phases/06-operator-dashboard/06-CONTEXT.md",
+  "shown": "Docker compose profile for web dev port"
+ },
+ {
+  "vid": "V290",
+  "id": "speckit:tbaiocco/dumpster-spec:17",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "tbaiocco/dumpster-spec",
+  "file": "specs/002-user-frontend-interface/spec.md",
+  "shown": "Backend returns feedback status field with possible values: Pending, In Review, Resolved, Rejected"
+ },
+ {
+  "vid": "V291",
+  "id": "speckit:Mkhira/buidSass:4",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "Mkhira/buidSass",
+  "file": "specs/phase-1E/027-payments-integration/spec.md",
+  "shown": "Q: Reconciliation cadence + exception-queue retention\nA: Daily reconciliation at 03:00 KSA; exceptions retained 90 days operator-active + 365 days audit. Source: `default`. Rationale: daily matches provider ledger drop cadence; 90-day operator window matches 025/026 dead-letter posture; 365-day audit retention matches `audit_log_entries` policy."
+ },
+ {
+  "vid": "V292",
+  "id": "gsd:Michal-Pi/complete-design:26",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Schema migration & frontmatter validation (D-27 to D-29)",
+  "repo": "Michal-Pi/complete-design",
+  "file": ".planning/phases/01-v1-5-infrastructure-determinism-foundation/01-CONTEXT.md",
+  "shown": "D-27: Per-script migrations. `schemas/migrations/v0-to-v1.mjs` style; one script per major version transition per artifact type. `complete-design migrate --from <v> --to <v> [--path <design-dir>]` invokes the appropriate chain."
+ },
+ {
+  "vid": "V293",
+  "id": "speckit:petarnenov/l4j-lab:4",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "petarnenov/l4j-lab",
+  "file": "specs/007-mcp-billing-server/spec.md",
+  "shown": "Q: *A Micronaut MCP server integration exists and the pinned platform BOM already manages it — do we build on it?* (FR-028, FR-029)\nA: Option A — build on `micronaut-mcp-server-java-sdk`, declare tools with `@Tool`, and write only the 2026-07-28 deltas on top."
+ },
+ {
+  "vid": "V294",
+  "id": "gsd:AaronLayton/monicas-miracle-mop:17",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "AaronLayton/monicas-miracle-mop",
+  "file": ".planning/phases/01-foundation-design-conversion/01-CONTEXT.md",
+  "shown": "Component file naming and internal structure within shadcn patterns"
+ },
+ {
+  "vid": "V295",
+  "id": "speckit:Mahad-Usman-15/Career-Navigator:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Mahad-Usman-15/Career-Navigator",
+  "file": "specs/1-assessment-skillgap-auth/spec.md",
+  "shown": "The AI service used for skill gap analysis returns JSON-structured results. If it does not, the response is treated as a failure."
+ },
+ {
+  "vid": "V296",
+  "id": "gsd:TungDao1102/Crypto-News-Pipeline:27",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "TungDao1102/Crypto-News-Pipeline",
+  "file": ".planning/phases/04-publisher/04-RESEARCH-TELEGRAM.md",
+  "shown": "Channel message URL format `https://t.me/{username}/{message_id}` works"
+ },
+ {
+  "vid": "V297",
+  "id": "gsd:dhumerez/receipt-storage:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Client Portal Debt View",
+  "repo": "dhumerez/receipt-storage",
+  "file": ".planning/phases/06-debt-payment-tracking/06-CONTEXT.md",
+  "shown": "D-12: Client sees full debt detail with payment history — remaining balance, all confirmed payments with dates/methods/references, and payment proof documents (thumbnails/download)."
+ },
+ {
+  "vid": "V298",
+  "id": "bmad:aftabkajal/NexusJob:4",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "aftabkajal/NexusJob",
+  "file": "_bmad-output/planning-artifacts/ux-designs/ux-NexusJobBmad-2026-09-05/.memlog.md",
+  "shown": "Form factor: web only (per PRD NFR), responsive not required \\u2014 treating as desktop-first single web app unless user says otherwise."
+ },
+ {
+  "vid": "V299",
+  "id": "gsd:sudokku/storygrid:14",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "sudokku/storygrid",
+  "file": ".planning/phases/31-improve-mobile-interactions-ui-ux/31-RESEARCH.md",
+  "shown": "`sheetOpen` is used only in the `style` prop on line 88 of CanvasArea.tsx and can be removed along with `sheetSnapState`"
+ },
+ {
+  "vid": "V300",
+  "id": "gsd:a-anand-91119/sms-courier:0",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Direction label wording",
+  "repo": "a-anand-91119/sms-courier",
+  "file": ".planning/phases/25-home-screen-fixes/25-CONTEXT.md",
+  "shown": "TARGET devices show \"Forwarding to X device(s)\" with proper singular/plural (\"1 device\" / \"3 devices\")"
+ },
+ {
+  "vid": "V301",
+  "id": "speckit:take44444/asca-frontend:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "take44444/asca-frontend",
+  "file": "specs/002-user-auth/spec.md",
+  "shown": "Session data is limited to the minimum profile information needed to identify the user in the interface."
+ },
+ {
+  "vid": "V302",
+  "id": "gsd:Michal-Pi/complete-design:34",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Michal-Pi/complete-design",
+  "file": ".planning/phases/01-v1-5-infrastructure-determinism-foundation/01-CONTEXT.md",
+  "shown": "Whether the `schemas/dist/` directory commits to git (consistent regen) or is `.gitignore`'d with a CI build (cleaner diff) — planner decides per CI cost."
+ },
+ {
+  "vid": "V303",
+  "id": "gsd:szTheory/scoria:26",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "szTheory/scoria",
+  "file": ".planning/phases/49-ai-accessible-docs-and-docs-verification-gate/49-CONTEXT.md",
+  "shown": "Either extend `Scoria.AdopterDocContract` or add `Scoria.AiDocContract` for AI docs paths/fragments."
+ },
+ {
+  "vid": "V304",
+  "id": "speckit:AungMyoKyaw/homebrew-tap:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "AungMyoKyaw/homebrew-tap",
+  "file": "specs/002-create-dedicated-product/spec.md",
+  "shown": "GitHub Pages serves files from the repository root with no path rewriting needed"
+ },
+ {
+  "vid": "V305",
+  "id": "bmad:NxT-Solutions/Bronze:9",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "NxT-Solutions/Bronze",
+  "file": "_bmad-output/planning-artifacts/prds/prd-bronze-app-2026-08-27/prd.md",
+  "shown": "Some apps do not expose selected text through AX or permit simulated copy. “Supported” means matrix-tested provider path with documented limitation."
+ },
+ {
+  "vid": "V306",
+  "id": "gsd:MohammedGhazal09/Chatify:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Targeted Runtime Restoration",
+  "repo": "MohammedGhazal09/Chatify",
+  "file": ".planning/phases/07-messenger-functional-parity-restoration/07-CONTEXT.md",
+  "shown": "D-08: Preserve existing TanStack Query, Zustand, and Socket.IO ownership boundaries. Durable server state remains in query hooks/cache; presence/typing remains in `presenceStore` and `useChatSocket`; transient UI state remains in `chat.tsx`, focused route hooks, or component props."
+ },
+ {
+  "vid": "V307",
+  "id": "speckit:dasmeta/terraform-aws-eks:0",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "dasmeta/terraform-aws-eks",
+  "file": "specs/005-linkerd-crds-config/spec.md",
+  "shown": "Linkerd chart `2025.10.7` supports the `installGatewayAPI` value."
+ },
+ {
+  "vid": "V308",
+  "id": "gsd:sajtosM/playlist-o-matic:7",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "sajtosM/playlist-o-matic",
+  "file": ".planning/phases/01-dependency-swap/01-CONTEXT.md",
+  "shown": "Whether to run `npm install` with `--legacy-peer-deps` if peer dep conflicts arise — agent can resolve without asking."
+ },
+ {
+  "vid": "V309",
+  "id": "speckit:fortizfe/retrorocket:4",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "fortizfe/retrorocket",
+  "file": "specs/030-fix-github-ci-warnings/spec.md",
+  "shown": "The unused symbols identified (imports, destructured variable, function argument) are genuinely dead code in the current implementation, not stand-ins for planned-but-unfinished functionality. The one exception — the `onCardDelete` prop on `GroupCard` — was confirmed via the 2026-08-08 clarification to be intentionally unused going forward (grouped-card delete stays scoped to \"remove from group\"), not a wiring gap to fix."
+ },
+ {
+  "vid": "V310",
+  "id": "bmad:sethbam9/early-church:8",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "sethbam9/early-church",
+  "file": "_bmad-output/planning-artifacts/prds/prd-early-church-2026-07-01/prd.md",
+  "shown": "§4.5 FR-8 — clipboard scaffold (not patch files) is the right first Fix Loop assist."
+ },
+ {
+  "vid": "V311",
+  "id": "gsd:KofTwentyTwo/Jarvis:45",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "KofTwentyTwo/Jarvis",
+  "file": ".planning/phases/07-memory-vision/07-RESEARCH.md",
+  "shown": "`qwen2.5-coder:32b` reliably emits valid tool calls for `apply_memory_ops`"
+ },
+ {
+  "vid": "V312",
+  "id": "bmad:Electromayonaise/Pok-mon-TCG-Marketplace-and-Collection-Management:3",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Electromayonaise/Pok-mon-TCG-Marketplace-and-Collection-Management",
+  "file": "_bmad-output/specs/spec-pokemon-tcg-marketplace/SPEC.md",
+  "shown": "Risky: catalog seed data (card/set metadata, artwork references) will come from an existing external Pokémon TCG data source rather than being manually authored by the team."
+ },
+ {
+  "vid": "V313",
+  "id": "speckit:rolandzwaga/eligius:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "rolandzwaga/eligius",
+  "file": "specs/002-mutation-observer-controller/spec.md",
+  "shown": "Developers using this controller understand the Eligius controller pattern (init/attach/detach lifecycle)"
+ },
+ {
+  "vid": "V314",
+  "id": "speckit:rolandzwaga/eligius:0",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "rolandzwaga/eligius",
+  "file": "specs/002-mutation-observer-controller/spec.md",
+  "shown": "The MutationObserver API is available in the target browser environment (all modern browsers support it)"
+ },
+ {
+  "vid": "V315",
+  "id": "speckit:simonbrunou/cinder:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "simonbrunou/cinder",
+  "file": "specs/034-season-disclosures/spec.md",
+  "shown": "No JavaScript or LiveView event handling is added — the browser alone owns disclosure state."
+ },
+ {
+  "vid": "V316",
+  "id": "gsd:igorder-dev/gsd_antigravity:12",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "igorder-dev/gsd_antigravity",
+  "file": ".planning/phases/01-cli-bootstrap/01-CONTEXT.md",
+  "shown": "Exact phrasing of step-by-step messages."
+ },
+ {
+  "vid": "V317",
+  "id": "gsd:Adi07289/drhplens:39",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Adi07289/drhplens",
+  "file": ".planning/phases/05-calibrated-listing-day-forecaster/05-RESEARCH.md",
+  "shown": "A genuine PIT histogram is derivable from a quantile grid; with only 3 quantiles a reliability curve is the honest substitute"
+ },
+ {
+  "vid": "V318",
+  "id": "gsd:Shion-main/fluxtrack-main:24",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Shion-main/fluxtrack-main",
+  "file": ".planning/phases/07-remaining-operational-surfaces/07-CONTEXT.md",
+  "shown": "Whether Guard duty keeps the `CheckerAssignment` name or gets a neutral rename (cosmetic). </decisions>"
+ },
+ {
+  "vid": "V319",
+  "id": "gsd:Maxtremee/spotdl-manager:38",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Maxtremee/spotdl-manager",
+  "file": ".planning/phases/02-spotify-metadata-spotifyscraper/02-RESEARCH.md",
+  "shown": "`z.string().url()` in the envelope schema accepts Spotify image CDN URLs (`https://image-cdn-fa.spotifycdn.com/...`)"
+ },
+ {
+  "vid": "V320",
+  "id": "gsd:Aorus22/web-tmux:26",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "Aorus22/web-tmux",
+  "file": ".planning/phases/04-terminal-engine-live-rendering/04-RESEARCH.md",
+  "shown": "GPUI `canvas` paint cadence + synchronous `Processor` commits keep 60fps viable for full-screen vim/htop frames (reference proves the shape on this pin, but web-tmux panes are smaller and more numerous)"
+ },
+ {
+  "vid": "V321",
+  "id": "gsd:MrAshRhodes/office-minions:33",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "MrAshRhodes/office-minions",
+  "file": ".planning/phases/07-sprite-redesign/07-CONTEXT.md",
+  "shown": "Unicode block character usage per cell (FULL/UPPER/LOWER/EMPTY choices)"
+ },
+ {
+  "vid": "V322",
+  "id": "bmad:kekal/Lucid-Cartographer:9",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "kekal/Lucid-Cartographer",
+  "file": "_bmad-output/archive/trip-planning/planning-artifacts/prds/prd-maps_editor-2026-06-11/prd.md",
+  "shown": "§4.1 / FR-2 — Seed Stop Order is existing POI added-date ascending."
+ },
+ {
+  "vid": "V323",
+  "id": "speckit:oracleot/algos-mastery:6",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "oracleot/algos-mastery",
+  "file": "specs/007-learning-resources/spec.md",
+  "shown": "Q: Where should Learning Resources section appear on problem detail page?\nA: After solutions section (solutions are primary, resources supplementary)."
+ },
+ {
+  "vid": "V324",
+  "id": "speckit:loydmilligan/uncle_mad_libs:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "loydmilligan/uncle_mad_libs",
+  "file": "specs/001-uncle-mad-libs/spec.md",
+  "shown": "Video generation service can handle concurrent requests from multiple users"
+ },
+ {
+  "vid": "V325",
+  "id": "gsd:TungDao1102/Crypto-News-Pipeline:11",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "the agent's Discretion",
+  "repo": "TungDao1102/Crypto-News-Pipeline",
+  "file": ".planning/phases/04-publisher/04-CONTEXT.md",
+  "shown": "Whether to include Telegram message URL in PublishResult"
+ },
+ {
+  "vid": "V326",
+  "id": "gsd:MohammedGhazal09/Chatify:27",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Agent Discretion",
+  "repo": "MohammedGhazal09/Chatify",
+  "file": ".planning/phases/07-messenger-functional-parity-restoration/07-CONTEXT.md",
+  "shown": "The planner may choose whether a disabled unsupported control is removed or kept when both outcomes satisfy honest state semantics and visual parity."
+ },
+ {
+  "vid": "V327",
+  "id": "gsd:maxkrivich/frontgate:22",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "maxkrivich/frontgate",
+  "file": ".planning/phases/02-observability-and-audit/02-RESEARCH.md",
+  "shown": "`GF_AUTH_ANONYMOUS_ENABLED=true` is acceptable for local dev stack"
+ },
+ {
+  "vid": "V328",
+  "id": "gsd:cx18121/auto-shorts:11",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Output script format",
+  "repo": "cx18121/auto-shorts",
+  "file": ".planning/phases/03-ai-story-generation/03-CONTEXT.md",
+  "shown": "Target duration: 45-60 seconds (tighter than the 30-90s requirement range; sweet spot for YouTube Shorts algorithm)"
+ },
+ {
+  "vid": "V329",
+  "id": "gsd:tazzledazzle/ff-promo:30",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "tazzledazzle/ff-promo",
+  "file": ".planning/phases/06-operator-dashboard/06-RESEARCH.md",
+  "shown": "Route Handler BFF proxy is default auth path when `API_KEY` set"
+ },
+ {
+  "vid": "V330",
+  "id": "bmad:Sathias23/Artificial-Planeswalker:14",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "Sathias23/Artificial-Planeswalker",
+  "file": "_bmad-output/specs/spec-quick-wins/.memlog.md",
+  "shown": "Companion export is a GET returning text/plain at /api/deck/{id}/export?shape=arena|plain with a copy-to-clipboard control; a download link is optional since the sandboxed browser may block it"
+ },
+ {
+  "vid": "V331",
+  "id": "gsd:Michal-Pi/complete-design:35",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "Michal-Pi/complete-design",
+  "file": ".planning/phases/01-v1-5-infrastructure-determinism-foundation/01-CONTEXT.md",
+  "shown": "Test framework: `vitest` 2 was specified in STACK.md; planner confirms."
+ },
+ {
+  "vid": "V332",
+  "id": "speckit:CyrilBaah/ballast:8",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "CyrilBaah/ballast",
+  "file": "specs/002-resumable-upload-engine/spec.md",
+  "shown": "Upload state is persisted locally in a way that survives process restarts; the specific storage mechanism is an implementation decision for `/speckit-plan`, not this spec."
+ },
+ {
+  "vid": "V333",
+  "id": "speckit:smurtym/shubharambham-ai:0",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "smurtym/shubharambham-ai",
+  "file": "specs/006-horoscope-positions/spec.md",
+  "shown": "City geographic coordinates are derived from the city's zoom-15 base-4 quadkey (`decode_city_id()` in `astro-wasm/src/data/mod.rs`). This precision (±3 km at zoom 15) is more than adequate for Ascendant calculation at birth-town granularity."
+ },
+ {
+  "vid": "V334",
+  "id": "bmad:flydev-fr/pweb:21",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "flydev-fr/pweb",
+  "file": "_bmad-output/specs/spec-pweb/.memlog.md",
+  "shown": "Pascal-side invocation failures surface as rejected JS promises; plan.md shows only the success path."
+ },
+ {
+  "vid": "V335",
+  "id": "speckit:ohaukeboe/dot-emacs:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "ohaukeboe/dot-emacs",
+  "file": "specs/001-agent-process-cap/spec.md",
+  "shown": "Only the NixOS workstations in this repository are in scope; the three machines share one configuration and one cap policy unless a machine overrides it."
+ },
+ {
+  "vid": "V336",
+  "id": "gsd:prenansantana/waid:5",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "prenansantana/waid",
+  "file": ".planning/phases/01-security-hardening/01-CONTEXT.md",
+  "shown": "SSRF deny-list specifics (D-03 recommends standard deny-list)"
+ },
+ {
+  "vid": "V337",
+  "id": "bmad:teducolabs/toantuduy:19",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "10. Assumptions Index",
+  "repo": "teducolabs/toantuduy",
+  "file": "_bmad-output/planning-artifacts/prds/prd-toantuduy-2026-07-08/prd.md",
+  "shown": "A-13 (OQ-6): Provisional question library floor is ≥ 50 Questions per Grade Band × Skill × Difficulty Level cell. (Content lead to validate before content sprint.)"
+ },
+ {
+  "vid": "V338",
+  "id": "gsd:MrAshRhodes/office-minions:30",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "MrAshRhodes/office-minions",
+  "file": ".planning/phases/07-sprite-redesign/07-CONTEXT.md",
+  "shown": "Exact head-to-body proportions at 7x7 (whatever maximizes both accessory visibility and facial expression)"
+ },
+ {
+  "vid": "V339",
+  "id": "gsd:ParkerWilliams/dcsbm-transformer:8",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "ParkerWilliams/dcsbm-transformer",
+  "file": ".planning/phases/08-visualization/08-CONTEXT.md",
+  "shown": "Heatmap colormap choice"
+ },
+ {
+  "vid": "V340",
+  "id": "speckit:ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "ZainEldeen-Ashraf-Ibrahim-Ibrahim-Samak/local-brand-e-commerce",
+  "file": "specs/005-storefront-customization/spec.md",
+  "shown": "Q: What is the maximum capacity of the compare list?\nA: 3 products."
+ },
+ {
+  "vid": "V341",
+  "id": "speckit:code2nguyen/web-components:8",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "code2nguyen/web-components",
+  "file": "specs/004-verify-css-contracts/spec.md",
+  "shown": "State-specific properties are verified only after their documented state has been activated."
+ },
+ {
+  "vid": "V342",
+  "id": "gsd:maxkrivich/frontgate:10",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "maxkrivich/frontgate",
+  "file": ".planning/phases/02-observability-and-audit/02-CONTEXT.md",
+  "shown": "Exact Grafana dashboard JSON layout and visual styling"
+ },
+ {
+  "vid": "V343",
+  "id": "gsd:omernesh/stikfix:1",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "FAB + Post-It Card (FREE-01 / FREE-02)",
+  "repo": "omernesh/stikfix",
+  "file": ".planning/phases/04-free-note-mode-capture-utilities/04-CONTEXT.md",
+  "shown": "D-02: Clicking the FAB opens one post-it card = a `<textarea>` for the comment + Send + Cancel. Enforce a single active card: if a card already exists, opening focuses/reuses it rather than spawning a second (PRD §6.5 \"One active post-it at a time\" — locked default for v1). Cancel discards the card."
+ },
+ {
+  "vid": "V344",
+  "id": "speckit:oddbullet/customer-support-fde:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "oddbullet/customer-support-fde",
+  "file": "specs/012-account-identification-node/spec.md",
+  "shown": "Q: Should looking up an existing account require anything beyond the account number itself?\nA: Account number only — matches the existing no-authentication trust model already used for order lookups in this system."
+ },
+ {
+  "vid": "V345",
+  "id": "gsd:LuisFaxas/glitch-studios:21",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Forgot/Reset Polish (AUTH-29)",
+  "repo": "LuisFaxas/glitch-studios",
+  "file": ".planning/phases/26-brand-aware-auth-ui-redesign/26-CONTEXT.md",
+  "shown": "D-22: Existing `forgot-password` and `reset-password` pages are extended (not rebuilt) to use the new AuthShell + branded copy + enumeration-safe success message. Better Auth `requestPasswordReset` is already wired correctly (Phase 23-06 stub + Phase 24 email)."
+ },
+ {
+  "vid": "V346",
+  "id": "speckit:lifekit-hq/devclaw:5",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "lifekit-hq/devclaw",
+  "file": "specs/047-console-read-side/spec.md",
+  "shown": "The recommended option is mandatory whenever options are given; the session states it in its own words, as today's \"default\" already does."
+ },
+ {
+  "vid": "V347",
+  "id": "speckit:johanolofsson72/juradrop:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "johanolofsson72/juradrop",
+  "file": "specs/007-auto-updater/spec.md",
+  "shown": "Q: What does \"no zones are processing\" mean for the deferral predicate — strictly `Processing`, or also Success / Error (which auto-clear 2–5s later)?\nA: Strictly `Processing` only. Success / Error states are short-lived (FR-010/FR-011 from spec 003 auto-clear them within 2–5 s) and show the user a result they can read at their own pace; they're not \"work in flight\". Restarting through a Success/Error state loses nothing — the sidecar file is already on disk. The deferral predicate is the boolean `any zone.visible_state == Processing` and nothing else. FR-008 wording is amended to drop the `Idle | Dragover` whitelist in favour of the simpler `NOT Processing` predicate."
+ },
+ {
+  "vid": "V348",
+  "id": "gsd:rohanpandula/nikon-coolscan4-software-archaeology:15",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Build & verification",
+  "repo": "rohanpandula/nikon-coolscan4-software-archaeology",
+  "file": ".planning/phases/01-walking-skeleton/01-CONTEXT.md",
+  "shown": "D-16: `Makefile` at `app/ScanStudio/`: `make engine` (cargo build --release), `make app` (swift build), `make test` (cargo test + swift test), `make run` (build engine, then `SCANSTUDIO_ENGINE_PATH=<abs> swift run ScanStudio`), `make smoke`, `make clean`. Use `/opt/homebrew/bin` cargo if PATH lacks it."
+ },
+ {
+  "vid": "V349",
+  "id": "speckit:kusaridev/kusari-cli:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "kusaridev/kusari-cli",
+  "file": "specs/001-mcp-server/spec.md",
+  "shown": "Q: What is the binary distribution strategy for the MCP server?\nA: Subcommand of existing Kusari CLI (single binary)"
+ },
+ {
+  "vid": "V350",
+  "id": "bmad:javakishore-veleti/Drug-Discovery-Agentic-Target-Identification:7",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "javakishore-veleti/Drug-Discovery-Agentic-Target-Identification",
+  "file": "_bmad-output/planning-artifacts/prds/prd-Drug-Discovery-Agentic-Target-Identification-2026-07-25/prd.md",
+  "shown": "`[ASSUMPTION]` V1 public tools need no committed third-party API keys (§8.1 NFR-3). Accepted."
+ },
+ {
+  "vid": "V351",
+  "id": "gsd:jheikkila920/coffee-snobbery:51",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "jheikkila920/coffee-snobbery",
+  "file": ".planning/phases/17-ia-restructure/17-RESEARCH.md",
+  "shown": "Phase 16's cafe-tab toggle on `/brew` (D-06 of Phase 16) and the three-button row (D-09 of Phase 16) are untouched by Phase 17's nav reshuffle"
+ },
+ {
+  "vid": "V352",
+  "id": "gsd:s-layer/semolina:33",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "s-layer/semolina",
+  "file": ".planning/phases/46-async-query-surface/46-RESEARCH.md",
+  "shown": "Reaching `pool._pool` for the DuckDB connect listener is acceptable rather than requiring an upstream change first"
+ },
+ {
+  "vid": "V353",
+  "id": "bmad:Olga-Levchenko/PeopleManagementSystem:17",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "Olga-Levchenko/PeopleManagementSystem",
+  "file": "_bmad-output/planning-artifacts/prds/prd-PeopleManagementSystem-2026-08-25/prd.md",
+  "shown": "§6.2 — Notifications and Analytics/Reports deferred to v2 given the 2-week window; both are spec-marked [GOOD TO HAVE] so this tracks the spec's own priority, but the *deferral itself* for this specific timeline wasn't separately confirmed."
+ },
+ {
+  "vid": "V354",
+  "id": "gsd:AaronLayton/monicas-miracle-mop:9",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Schedule Page Adaptation",
+  "repo": "AaronLayton/monicas-miracle-mop",
+  "file": ".planning/phases/01-foundation-design-conversion/01-CONTEXT.md",
+  "shown": "D-10: Remove square footage field — not relevant for UK customers. Keep bedrooms, bathrooms, kitchens, and pets +/- counters only."
+ },
+ {
+  "vid": "V355",
+  "id": "gsd:verlet-robotics/ego-recorder:0",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Export tool invocation",
+  "repo": "verlet-robotics/ego-recorder",
+  "file": ".planning/phases/03-optimized-compression-export-tools/03-CONTEXT.md",
+  "shown": "Subcommand pattern: `ego-recorder export rlds`, `ego-recorder export lerobot`"
+ },
+ {
+  "vid": "V356",
+  "id": "gsd:egeek-tech/go-openholidays:14",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Client surface, defaults, and lifecycle",
+  "repo": "egeek-tech/go-openholidays",
+  "file": ".planning/phases/02-transport/02-CONTEXT.md",
+  "shown": "D-38: `WithUserAgent(s string)` overrides the default `go-openholidays/<Version>`. Empty string is treated as \"use default\" (no-op), not \"send empty UA\" — empty UAs are bad citizenship and some CDNs reject them."
+ },
+ {
+  "vid": "V357",
+  "id": "bmad:thkennedy/tk-studio:13",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "memlog:assumption",
+  "repo": "thkennedy/tk-studio",
+  "file": "_bmad-output/specs/spec-epic-24/.memlog.md",
+  "shown": "The ledger is the per-user store's event ledger written through the existing observation path (tk-studio-observe)."
+ },
+ {
+  "vid": "V358",
+  "id": "speckit:haythamosama95/AiClinic:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "haythamosama95/AiClinic",
+  "file": "specs/085-abo-p4-10-reconciliation-payout-import-findings/spec.md",
+  "shown": "Q: How are the H-PAY payout CSVs built?\nA: One committed fixture file per import scenario under `abo/test/fixtures/paymob/`. The Paymob adapter owns the column mapping; the fixtures use that mapping and it is not frozen. E2E-P4.10-05 includes a chargeback line whose transaction id resolves through `paymob_txn`. E2E-P4.10-06 includes a payment line whose amount differs from the payment, and omits a payment settled more than 7 days before the end of that file's month. Assertions stay the finding kinds and `payout_line` fields. `[implementation choice — no §citation]`"
+ },
+ {
+  "vid": "V359",
+  "id": "bmad:zacbraddy/ZacCVWebsite:8",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "zacbraddy/ZacCVWebsite",
+  "file": "_bmad-output/archive/project-ariadne/prds/prd-project-ariadne-2026-06-23/prd.md",
+  "shown": "§4.1 — CV parity is achievable via data/config/asset/copy edits only; no new sections or layout changes required."
+ },
+ {
+  "vid": "V360",
+  "id": "speckit:danieltes/assertivo:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "danieltes/assertivo",
+  "file": "specs/00002-nuget-packaging/spec.md",
+  "shown": "Q: Should the shared Description metadata be a generic repository-level description, or must each project define its own?\nA: Shared generic description at repository level; projects override only if needed."
+ },
+ {
+  "vid": "V361",
+  "id": "gsd:Maxtremee/spotdl-manager:15",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Re-scrape behavior (interim, before Phase 4 incremental)",
+  "repo": "Maxtremee/spotdl-manager",
+  "file": ".planning/phases/02-spotify-metadata-spotifyscraper/02-CONTEXT.md",
+  "shown": "D-16: Tracks that existed in a previous scrape but are missing from the current response are left untouched — row stays, any downloaded MP3 (Phase 3+) stays on disk. No soft-delete flag, no removal. Drift is tolerated; Phase 4 may revisit when incremental logic lands."
+ },
+ {
+  "vid": "V362",
+  "id": "bmad:panitw/folio8:0",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "panitw/folio8",
+  "file": "_bmad-output/specs/spec-folio/SPEC.md",
+  "shown": "Both user journeys in the PRD are inferred from the source plan, not captured from a real session with a template author or an integrating developer."
+ },
+ {
+  "vid": "V363",
+  "id": "speckit:dan1510123/CopilotOffice:8",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "dan1510123/CopilotOffice",
+  "file": "specs/017-orchestrator-improvements/spec.md",
+  "shown": "The orchestrator's situational-awareness tools operate across all offices and label each agent with its office; gated act-on tools still target a specific, office-qualified agent (the orchestrator may `switch_office` to bring the desired office into view for follow-up)."
+ },
+ {
+  "vid": "V364",
+  "id": "speckit:oddbullet/customer-support-fde:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "oddbullet/customer-support-fde",
+  "file": "specs/012-account-identification-node/spec.md",
+  "shown": "Q: What should each of likes, dislikes, and allergies actually store — a list of short items, or a single free-text note per field?\nA: A single combined free-text \"preferences\" field (one paragraph covering likes, dislikes, and allergies together), not separate per-field or list-shaped data. This paragraph is intended to be produced by a future conversation-summarization agent and used directly as context for the order/support agent, so it doesn't need to be parsed into structured data."
+ },
+ {
+  "vid": "V365",
+  "id": "gsd:pablovilas/pacecraft:1",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "pablovilas/pacecraft",
+  "file": ".planning/phases/14-auto-sync/14-CONTEXT.md",
+  "shown": "Freshness display: Format of \"last synced X ago\", placement in output"
+ },
+ {
+  "vid": "V366",
+  "id": "speckit:dominikhollmann/RedmineCalendar:10",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "dominikhollmann/RedmineCalendar",
+  "file": "specs/034-sbom-and-attributions/spec.md",
+  "shown": "Tooling: SBoM generation uses `@cyclonedx/cyclonedx-npm` (or equivalent); license scanning uses an established npm license tool (e.g. `license-checker`, `oss-attribution-generator`, or similar). The exact npm packages are an implementation detail to be selected in `/speckit-plan`. The user's request to \"integrate automatic tools in the CI pipeline\" is satisfied by any well-maintained tool meeting the FRs above."
+ },
+ {
+  "vid": "V367",
+  "id": "gsd:strycker/barkeeper-bjorn-website:2",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "D-02: Two chat surfaces (supersedes single-surface reading)",
+  "repo": "strycker/barkeeper-bjorn-website",
+  "file": ".planning/phases/07-ai-integration/07-CONTEXT.md",
+  "shown": "Both surfaces are fed by the same shared context builder (D-04). The barkeeper's name in the page/label comes from `barkeeper.json` (e.g. \"Chat with Bjorn\")."
+ },
+ {
+  "vid": "V368",
+  "id": "bmad:thanhdotien278/AIproject:12",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "13. Assumptions Index",
+  "repo": "thanhdotien278/AIproject",
+  "file": "_bmad-output/planning-artifacts/prds/prd-AIproject-2026-06-25/prd.md",
+  "shown": "§4.3 FR-7 - v1 should not globally block all registration unless the event explicitly requires onsite-only registration."
+ },
+ {
+  "vid": "V369",
+  "id": "speckit:danieltes/assertivo:10",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "danieltes/assertivo",
+  "file": "specs/00002-nuget-packaging/spec.md",
+  "shown": "Packaging uses the Release configuration (`dotnet pack -c Release`) as the standard practice for producing distributable NuGet packages. Debug configuration packaging is not a requirement."
+ },
+ {
+  "vid": "V370",
+  "id": "gsd:alikendir0/n11-bootcamp-final-case:33",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "alikendir0/n11-bootcamp-final-case",
+  "file": ".planning/phases/08-ai-port-adapter-agent-toolset/08-RESEARCH.md",
+  "shown": "`seenIds` JSON stored as `TEXT` column on `ai_conversations` is sufficient"
+ },
+ {
+  "vid": "V371",
+  "id": "gsd:Joinsider/dhbw:21",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "ViewModel Lifecycle & Coroutine Management",
+  "repo": "Joinsider/dhbw",
+  "file": ".planning/phases/08-critical-stability/08-CONTEXT.md",
+  "shown": "Responsibility: Android-side composables or activities must call ViewModel.cleanup() when the ViewModel is no longer needed"
+ },
+ {
+  "vid": "V372",
+  "id": "gsd:nexttylabs/kubebar:65",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "nexttylabs/kubebar",
+  "file": ".planning/phases/09-codexbar-inspired-tabbed-menu-redesign/09-RESEARCH.md",
+  "shown": "No `[ASSUMED]` claims were used."
+ },
+ {
+  "vid": "V373",
+  "id": "gsd:Michal-Pi/complete-design:29",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Anthropic-Labs watcher (D-30 to D-31)",
+  "repo": "Michal-Pi/complete-design",
+  "file": ".planning/phases/01-v1-5-infrastructure-determinism-foundation/01-CONTEXT.md",
+  "shown": "D-30: Hybrid: weekly manual review + GitHub Actions cron. A maintainer owns the weekly Friday review (named in `MAINTAINERS.md`). A GitHub Actions workflow runs daily, polls the `anthropics/skills` GitHub release feed + Anthropic blog RSS + Claude Design release notes, and opens an issue tagged `competitive-watch` if novel keywords (`5-stage`, `design process`, `IA`, `wireframe`, `state machine`, `audit`) appear in titles. Rationale: cheap automation + accountable human."
+ },
+ {
+  "vid": "V374",
+  "id": "gsd:alikendir0/n11-bootcamp-final-case:35",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "alikendir0/n11-bootcamp-final-case",
+  "file": ".planning/phases/08-ai-port-adapter-agent-toolset/08-RESEARCH.md",
+  "shown": "google-genai 1.52.0 is backward compatible with 1.51.0 API surface"
+ },
+ {
+  "vid": "V375",
+  "id": "gsd:Zephyrxx0/Ripple:14",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Agent's Discretion",
+  "repo": "Zephyrxx0/Ripple",
+  "file": ".planning/phases/03-automated-remediation/03-CONTEXT.md",
+  "shown": "Polling interval for Celery Beat task"
+ },
+ {
+  "vid": "V376",
+  "id": "speckit:NgoTaiCo/build-mate:3",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "NgoTaiCo/build-mate",
+  "file": "specs/002-mock-catalog-adapter/spec.md",
+  "shown": "Q: How should live Apify search results be ordered?\nA: Price ascending (cheapest first), matching retail user expectations for budget-driven builds."
+ },
+ {
+  "vid": "V377",
+  "id": "gsd:GeniusVentures/SuperGenius:19",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "The agent's Discretion",
+  "repo": "GeniusVentures/SuperGenius",
+  "file": ".planning/phases/13-close-v1-1-trusted-peer-genesis-quorum-policy-and-production/13-CONTEXT.md",
+  "shown": "Exact naming and command-line syntax for the one-shot genesis tool."
+ },
+ {
+  "vid": "V378",
+  "id": "bmad:danielfoord/aictl:13",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "9. Assumptions Index",
+  "repo": "danielfoord/aictl",
+  "file": "_bmad-output/planning-artifacts/prds/prd-aictl-2026-06-15/prd.md",
+  "shown": "§Versioning — v1.x follows semantic versioning; schema/layout breaks require a major bump + migration note."
+ },
+ {
+  "vid": "V379",
+  "id": "speckit:dominikhollmann/RedmineCalendar:2",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "dominikhollmann/RedmineCalendar",
+  "file": "specs/034-sbom-and-attributions/spec.md",
+  "shown": "Q: Does the license-allowlist gate (US4 / FR-014) cover only npm-resolved deps, or also CDN-loaded runtime libs and vendored / in-tree code?\nA: All three categories — every dependency record produced by the generator (npm direct + transitive, CDN-runtime manifest entries, vendored sources) MUST pass the allowlist check. Rationale: the compliance obligation is \"what code do we ship\", not \"where the code came from\". Exempting CDN-loaded or vendored code would create a bypass route (someone could CDN-link a GPL-3 lib or vendor an AGPL package and silently dodge the gate); since the unified generator (FR-009) already enumerates all three categories for the attributions page + SBoM, running one consolidated allowlist check over that same output is straightforward. Reflected in FR-014."
+ },
+ {
+  "vid": "V380",
+  "id": "bmad:AlexisAmadei/tv-time-2:13",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Index",
+  "repo": "AlexisAmadei/tv-time-2",
+  "file": "_bmad-output/planning-artifacts/prds/prd-tv-time-2-2026-07-02/prd.md",
+  "shown": "FR6 / OQ#11 — catalog source is TMDB (licensing/F-Droid compat unverified)."
+ },
+ {
+  "vid": "V381",
+  "id": "speckit:jacob623/highway-skills:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "jacob623/highway-skills",
+  "file": "specs/018-experience-enforcement/spec.md",
+  "shown": "Retagging a rule from `[agent-checkable]` to `[auto]` is MINOR — it reflects enforcement that now exists rather than a new obligation."
+ },
+ {
+  "vid": "V382",
+  "id": "speckit:kusaridev/kusari-cli:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "kusaridev/kusari-cli",
+  "file": "specs/001-mcp-server/spec.md",
+  "shown": "Q: How should concurrent scan requests be handled?\nA: Queue requests and notify user of position"
+ },
+ {
+  "vid": "V383",
+  "id": "speckit:dontry/obsidian-github-stargazer:0",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "dontry/obsidian-github-stargazer",
+  "file": "specs/004-fetch-readme/spec.md",
+  "shown": "Q: What is the storage architecture for README files (checkpoint only, vault files, or both)?\nA: Store READMEs as individual markdown files in vault root folder (visible, searchable, editable by users)"
+ },
+ {
+  "vid": "V384",
+  "id": "gsd:cx18121/auto-shorts:19",
+  "tool": "gsd",
+  "provenance": "DELEGATED",
+  "section": "Claude's Discretion",
+  "repo": "cx18121/auto-shorts",
+  "file": ".planning/phases/03-ai-story-generation/03-CONTEXT.md",
+  "shown": "Whether to modify the existing `generator.py` or create a new function alongside it"
+ },
+ {
+  "vid": "V385",
+  "id": "speckit:fortizfe/retrorocket:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "fortizfe/retrorocket",
+  "file": "specs/030-fix-github-ci-warnings/spec.md",
+  "shown": "Upgrading `actions/checkout`, `actions/setup-node`, `actions/setup-java`, and `github/codeql-action` to non-deprecated major versions is an in-place configuration change with no required change to job logic, secrets, or permissions beyond what each action's migration notes call for."
+ },
+ {
+  "vid": "V386",
+  "id": "gsd:SrivarsanK/autobuddy:4",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Alert Content",
+  "repo": "SrivarsanK/autobuddy",
+  "file": ".planning/phases/03-the-healer/03-CONTEXT.md",
+  "shown": "[x] Locked: Play into the brand (The Healer)."
+ },
+ {
+  "vid": "V387",
+  "id": "bmad:Hexalith/Hexalith.Tenants:16",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "17. Assumptions Index",
+  "repo": "Hexalith/Hexalith.Tenants",
+  "file": "_bmad-output/planning-artifacts/prds/prd-tenants-2026-06-02/prd.md",
+  "shown": "§3.3 / §7.4 / §13 — Adding a user is a direct add by user id; no email-invitation flow in v1 (backend has no invitation concept)."
+ },
+ {
+  "vid": "V388",
+  "id": "speckit:hannovdm/hass-ontology:1",
+  "tool": "speckit",
+  "provenance": "ASKED",
+  "section": "Clarifications",
+  "repo": "hannovdm/hass-ontology",
+  "file": "specs/003-assist-mcp-v3/spec.md",
+  "shown": "Q: What responsiveness target should impact analysis and query-tool calls meet on a several-thousand-node graph (for SC-005)?\nA: Under 3 seconds."
+ },
+ {
+  "vid": "V389",
+  "id": "gsd:jpgu07/amarias:30",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "jpgu07/amarias",
+  "file": ".planning/phases/03-catalog-order-wizard/03-RESEARCH.md",
+  "shown": "`@preact/signals` is not yet installed (not in `package.json`)"
+ },
+ {
+  "vid": "V390",
+  "id": "gsd:GeniusVentures/SuperGenius:29",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "GeniusVentures/SuperGenius",
+  "file": ".planning/phases/13-close-v1-1-trusted-peer-genesis-quorum-policy-and-production/13-RESEARCH.md",
+  "shown": "Bind BurnConfig candidates to both prior burn hash and authorizing policy hash."
+ },
+ {
+  "vid": "V391",
+  "id": "gsd:martinzlatanov/local-services-marketplace:15",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "martinzlatanov/local-services-marketplace",
+  "file": ".planning/phases/01-monorepo-foundation-and-shared-types/01-RESEARCH.md",
+  "shown": "`npm run typecheck --workspaces --if-present` exits non-zero if any workspace typecheck fails"
+ },
+ {
+  "vid": "V392",
+  "id": "gsd:melcshum/Exploration2Engineering:20",
+  "tool": "gsd",
+  "provenance": "ASSUMED",
+  "section": "Assumptions Log",
+  "repo": "melcshum/Exploration2Engineering",
+  "file": ".planning/phases/01-foundation/01-RESEARCH.md",
+  "shown": "`book/ai_supported_software_development_chapter.md` is the only stale file needing cleanup"
+ },
+ {
+  "vid": "V393",
+  "id": "bmad:Herobrines2912/agregator-planszowkowy:11",
+  "tool": "bmad",
+  "provenance": "ASSUMED",
+  "section": "12. Assumptions Index",
+  "repo": "Herobrines2912/agregator-planszowkowy",
+  "file": "_bmad-output/planning-artifacts/prds/prd-board_games_app-2026-06-06/prd.md",
+  "shown": "A-5 (§4.8 FR-20): Next.js 16 App Router ISR is used; revalidation period defaults to 1 hour."
+ },
+ {
+  "vid": "V394",
+  "id": "speckit:unifabric-io/nvair-cli:1",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "unifabric-io/nvair-cli",
+  "file": "specs/002-create-delete/spec.md",
+  "shown": "Authentication State: User must have successfully run `nvair login` before using create/delete commands; system will error gracefully if bearer token is missing or expired"
+ },
+ {
+  "vid": "V395",
+  "id": "speckit:b0x42/Super-Productivity-MCP:2",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "b0x42/Super-Productivity-MCP",
+  "file": "specs/005-task-ergonomics/spec.md",
+  "shown": "`create_task_with_subtasks` is handled as a new plugin action that calls `addTask` for parent then children sequentially within the plugin (single IPC round-trip from server perspective)"
+ },
+ {
+  "vid": "V396",
+  "id": "speckit:Bruoche/optistock:3",
+  "tool": "speckit",
+  "provenance": "ASSUMED",
+  "section": "Assumptions",
+  "repo": "Bruoche/optistock",
+  "file": "specs/009-tour-date-selection/spec.md",
+  "shown": "No range restriction (past/future) is imposed at this stage; feasibility against driver schedules is deferred to later features."
+ },
+ {
+  "vid": "V397",
+  "id": "gsd:ogdevlabs/MWF:7",
+  "tool": "gsd",
+  "provenance": "ASKED",
+  "section": "Offline Playback Switching",
+  "repo": "ogdevlabs/MWF",
+  "file": ".planning/phases/05-us3-offline-first/05-CONTEXT.md",
+  "shown": "D-08: `ExerciseVideoPlayer` resolves video source at play time: 1. Check `download_manifest` for `downloadStatus == 'complete'` and `videoLocalPath != null` 2. If complete: use `file://` URI (resolve absolute path via `getApplicationDocumentsDirectory()` + relative path) 3. If not complete (or no entry): use Mux HLS `mux_playback_id` URL (requires online)"
+ }
+]

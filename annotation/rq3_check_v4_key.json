@@ -1,0 +1,422 @@
+[
+ {
+  "qid": "Q01",
+  "repo": "motohamy1/Real-state-close",
+  "file": ".planning/phases/RC-03-document-ingestion-ocr-vector-processing/03-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Q3 — Progress feedback"
+ },
+ {
+  "qid": "Q02",
+  "repo": "jhaabhijeet864/Ghost-Link",
+  "file": ".planning/phases/02-connectivity-mobile-observe/02-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Discovery & Pairing"
+ },
+ {
+  "qid": "Q03",
+  "repo": "adityabansal29/virtual-queue",
+  "file": ".planning/phases/02-frontend-admin-ui/02-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Admin Dashboard Approach"
+ },
+ {
+  "qid": "Q04",
+  "repo": "AdamMooo/vol-diagnostics",
+  "file": ".planning/milestones/v3.0-phases/02-exposure-pm-flow/02-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "vs-yesterday label logic"
+ },
+ {
+  "qid": "Q05",
+  "repo": "fulgidus/senso",
+  "file": ".planning/phases/03-financial-profile-clarity/03-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Category taxonomy"
+ },
+ {
+  "qid": "Q06",
+  "repo": "hudsor01/hudsonfam",
+  "file": ".planning/milestones/v3.0-phases/21-polish-copy-pdf-empty-states-link-out/21-DISCUSSION-LOG.md",
+  "behaviour": "DEFER-BACK",
+  "title": "Q1: What scale is cover_letters.quality_score on?"
+ },
+ {
+  "qid": "Q07",
+  "repo": "4lph4-dvlp/alpha-AOS",
+  "file": ".planning/milestones/v0.1.1-phases/13-dependency-candidate-promotion/13-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "향후 구성 도구 버전 승격 메커니즘 표준화 (Future Promotion Architecture)"
+ },
+ {
+  "qid": "Q08",
+  "repo": "Jaed69/luciel-platform",
+  "file": ".planning/phases/01-infrastructure-landing-scaffold/01-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Q5 — Deploy method"
+ },
+ {
+  "qid": "Q09",
+  "repo": "haribabuthilakar/pocoeldercare",
+  "file": ".planning/phases/02-integration-partner-stubs-interactive-mocks/02-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Interactive Frontend Simulators (Razorpay & Exotel)"
+ },
+ {
+  "qid": "Q10",
+  "repo": "six2dez/burp-ai-agent",
+  "file": ".planning/phases/02-insertion-point-scan-audit/02-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "HTTP harness"
+ },
+ {
+  "qid": "Q11",
+  "repo": "azdhril/stardew_medieval_v3",
+  "file": ".planning/phases/06-progression-polish/06-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Save triggers"
+ },
+ {
+  "qid": "Q12",
+  "repo": "muhx/forge",
+  "file": ".planning/milestones/v1.0-phases/01-project-foundation-design-system/01-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "API Approach"
+ },
+ {
+  "qid": "Q13",
+  "repo": "pallefar/ma-integration-portal",
+  "file": ".planning/milestones/v2.1.0-phases/03-deal-isolation-audit-log-write-validation/03-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Deal lifecycle & switching"
+ },
+ {
+  "qid": "Q14",
+  "repo": "quasar082/PAPERY",
+  "file": ".planning/phases/01-backend-core-infrastructure/01-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Env File Strategy"
+ },
+ {
+  "qid": "Q15",
+  "repo": "muhx/forge",
+  "file": ".planning/milestones/v1.0-phases/02-org-hierarchy-schema/02-DISCUSSION-LOG.md",
+  "behaviour": "DEFER-BACK",
+  "title": "RLS Testing"
+ },
+ {
+  "qid": "Q16",
+  "repo": "2233admin/codenexus",
+  "file": ".planning/phases/codenexus-04-parity/04-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "R4 server.rs:198 max_consecutive_fail threshold source (added in follow-up)"
+ },
+ {
+  "qid": "Q17",
+  "repo": "Esk3tit/wtcs-community-polls",
+  "file": ".planning/milestones/v1.0-phases/06-auth-fix-gdpr-opt-in-rewire-favicon-polish-and-launch-harden/06-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Question: Ready for context?"
+ },
+ {
+  "qid": "Q18",
+  "repo": "Zephyrxx0/razorp-nexus",
+  "file": ".planning/phases/02-trust-graph-engine-microservice/02-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Ring Topology & Graph Query API"
+ },
+ {
+  "qid": "Q19",
+  "repo": "superjxvv/ai-workshop-project",
+  "file": ".planning/milestones/v1.0-phases/01-core-discovery/01-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Restaurant List"
+ },
+ {
+  "qid": "Q20",
+  "repo": "darshanptl-7500/apexinsurancenet10",
+  "file": ".planning/milestones/v1.0-phases/05-reporting-net10/05-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "E2E prove-out depth"
+ },
+ {
+  "qid": "Q21",
+  "repo": "Loomlyne/almar",
+  "file": ".planning/phases/03-public-site-and-dashboard/03-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Unconnected controls"
+ },
+ {
+  "qid": "Q22",
+  "repo": "ubwzwd/wallet_app",
+  "file": ".planning/phases/06-provision-oracle-vm-domain-caddy-https/06-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q9 — Runbook style"
+ },
+ {
+  "qid": "Q23",
+  "repo": "ductv112/quanlyvanban",
+  "file": ".planning/milestones/v2.0-phases/13-modal-ky-so-robust-root-ca-ux/13-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Bell notification scope"
+ },
+ {
+  "qid": "Q24",
+  "repo": "panadolextra91/myIU-lite",
+  "file": ".planning/phases/04-assignments-quizzes/04-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Answer reveal vs remaining retakes (QUIZ-03 non-leak)"
+ },
+ {
+  "qid": "Q25",
+  "repo": "azdhril/stardew_medieval_v3",
+  "file": ".planning/phases/06-progression-polish/06-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Per-level stats"
+ },
+ {
+  "qid": "Q26",
+  "repo": "farce1/tinkerise",
+  "file": ".planning/phases/35-scheduled-docs-reliability-watch/35-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Smoke target"
+ },
+ {
+  "qid": "Q27",
+  "repo": "AnatholyB1/ziko-platform",
+  "file": ".planning/milestones/v1.5-phases/22-schema-foundation-rls-keystone/22-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q2 — `is_coach_of()` predicate"
+ },
+ {
+  "qid": "Q28",
+  "repo": "abitwise/grugops",
+  "file": ".planning/milestones/v2.1-phases/28-kit-consistency-audit/28-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Q4 — If a residual reaches the canonical admission reader"
+ },
+ {
+  "qid": "Q29",
+  "repo": "J-Krush/shapesmith-studio-web",
+  "file": ".planning/phases/02-bundle-1-relaunch-3d-printing-spruce-content-seo-shop-stub/02-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q4 — Boundary structure for shop's eventually-divergent data shape?"
+ },
+ {
+  "qid": "Q30",
+  "repo": "Jaed69/luciel-platform",
+  "file": ".planning/phases/01-infrastructure-landing-scaffold/01-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q2 — Static build serving"
+ },
+ {
+  "qid": "Q31",
+  "repo": "arango-solutions-org/customer-context",
+  "file": ".planning/phases/01-architecture-validation-spike/01-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Deterministic _key contract"
+ },
+ {
+  "qid": "Q32",
+  "repo": "farce1/handover",
+  "file": ".planning/phases/32-source-doc-dependency-graph/32-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q1 — What should `handover generate --dry-run` print by default?"
+ },
+ {
+  "qid": "Q33",
+  "repo": "schoolofdevops/401",
+  "file": ".planning/phases/08-agent-triggers/08-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Q2: Should Phase 7's wrapper governance enforcement apply to triggered agents?"
+ },
+ {
+  "qid": "Q34",
+  "repo": "pau-vega/KS0555-Steam-Deck-Controller",
+  "file": ".planning/milestones/v2.0+v2.1-phases/08-gamepad-monitoring-with-gilrs/08-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Emit Error Handling"
+ },
+ {
+  "qid": "Q35",
+  "repo": "arashrai/arashrai.github.io",
+  "file": ".planning/phases/01-access-design-foundation/01-DISCUSSION-LOG.md",
+  "behaviour": "DEFER-BACK",
+  "title": "Post-password transition"
+ },
+ {
+  "qid": "Q36",
+  "repo": "Ibrahim278/Scrutineer---Adverse-Media-Screening",
+  "file": ".planning/phases/01e-type-contract-stubs/01e-DISCUSSION-LOG.md",
+  "behaviour": "DEFER-BACK",
+  "title": "Sub-decisions"
+ },
+ {
+  "qid": "Q37",
+  "repo": "muhx/forge",
+  "file": ".planning/phases/17-background-job-infrastructure/17-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q6: What should the heartbeat smoke job actually do?"
+ },
+ {
+  "qid": "Q38",
+  "repo": "Yuuqq/PulseRadar",
+  "file": ".planning/phases/01-dependency-hygiene/01-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Q1: When should the error surface?"
+ },
+ {
+  "qid": "Q39",
+  "repo": "motohamy1/Real-state-close",
+  "file": ".planning/phases/RC-04-structured-term-extraction/04-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "LLM Model Selection"
+ },
+ {
+  "qid": "Q40",
+  "repo": "NoahFreelove/freeloves-cookbot",
+  "file": ".planning/phases/03-editor-ux-without-special-syntax/03-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Section step + existing timers/refs"
+ },
+ {
+  "qid": "Q41",
+  "repo": "lhcaps/AI-Automation",
+  "file": ".planning/phases/09-3-tier-architecture/09-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "9e: Hotkey Management"
+ },
+ {
+  "qid": "Q42",
+  "repo": "koa-inn/steins-and-vines-staging",
+  "file": ".planning/milestones/v2.0-phases/12-recipe-data-foundation/12-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Feature Flag Scope"
+ },
+ {
+  "qid": "Q43",
+  "repo": "taylorbrook/Dorico-Cents-Tonality",
+  "file": ".planning/phases/03-dorico-import-playback-validation/03-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Test scaffold form"
+ },
+ {
+  "qid": "Q44",
+  "repo": "panadolextra91/myIU-lite",
+  "file": ".planning/phases/02-auth-rbac-forced-first-login/02-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Role landing (→ D-20)"
+ },
+ {
+  "qid": "Q45",
+  "repo": "mikelalcon/skytime",
+  "file": ".planning/milestones/v1.43.0-phases/07.4-extbin-consolidation-tech-debt-cleanup/07.4-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q3: After collapse, does extbin keep `extbin/main_test.go`?"
+ },
+ {
+  "qid": "Q46",
+  "repo": "joaovescudero/aprumo",
+  "file": ".planning/phases/01-monorepo-scaffold-ci-dev-security/01-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Access level"
+ },
+ {
+  "qid": "Q47",
+  "repo": "ShaoLongFei/home-ktv-system",
+  "file": ".planning/phases/19-search-and-queue-time-catalog-sync/19-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Mobile Indexed Queue Entry"
+ },
+ {
+  "qid": "Q48",
+  "repo": "mikelalcon/skytime",
+  "file": ".planning/milestones/v1.43.0-phases/07.4-extbin-consolidation-tech-debt-cleanup/07.4-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Q1 (re-ask): Default credfile path — what's the right cross-platform default?"
+ },
+ {
+  "qid": "Q49",
+  "repo": "Erarchitech/design-grammar-system",
+  "file": ".planning/milestones/v9.0-phases/28-cloud-llm-connector/28-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Provider Adapter Design"
+ },
+ {
+  "qid": "Q50",
+  "repo": "Vansh1412/AI-Cyber-Security-Suite",
+  "file": ".planning/phases/07-production-hardening-staging-parity/07-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Question 4: Containment Action Reversibility & Execution Safety"
+ },
+ {
+  "qid": "Q51",
+  "repo": "hudsor01/hudsonfam",
+  "file": ".planning/milestones/v3.0-phases/21-polish-copy-pdf-empty-states-link-out/21-DISCUSSION-LOG.md",
+  "behaviour": "REC-ACCEPTED",
+  "title": "Q4: Detection mechanism"
+ },
+ {
+  "qid": "Q52",
+  "repo": "haotranthien95/reflexive",
+  "file": ".planning/phases/03-real-question-bank-via-firestore/03-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Q3 — How should the resolved list reach the practice loop?"
+ },
+ {
+  "qid": "Q53",
+  "repo": "ktroutt78/aperture",
+  "file": ".planning/phases/03-context-assembler-claude/03-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Q1.1: If the Metadata API (schema) fails for a datasource LUID during /context assembly, what should happen?"
+ },
+ {
+  "qid": "Q54",
+  "repo": "seanthimons/ComptoxR",
+  "file": ".planning/milestones/v2.4-phases/37-build-patch-integration/37-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Exhausted Retries"
+ },
+ {
+  "qid": "Q55",
+  "repo": "taylorbrook/Just-Intonation-Calculation-and-Analysis",
+  "file": ".planning/phases/07-sonicweave-adapter-tempered-lattice-free-text/07-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Well-temperament input"
+ },
+ {
+  "qid": "Q56",
+  "repo": "Wundrfull/auto-godot",
+  "file": ".planning/milestones/v1.0-phases/01-foundation-and-cli-infrastructure/01-DISCUSSION-LOG.md",
+  "behaviour": "DEFER-BACK",
+  "title": "UID handling"
+ },
+ {
+  "qid": "Q57",
+  "repo": "jlima004/E-commerce",
+  "file": ".planning/phases/16-cart-merge-review/16-DISCUSSION-LOG.md",
+  "behaviour": "N/A",
+  "title": "Linhas guest duplicadas"
+ },
+ {
+  "qid": "Q58",
+  "repo": "henriquemod/audio_training",
+  "file": ".planning/phases/02-training-cli/02-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Q2: Default --epochs, --batch-size, --save-every?"
+ },
+ {
+  "qid": "Q59",
+  "repo": "jsagir/mindrian-os-plugin",
+  "file": ".planning/phases/340-canon-currency-audit-and-amendment-v1-24-to-next-close-the-d/340-DISCUSSION-LOG.md",
+  "behaviour": "ALT-OPTION",
+  "title": "Theo naming + entry type"
+ },
+ {
+  "qid": "Q60",
+  "repo": "ericksjct/aprenda-qualquer-coisa",
+  "file": ".planning/phases/07-ingestao-pdf-livro-via-docling/07-DISCUSSION-LOG.md",
+  "behaviour": "FREE",
+  "title": "Papel do markdown convertido"
+ }
+]
